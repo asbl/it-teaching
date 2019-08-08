@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="de">
+  <head>
+  <meta charset="utf-8">
+<title>Python als Programmiersprache im Unterricht - IT-Teaching.de</title>
+<meta name="description" content="Andreas Siebel ist Lehrer für die Fächer Mathematik und Informatik an der Christian-Wirth-Schule in Usingen">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+  <meta name="generator" content="Hugo 0.55.6" />
+  
+<meta itemprop="name" content="Python als Programmiersprache im Unterricht">
+<meta itemprop="description" content="Im hessischen Abitur werden zum Thema &#8220;Objektorientierte Programmierung&#8221; die Programmierbeispiele in zwei Sprachen angeboten: JAVA und Delphi.
+Delphi bzw. Lazarus als Open Source Alternative hat inzwischen einen gewissen historischen Wert. die Sprache wird außerhalb des deutschen Informatikunterrichtes praktisch nirgends mehr benutzt. In Hessen ist sie nur deshalb noch von Bedeutung, da diese lange Zeit Grundlage der Informatikausbildung war und vor allem viele Quereinsteiger keine andere Sprache sprechen.
+JAVA ist da schon ein anderes Kaliber.">
+
+
+<meta itemprop="datePublished" content="2018-02-21T12:48:03&#43;00:00" />
+<meta itemprop="dateModified" content="2018-02-21T12:48:03&#43;00:00" />
+<meta itemprop="wordCount" content="930">
+
+
+
+<meta itemprop="keywords" content="" />
+
+  <meta property="og:title" content="Python als Programmiersprache im Unterricht" />
+<meta property="og:description" content="Im hessischen Abitur werden zum Thema &#8220;Objektorientierte Programmierung&#8221; die Programmierbeispiele in zwei Sprachen angeboten: JAVA und Delphi.
+Delphi bzw. Lazarus als Open Source Alternative hat inzwischen einen gewissen historischen Wert. die Sprache wird außerhalb des deutschen Informatikunterrichtes praktisch nirgends mehr benutzt. In Hessen ist sie nur deshalb noch von Bedeutung, da diese lange Zeit Grundlage der Informatikausbildung war und vor allem viele Quereinsteiger keine andere Sprache sprechen.
+JAVA ist da schon ein anderes Kaliber." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://it-teaching.de/2018/02/21/python-als-programmiersprache-im-unterricht/" />
+<meta property="article:published_time" content="2018-02-21T12:48:03&#43;00:00"/>
+<meta property="article:modified_time" content="2018-02-21T12:48:03&#43;00:00"/><meta property="og:site_name" content="IT-Teaching.de" />
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Python als Programmiersprache im Unterricht"/>
+<meta name="twitter:description" content="Im hessischen Abitur werden zum Thema &#8220;Objektorientierte Programmierung&#8221; die Programmierbeispiele in zwei Sprachen angeboten: JAVA und Delphi.
+Delphi bzw. Lazarus als Open Source Alternative hat inzwischen einen gewissen historischen Wert. die Sprache wird außerhalb des deutschen Informatikunterrichtes praktisch nirgends mehr benutzt. In Hessen ist sie nur deshalb noch von Bedeutung, da diese lange Zeit Grundlage der Informatikausbildung war und vor allem viele Quereinsteiger keine andere Sprache sprechen.
+JAVA ist da schon ein anderes Kaliber."/>
+<meta name="twitter:site" content="@https://twitter.com/a_siebel"/>
+
+  
+
+  <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css">
+  
+    
+      <link rel="stylesheet" href="/css/normalize.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+      <link rel="stylesheet" href="/css/main.min.css">
+      <link rel="stylesheet" href="/css/add-on.css">
+    
+  
+  
+  
+  
+  
+</head>
+
+  <body>
+    
+<header id="site-header">
+  <nav id="site-nav">
+    <h1 class="nav-title">
+      <a href="/">
+        
+          IT-Teaching.de
+        
+      </a>
+    </h1>
+    <menu id="site-nav-menu" class="flyout-menu">
+      
+        <a href="/" class="link"><i class="fas fa-home">&nbsp;</i>Home</a>
+      
+        <a href="/impressum/" class="link"><i class="far fa-envelope">&nbsp;</i>Impressum</a>
+      
+        <a href="/datenschutz/" class="link"><i class="far fa-eye">&nbsp;</i>Datenschutzerklärung</a>
+      
+      <a href="#share-menu" class="share-toggle"><i class="fas fa-share-alt">&nbsp;</i>Share</a>
+      
+
+    </menu>
+    
+
+    <a href="#share-menu" class="share-toggle"><i class="fas fa-share-alt fa-2x">&nbsp;</i></a>
+    <a href="#lang-menu" class="lang-toggle" lang="de"><span class="flag-icon flag-icon-de" alt="de"></span></a>
+    <a href="#site-nav" class="nav-toggle"><i class="fas fa-bars fa-2x"></i></a>
+  </nav>
+  <menu id="lang-menu" class="flyout-menu">
+  <a href="#" lang="de" class="active"><span class="flag-icon flag-icon-de" alt="de"></span></a>
+  
+    
+      
+    
+      
+        <a href="/en" lang="en" class="no-lang"><span class="flag-icon flag-icon-en" alt="en"></span></a>
+      
+    
+  
+</menu>
+
+  
+    <menu id="share-menu" class="flyout-menu">
+      <h1>Share Post</h1>
+      
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=Python%20als%20Programmiersprache%20im%20Unterricht&amp;url=https%3a%2f%2fit-teaching.de%2f2018%2f02%2f21%2fpython-als-programmiersprache-im-unterricht%2f" target="_blank" rel="noopener" class="share-btn twitter">
+        <i class="fab fa-twitter"></i><p>&nbsp;Twitter</p>
+      </a>
+  
+
+  
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fit-teaching.de%2f2018%2f02%2f21%2fpython-als-programmiersprache-im-unterricht%2f" target="_blank" rel="noopener" class="share-btn facebook">
+        <i class="fab fa-facebook"></i><p>&nbsp;Facebook</p>
+        </a>
+  
+
+  
+    <a href="//www.reddit.com/submit?url=https%3a%2f%2fit-teaching.de%2f2018%2f02%2f21%2fpython-als-programmiersprache-im-unterricht%2f&amp;title=Python%20als%20Programmiersprache%20im%20Unterricht" target="_blank" rel="noopener" class="share-btn reddit">
+          <i class="fab fa-reddit-alien"></i><p>&nbsp;Reddit</p>
+        </a>
+  
+
+  
+        <a href="mailto:?subject=Check out this post by %7b%20%20%20%20%20%20%20%20map%5b%5d%7d&amp;body=https%3a%2f%2fit-teaching.de%2f2018%2f02%2f21%2fpython-als-programmiersprache-im-unterricht%2f" target="_blank" class="share-btn email">
+          <i class="fas fa-envelope"></i><p>&nbsp;Email</p>
+        </a>
+  
+
+
+    </menu>
+  
+</header>
+
+    <div id="wrapper">
+      <section id="site-intro">
+  <a href="/"><img src="/img/main/userpicture.png" class="circle" width="" alt="Logo" /></a>
+  <header>
+    <h1>IT-Teaching.de</h1>
+  </header>
+  <main>
+    
+  </main>
+  
+    <footer>
+      <ul class="socnet-icons">
+        
+
+        
+      </ul>
+    </footer>
+  
+</section>
+
+      <main id="site-main">
+        <article class="post">
+  <header>
+  <div class="title">
+    
+        <h2><a href="/2018/02/21/python-als-programmiersprache-im-unterricht/">Python als Programmiersprache im Unterricht</a></h2>
+    
+    
+</div>
+  <div class="meta">
+    <time class="published" datetime="2018-02-21 12:48:03 &#43;0000 &#43;0000">
+      February 21, 2018
+    </time>
+    <span class="author">a.sbl</span>
+    
+        <p>5 minute read</p>
+    
+  </div>
+</header>
+
+  <section id="socnet-share">
+    
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=Python%20als%20Programmiersprache%20im%20Unterricht&amp;url=https%3a%2f%2fit-teaching.de%2f2018%2f02%2f21%2fpython-als-programmiersprache-im-unterricht%2f" target="_blank" rel="noopener" class="share-btn twitter">
+        <i class="fab fa-twitter"></i><p>&nbsp;Twitter</p>
+      </a>
+  
+
+  
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fit-teaching.de%2f2018%2f02%2f21%2fpython-als-programmiersprache-im-unterricht%2f" target="_blank" rel="noopener" class="share-btn facebook">
+        <i class="fab fa-facebook"></i><p>&nbsp;Facebook</p>
+        </a>
+  
+
+  
+    <a href="//www.reddit.com/submit?url=https%3a%2f%2fit-teaching.de%2f2018%2f02%2f21%2fpython-als-programmiersprache-im-unterricht%2f&amp;title=Python%20als%20Programmiersprache%20im%20Unterricht" target="_blank" rel="noopener" class="share-btn reddit">
+          <i class="fab fa-reddit-alien"></i><p>&nbsp;Reddit</p>
+        </a>
+  
+
+  
+        <a href="mailto:?subject=Check out this post by %7b%20%20%20%20%20%20%20%20map%5b%5d%7d&amp;body=https%3a%2f%2fit-teaching.de%2f2018%2f02%2f21%2fpython-als-programmiersprache-im-unterricht%2f" target="_blank" class="share-btn email">
+          <i class="fas fa-envelope"></i><p>&nbsp;Email</p>
+        </a>
+  
+
+
+  </section>
+  
+
+  <div class="content">
+    <p>Im hessischen Abitur werden zum Thema &#8220;Objektorientierte Programmierung&#8221; die Programmierbeispiele in zwei Sprachen angeboten: JAVA und Delphi.</p>
+
+<p>Delphi bzw. Lazarus als Open Source Alternative hat inzwischen einen gewissen historischen Wert. die Sprache wird außerhalb des deutschen Informatikunterrichtes praktisch nirgends mehr benutzt. In Hessen ist sie nur deshalb noch von Bedeutung, da diese lange Zeit Grundlage der Informatikausbildung war und vor allem viele Quereinsteiger keine andere Sprache sprechen.</p>
+
+<p>JAVA ist da schon ein anderes Kaliber. JAVA ist die meist verbreitetste Sprache überhaupt und wird auch von vielen Universitäten als erste Programmiersprache verwendet. Mit Greenfoot, BlueJ, dem <a href="http://javaeditor.org/doku.php">JavaEditor</a>, <a href="http://www.java-online.ch/gamegrid/index.php">Gamegrid</a>, <a href="https://www.swisseduc.ch/informatik/karatojava/javakara/">Kara</a>, dem <a href="http://www.java-hamster-modell.de/simulator.html">Hamstersimulator</a> verfügt JAVA über zahlreiche gute Entwicklungsumgebungen und Frameworks, die zum Unterrichten mit der Sprache geeignet sind. Gleichzeitig ist das Lehren mit JAVA auch mit zahlreichen Fallstricken versehen, da die Sprache für die professionelle Entwicklung in großen Teams gut geeignet ist, aber nicht als erste Programmiersprache für Programmieranfänger vorgesehen ist. Dies fängt mit dem üblichen Grundkonstrukt an:</p>
+
+<pre class="EnlighterJSRAW" data-enlighter-language="java">public static void main(String args[]) {
+}</pre>
+
+<p>verbunden mit zahlreichen Problemen, die dem ersten Problemlösen in Java im Weg stehen:</p>
+
+<ul>
+<li>Installation des SDKs und richtiges Setzen der Pfadvariablen.</li>
+<li>Zahlreiche Syntaxfehler beim Vergessen von runden oder geschweiften Klammern oder des Semikolons am Ende einer Zeile.</li>
+<li>Durch das Strong Typing wird mehr &#8220;Fingertyping&#8221; benötigt, es dauert dadurch einfach länger bis man zu Ergebnissen kommt. Und spätestens wenn man in der Objektorientierung mit Containern und Casts beschäftigt, muss man sowieso darüber nachdenken was für einen Typ das aktuell verwende Objekt gerade haben könnte.</li>
+<li>In Kombination mit Greenfoot: Zahlreiche Programmierkonzepte müssen &#8220;gleichzeitig&#8221; gelernt werden um einfache Programme zu schreiben (Objektorientierung, Interaktion von Objekten, Vererbung)</li>
+<li>In Kombination mit GUIS: Komplizierte Klassenhierarchie (man verwende nur mal ein JTextField, auch hier müssen wieder viele Konzepte (imperative Programmierung, Objektorientierung) gleichzeitig gelernt werden.</li>
+<li>Lesen und Schreiben in Dateien ist eine einzige Qual. Auch das Lesen von Tastatureingaben ist umständlich</li>
+<li>Man muss sich als Lehrer und Lernender entscheiden, ob man statische Arrays oder direkt mit den objektorientierten ArrayLists anfängt. In der Regel benötigt man für objektorientierte Programmierung letzteres. Sollte man dann also die Arrays direkt überspringen?</li>
+<li><a href="https://pythonconquerstheuniverse.wordpress.com/2009/10/03/python-java-a-side-by-side-comparison/">und vieles mehr&#8230;</a></li>
+</ul>
+
+<p>Meine persönliche Erfahrung aus mehreren Java-Kursen an der Schule und der Universität war folgende: Java wird von Lernenden als extrem schwergewichtige Sprache wahrgenommen. Alleine der Gedanken nach einiger Zeit Programmierpause sich wieder in Java einarbeiten zu müssen, verursacht Stöhnen. Ich kenne auch fast niemanden -außer Informatikstudenten-, der Java gelernt hat und anschließend für irgendeinen Zweck noch einmal freiwillig verwendet hat.</p>
+
+<p>Schön wäre es daher, wenn man statt Java auf eine leichtgewichtige Sprache setzt, die leicht zu lernen ist, besser im Kopf behalten werden kann und daher besser dazu befähigt, Probleme zu lösen. Das Lösen von Problemen mit Hilfe eines geeigneten Werkzeuges sollte meiner Meinung nach einer der Kernkompetenzen sein, die Schüler im Informatikunterricht lernen sollten. Siehe dazu auch eine der ersten Fragen im großartigen Buch <a href="http://interactivepython.org/runestone/static/thinkcspy/GeneralIntro/Algorithms.html">&#8220;How to think like a computer scientist&#8221;:</a></p>
+
+<p>What is the most important skill for a computer scientist</p>
+
+<p>a) To think like a computer</p>
+
+<p>b) To be able to code really well</p>
+
+<p>c) To be able to solve problems</p>
+
+<p>d) To be really good at math.</p>
+
+<p>Die richtige Antwort ist ganz klar c). Doch wenn Schüler eine Programmiersprache später nicht mehr benutzen, weil ihnen diese als schwergewichtig und umständlich erscheint, dann haben wir als Informatiklehrer unser Ziel verfehlt.</p>
+
+<p>Ich setze daher in meinem neuen E-Phasen Kurs auf Python als erste Programmiersprache und werde zu einem späteren Zeitpunkt meine Erfahrungen teilen. Gegebenenfalls werden wir später in der Objektorientierung nochmal auf Java wechseln, so wie es von dem großartigen deutschen Online-Lehrbuch <a href="https://www.inf-schule.de/content/14-lehrkraefte/3-umsetzunglehrplaene/2-grundfach/2-objectsfirstjava/WarumJavaPython.pdf">Informatik in der Schule</a> vorgeschlagen wird.</p>
+
+<p>Der Vorteil von Java ist natürlich, dass es sehr gute Tools gibt um die Objektorientierung zu lernen, wie z.B. den Java Editor oder BlueJ. Insbesondere das interaktive erzeugen von Objektdiagrammen, die Kombination von Klassen- und Objektdiagrammen kann ein Riesenvorteil für den Unterricht sein. Ich finde es aber falsch den Hauptfokus des Fachs Informatik auf die Objektorientierung zu legen. Objektorientierung ist ein wichtiges Paradigma um zu verstehen, was notwendig ist, damit Programme im großen Stil und im Team programmiert werden können. Wie bedeutend Objektorientierung oder die Verwendung von Java ist, ist tatsächlich aber umstritten (siehe <a href="https://www.codeproject.com/Articles/580877/Is-Object-Oriented-Programming-Overrated-Another-V"><a href="http://javaeditor.org/doku.php">1</a></a>, <a href="https://content.pivotal.io/blog/all-evidence-points-to-oop-being-bullshit"><a href="http://www.java-online.ch/gamegrid/index.php">2</a></a>, <a href="http://wiki.c2.com/?ArgumentsAgainstOop"><a href="https://www.swisseduc.ch/informatik/karatojava/javakara/">3</a></a>), siehe dazu auch folgende Zitate. Damit ich nicht falsch verstanden werde: Es ist schon wichtig im Unterricht objektorientierte Programmierung zu lernen. Viel wichtiger ist es aber das Programmieren zu lernen und zu lernen wie man Probleme löst. Wie so oft versperrt die Objektorientierung hier auch in der Lehre schnell den Blick auf das Wesentliche.</p>
+
+<p>Würde das Abitur in Hessen nicht Java als Programmiersprache vorsehen (wobei bisher noch kein Schüler an unserer Schule das schriftliche Abitur absolviert hat), dann würde ich auch erwägen komplett auf Python umzusteigen.</p>
+
+<p>Meine erste Erfahrungen sind übrigens durchweg positiv: Die Schüler können mit wenigen Sprachkonstrukten schon schnell vielfältige Programme schreiben. Sie sind produktiv. Sie lernen keinen Sprachbalast, sondern direkt, wie sie Aufgaben lösen können. Vieles deutet darauf hin, dass ich mich mit diesem Weg anfreunden könnte.</p>
+
+<p>Was spricht noch für Python:</p>
+
+<ul>
+<li><a href="https://cacm.acm.org/blogs/blog-cacm/176450-python-is-now-the-most-popular-introductory-teaching-language-at-top-u-s-universities/fulltext">Python wird von fast allen großen US Universitäten als erste Programmiersprache verwendet.</a></li>
+<li>Verbreitung: Python ist nach <a href="https://www.tiobe.com/tiobe-index/">TIOBE</a> die meistverwendeste, leichtgewichtige Programmiersprache, nach <a href="http://redmonk.com/sogrady/2017/06/08/language-rankings-6-17/">Redmonk</a> ebenfalls im Spitzenfeld mit Java und C#, nach <a href="http://pypl.github.io/PYPL.html">PYPL</a> direkt hinter JAVA. In allen Vergleichen sieht man aber, dass die Verbreitung von Python zunimmt, während die Verbreitung von Java konstant bleibt oder sogar abnimmt. Es ist durchaus vorstellbar, dass Python meistverbreitetste Programmiersprache sein könnte.</li>
+<li>Durch die Einfachheit haben Schüler von Tag 1 an direkt tolle Erfahrungen und Erfolgserlebnisse.</li>
+<li>Hervorragende Standardbibliothek, so dass auch echte Probleme (z.B. Bildbearbeitung) früh gelöst werden können.</li>
+<li>Python ist Open Source! (Im Gegensatz zur Standard-Runtime-Environment von Java)</li>
+</ul>
+
+  </div>
+</article>
+<article class="post">
+  <script src="https://utteranc.es/client.js"
+        repo="asbl/it-teaching"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+</article>
+<div class="pagination">
+  
+    <a href="/2018/02/21/91/" class="button big previous"><i class="fas fa-angle-left"></i> Für ein Pflichtfach Informatik:</a>
+  
+  
+    <a href="/2018/02/21/python-kurs-in-stepik/" class="button big next">Interaktiver Python Online Kurs (Stepik) <i class="fas fa-angle-right"></i></a>
+  
+</div>
+
+
+      </main>
+      <section id="site-sidebar">
+  
+
+  
+    
+      <section id="categories">
+        <header>
+          <h1><a href="/categories">Kategorien</a></h1>
+        </header>
+        <ul>
+          
+            
+          
+          
+          <li>
+            
+              <a href="/categories/informatikunterricht/">informatikunterricht<span class="count">17</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/uncategorized/">uncategorized<span class="count">15</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/tools/">tools<span class="count">10</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/python/">python<span class="count">9</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/lerntheken/">lerntheken<span class="count">4</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/mathematikunterricht/">mathematikunterricht<span class="count">4</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/schulalltag/">schulalltag<span class="count">4</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/material/">material<span class="count">3</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/miniworldmaker/">miniworldmaker<span class="count">3</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/schulpolitik/">schulpolitik<span class="count">3</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/it-teaching.de/">it-teaching.de<span class="count">2</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/technik-im-unterricht/">technik-im-unterricht<span class="count">2</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/christian-wirth-schule/">christian-wirth-schule<span class="count">1</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/it-sicherheit/">it-sicherheit<span class="count">1</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/unterricht/">unterricht<span class="count">1</span></a>
+            
+          
+          </li>
+        </ul>
+      </section>
+    
+  
+
+  <section id="mini-bio">
+    <header>
+      <h1>About</h1>
+    </header>
+    <p>Andreas Siebel ist Lehrer für die Fächer Mathematik und Informatik an der Christian-Wirth-Schule in Usingen</p>
+    <footer>
+      <a href="/about" class="button">Learn More</a>
+    </footer>
+  </section>
+</section>
+
+      <footer id="site-footer">
+  
+      <ul class="socnet-icons">
+        
+
+        <li><a href="//github.com/pacollins/hugo-future-imperfect-slim" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/https://twitter.com/a_siebel" target="_blank" rel="noopener" title="Twitter" class="fab fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+<li><a href="//bildung.social.de/@a_siebel" target="_blank" rel="noopener" title="mastodon" class="fab fa-mastodon"></a></li>
+<li><a href="mailto:andreas.siebel@it-teaching.de" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+  
+  <p class="copyright">
+    
+      &copy; 2019
+      
+        IT-Teaching.de
+      
+    .
+    Powered by <a href="//gohugo.io" target="_blank" rel="noopener">Hugo</a>
+  </p>
+</footer>
+<a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
+
+      
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/html.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/css.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/js.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/toml.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+  <script src=/js/util.js></script>
+  <script src=/js/main.js></script>
+  <script src=/js/add-on.js></script>
+  
+
+
+
+    </div>
+  </body>
+</html>

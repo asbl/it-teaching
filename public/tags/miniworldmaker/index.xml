@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>miniworldmaker on IT-Teaching.de</title>
+    <link>https://it-teaching.de/tags/miniworldmaker/</link>
+    <description>Recent content in miniworldmaker on IT-Teaching.de</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Mon, 10 Jun 2019 20:11:54 +0000</lastBuildDate>
+    
+	<atom:link href="https://it-teaching.de/tags/miniworldmaker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Miniworldmaker – Physik Engine</title>
+      <link>https://it-teaching.de/2019/06/10/miniworldmaker-physik-engine/</link>
+      <pubDate>Mon, 10 Jun 2019 20:11:54 +0000</pubDate>
+      
+      <guid>https://it-teaching.de/2019/06/10/miniworldmaker-physik-engine/</guid>
+      <description>Ich arbeite zur Zeit daran, die Pymunk-Physikengine in den Miniworldmaker zu übernehmen. Dies hat mich am Wochenende einige Stunden gekostet &amp;#8211; Auch deshalb weil ich einen blöden Fehler gemacht habe, der mich lange aufgehalten habe&amp;#8230; Ich habe einige Stunden damit verbracht, einen Fehler zu suchen, der letztendlich darin lag, dass der eigentliche Simulationsschritt in einer Objektmethode anstatt in einer Klassenmethode ausgeführt wurde..
+Noch verhalten sich einige Dinge merkwürdig, aber die Ziele für die nächsten Wochen sind damit auf jeden Fall gesetzt.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,110 @@
+---
+title: "Miniworldmakerv1"
+date: 2019-08-07T15:50:28+02:00
+draft: true
+type: post
+author: asbl
+draft: false
+categories:
+  - Python
+  - miniworldmaker
+---
+
+Der Miniworldmaker hat nun die Version 1.0! (genau genommen inzwischen schon 1.0.3)
+
+Das bedeutet nicht, dass er bugfrei ist (ich habe tatsächlich noch ein paar kleine Bugs beseitigt) oder man nicht auf ungeahnte Probleme treffen wird - Im nächsten Jahr wird mir noch viel Arbeit bevorstehen. 
+Jetzt sieht aber die API schonmal genauso aus, wie ich sie mir vorstelle.
+
+### Physik
+
+Objekte einer Klasse werden ab jetzt dann physikalisch simuliert, wenn man die Methode setup_physics() in der Klasse implementiert.
+
+In der Methode kann man dann die verschiedenen physikalischen Eigenschaften des Objektes festlegen. Die Methode setuo_physics wird automatisch vor der Methode on_setup aufgerufen. 
+
+Betrachte folgenden Code aus dem Spiel [Angry Birds](https://github.com/asbl/miniworldmaker/tree/master/examples/games/angry)
+
+```python
+class Bird(Actor):
+
+    def on_setup(self):
+        self.add_image("images/fly.png")
+        self.orientation = 180
+        self.flip_x()
+        self.size = (40, 40)
+        self.direction = self.board.arrow.direction + 180
+        self.physics.impulse_in_direction(5000)
+
+    def setup_physics(self):
+        self.physics.mass = 6
+        self.physics.riction = 1
+        self.physics.size = 0.7, 0.7
+        self.physics.gravity = True
+        self.physics.shape_type = "circle"
+        self.physics.stable = False
+```
+
+In der Methode setup_physics werden die Eigenschaften des Vogels in einem Angry-Bird-Spiel festgelegt:
+
+  * Die Masse beträgt 6, die Reibung 1.
+  * Die Größe des physikalischen Objekts entspricht dem 0,7-fachen des originalen Objektes. Dies lässt Kollisionen etwas smoother erscheinen.
+  * Das Objekt folgt den Regeln für Gravität.
+  * Der Vogel wird physikalisch als Kreis simuliert. Er ist nicht stable, d.h. auch das Drehmoment des Vogels wird mitberechnet.
+
+Da die Physikengine vor der Setup-Methode initialisiert wurde, kann in der Setup-Methode das Objekt manipuliert werden. Hier wird ein Impuls auf den Vogel erzeugt.
+
+### Collision Handling
+
+Die on_sensing-Methoden können jetzt direkt aufgerufen werden. Siehe dazu den Vogel (diesesmal aus dem Spiel [Flappy Bird](https://github.com/asbl/miniworldmaker/tree/master/examples/games/flappy):
+
+```python
+class Bird(Token):
+
+    def on_setup(self):
+        self.add_image("images/fly.png")
+        self.size = (60, 60)
+        self.costume.orientation = 180
+        self.flip_x()
+
+    def setup_physics(self):
+        pass
+
+    def on_sensing_borders(self, borders):
+        if "bottom" in borders or "top" in borders:
+            self.board.is_running = False
+
+    def on_sensing_pipe(self, other):
+        self.board.is_running = False
+        self.board.reset()
+```
+
+Wenn die Methode on_sensing_borders(borders) implementiert wird wird in jedem Durchlauf der Mainloop überprüft, ob der Bird einen der Ränder berührt.
+
+Die Methode on_sensing_pipe(other) bezieht sich auf die Klasse Pipe. Wenn der Bird ein Objekt der Klasse Bird an seiner Stelle "aufspürt", dann wird die MEthode aufgerufen.
+
+### Collision Handling mit Physik
+
+Die Methode oben zur Kollisionserkennung funktioniert nicht mit der Physikengine, da sich Objekte bei Kollisionen nicht überschneiden. Hier kannst du die Methode on_sensing_collision_with_CLASS und on_sensing_separation_with_CLASS, wobei CLASS der Klassenname der Objekte sein soll, mit dem eine Kollision überprüft wird.
+
+Dies sieht am Beispiel von Pong wie folgt aus:
+
+```python
+class Ball(Circle):
+
+    def on_setup(self):
+        self.direction = 30
+        self.physics.impulse_in_direction(300)
+
+    def setup_physics(self):
+        self.physics.mass = 1
+        self.physics.elasticity = 1
+        self.physics.friction = 0
+        self.physics.shape_type = "circle"
+        self.physics.gravity = False
+        self.physics.stable = False
+
+    def on_sensing_collision_with_border(self, line, collision):
+        if line == self.board.left:
+            self.board.points_right.inc()
+        if line == self.board.right:
+            self.board.points_left.inc()
+```

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technik im Unterricht on IT-Teaching.de</title>
+    <link>https://it-teaching.de/categories/technik-im-unterricht/</link>
+    <description>Recent content in Technik im Unterricht on IT-Teaching.de</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Wed, 21 Mar 2018 13:27:48 +0000</lastBuildDate>
+    
+	<atom:link href="https://it-teaching.de/categories/technik-im-unterricht/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lerntheke mit Powerpoint maßstabsgerecht ausdrucken</title>
+      <link>https://it-teaching.de/2018/03/21/lerntheke-mit-powerpoint-massstabsgerecht-ausdrucken/</link>
+      <pubDate>Wed, 21 Mar 2018 13:27:48 +0000</pubDate>
+      
+      <guid>https://it-teaching.de/2018/03/21/lerntheke-mit-powerpoint-massstabsgerecht-ausdrucken/</guid>
+      <description>Letzte Woche habe ich das erste mal eine Lerntheke im Design von Jan-Martin Klinge erstellt. Das Thema der Lerntheke: Flächeninhalte.
+In der Lerntheke sind einige Messaufgaben enthalten, die ich extra mit Geogebra maßstabsgerecht erstellt habe. Dies geht mit Geogebra indem man die Grafik als Bild exportiert. Dann kann man den Maßstab exakt einstellen und das ganze in die Zwischenablage kopieren. Wenn man nun in Word/Powerpoint darauf achtet, daß die Skalierung 100% beträgt, kann man die Grafik maßstabsgetreu ausdrucken.</description>
+    </item>
+    
+    <item>
+      <title>Den Laptop kabellos auf den VGA-Beamer streamen</title>
+      <link>https://it-teaching.de/2018/02/25/laptop-kabellos-auf-den-vga-beamer-streamen/</link>
+      <pubDate>Sun, 25 Feb 2018 10:42:37 +0000</pubDate>
+      
+      <guid>https://it-teaching.de/2018/02/25/laptop-kabellos-auf-den-vga-beamer-streamen/</guid>
+      <description>In unserer Schule haben wir zahlreiche Whiteboards, die sich nur per vga ansteuern möchte. Da die angeschlossenen Rechner sich beim Anmelden mit den Servern des Hochtaunuskreises verbinden, stellen diese leider für den Unterricht keine Option dar: Es dauert leider 5-10 Minuten bis die Rechner hochgefahren sind, man sich eingeloggt hat und überhaupt dazu kommt, irgendetwas zu machen. Man kann dies zwar irgendwie organisieren (z.B. den Rechner vor dem Unterricht starten, etwas erklären, dann einloggen, wieder etwas erklären und dann loslegen).</description>
+    </item>
+    
+  </channel>
+</rss>

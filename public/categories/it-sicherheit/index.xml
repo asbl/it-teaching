@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IT-Sicherheit on IT-Teaching.de</title>
+    <link>https://it-teaching.de/categories/it-sicherheit/</link>
+    <description>Recent content in IT-Sicherheit on IT-Teaching.de</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Mon, 09 Oct 2017 14:30:27 +0000</lastBuildDate>
+    
+	<atom:link href="https://it-teaching.de/categories/it-sicherheit/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Have I been pwned?</title>
+      <link>https://it-teaching.de/2017/10/09/have-i-been-pwned/</link>
+      <pubDate>Mon, 09 Oct 2017 14:30:27 +0000</pubDate>
+      
+      <guid>https://it-teaching.de/2017/10/09/have-i-been-pwned/</guid>
+      <description>[][1]
+Man kann auf dieser Seite https://haveibeenpwned.com überprüfen, ob Emailadressen oder Passwörter(!) schonmal irgendwo gehackt wurden und offen sichtbar in einer Datenbank stehen.   Aus Neugier habe ich mal getestet, ob ein altes Passwort von mir schonmal gehackt wurde: (Antwort: Ja)  Meine neueren Passwörter traue ich mich aber nicht im Formular einzugeben.  </description>
+    </item>
+    
+  </channel>
+</rss>

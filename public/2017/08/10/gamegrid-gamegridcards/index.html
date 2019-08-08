@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="de">
+  <head>
+  <meta charset="utf-8">
+<title>Gamegrid / Gamegridcards - IT-Teaching.de</title>
+<meta name="description" content="Andreas Siebel ist Lehrer für die Fächer Mathematik und Informatik an der Christian-Wirth-Schule in Usingen">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+  <meta name="generator" content="Hugo 0.55.6" />
+  
+<meta itemprop="name" content="Gamegrid / Gamegridcards">
+<meta itemprop="description" content="Prinzipiell mag ich Entwicklungsumgebungen wie Greenfoot https://www.greenfoot.org/door . Ich denke, dass diese dabei helfen können   a) Die Motivation der Schüler zu steigern b) Ein Verständnis über den Zusammenhang von Klassen und Objekten zu fördern  Leider hat sich bei mir die 3er Version von Greenfoot als nicht stabil genug herausgestellt. Am Ende waren die Schüler hauptsächlich frustriert, da ihr Programm oft abstürzt. Außerdem ist die Fehlersuche -einer der Kernelemente des Programmierens- in Greenfoot wirklich schlecht gelöst.">
+
+
+<meta itemprop="datePublished" content="2017-08-10T14:24:50&#43;00:00" />
+<meta itemprop="dateModified" content="2017-08-10T14:24:50&#43;00:00" />
+<meta itemprop="wordCount" content="265">
+
+
+
+<meta itemprop="keywords" content="" />
+
+  <meta property="og:title" content="Gamegrid / Gamegridcards" />
+<meta property="og:description" content="Prinzipiell mag ich Entwicklungsumgebungen wie Greenfoot https://www.greenfoot.org/door . Ich denke, dass diese dabei helfen können   a) Die Motivation der Schüler zu steigern b) Ein Verständnis über den Zusammenhang von Klassen und Objekten zu fördern  Leider hat sich bei mir die 3er Version von Greenfoot als nicht stabil genug herausgestellt. Am Ende waren die Schüler hauptsächlich frustriert, da ihr Programm oft abstürzt. Außerdem ist die Fehlersuche -einer der Kernelemente des Programmierens- in Greenfoot wirklich schlecht gelöst." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://it-teaching.de/2017/08/10/gamegrid-gamegridcards/" />
+<meta property="article:published_time" content="2017-08-10T14:24:50&#43;00:00"/>
+<meta property="article:modified_time" content="2017-08-10T14:24:50&#43;00:00"/><meta property="og:site_name" content="IT-Teaching.de" />
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Gamegrid / Gamegridcards"/>
+<meta name="twitter:description" content="Prinzipiell mag ich Entwicklungsumgebungen wie Greenfoot https://www.greenfoot.org/door . Ich denke, dass diese dabei helfen können   a) Die Motivation der Schüler zu steigern b) Ein Verständnis über den Zusammenhang von Klassen und Objekten zu fördern  Leider hat sich bei mir die 3er Version von Greenfoot als nicht stabil genug herausgestellt. Am Ende waren die Schüler hauptsächlich frustriert, da ihr Programm oft abstürzt. Außerdem ist die Fehlersuche -einer der Kernelemente des Programmierens- in Greenfoot wirklich schlecht gelöst."/>
+<meta name="twitter:site" content="@https://twitter.com/a_siebel"/>
+
+  
+
+  <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css">
+  
+    
+      <link rel="stylesheet" href="/css/normalize.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+      <link rel="stylesheet" href="/css/main.min.css">
+      <link rel="stylesheet" href="/css/add-on.css">
+    
+  
+  
+  
+  
+  
+</head>
+
+  <body>
+    
+<header id="site-header">
+  <nav id="site-nav">
+    <h1 class="nav-title">
+      <a href="/">
+        
+          IT-Teaching.de
+        
+      </a>
+    </h1>
+    <menu id="site-nav-menu" class="flyout-menu">
+      
+        <a href="/" class="link"><i class="fas fa-home">&nbsp;</i>Home</a>
+      
+        <a href="/impressum/" class="link"><i class="far fa-envelope">&nbsp;</i>Impressum</a>
+      
+        <a href="/datenschutz/" class="link"><i class="far fa-eye">&nbsp;</i>Datenschutzerklärung</a>
+      
+      <a href="#share-menu" class="share-toggle"><i class="fas fa-share-alt">&nbsp;</i>Share</a>
+      
+
+    </menu>
+    
+
+    <a href="#share-menu" class="share-toggle"><i class="fas fa-share-alt fa-2x">&nbsp;</i></a>
+    <a href="#lang-menu" class="lang-toggle" lang="de"><span class="flag-icon flag-icon-de" alt="de"></span></a>
+    <a href="#site-nav" class="nav-toggle"><i class="fas fa-bars fa-2x"></i></a>
+  </nav>
+  <menu id="lang-menu" class="flyout-menu">
+  <a href="#" lang="de" class="active"><span class="flag-icon flag-icon-de" alt="de"></span></a>
+  
+    
+      
+    
+      
+        <a href="/en" lang="en" class="no-lang"><span class="flag-icon flag-icon-en" alt="en"></span></a>
+      
+    
+  
+</menu>
+
+  
+    <menu id="share-menu" class="flyout-menu">
+      <h1>Share Post</h1>
+      
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=Gamegrid%20%2f%20Gamegridcards&amp;url=https%3a%2f%2fit-teaching.de%2f2017%2f08%2f10%2fgamegrid-gamegridcards%2f" target="_blank" rel="noopener" class="share-btn twitter">
+        <i class="fab fa-twitter"></i><p>&nbsp;Twitter</p>
+      </a>
+  
+
+  
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fit-teaching.de%2f2017%2f08%2f10%2fgamegrid-gamegridcards%2f" target="_blank" rel="noopener" class="share-btn facebook">
+        <i class="fab fa-facebook"></i><p>&nbsp;Facebook</p>
+        </a>
+  
+
+  
+    <a href="//www.reddit.com/submit?url=https%3a%2f%2fit-teaching.de%2f2017%2f08%2f10%2fgamegrid-gamegridcards%2f&amp;title=Gamegrid%20%2f%20Gamegridcards" target="_blank" rel="noopener" class="share-btn reddit">
+          <i class="fab fa-reddit-alien"></i><p>&nbsp;Reddit</p>
+        </a>
+  
+
+  
+        <a href="mailto:?subject=Check out this post by %7b%20%20%20%20%20%20%20%20map%5b%5d%7d&amp;body=https%3a%2f%2fit-teaching.de%2f2017%2f08%2f10%2fgamegrid-gamegridcards%2f" target="_blank" class="share-btn email">
+          <i class="fas fa-envelope"></i><p>&nbsp;Email</p>
+        </a>
+  
+
+
+    </menu>
+  
+</header>
+
+    <div id="wrapper">
+      <section id="site-intro">
+  <a href="/"><img src="/img/main/userpicture.png" class="circle" width="" alt="Logo" /></a>
+  <header>
+    <h1>IT-Teaching.de</h1>
+  </header>
+  <main>
+    
+  </main>
+  
+    <footer>
+      <ul class="socnet-icons">
+        
+
+        
+      </ul>
+    </footer>
+  
+</section>
+
+      <main id="site-main">
+        <article class="post">
+  <header>
+  <div class="title">
+    
+        <h2><a href="/2017/08/10/gamegrid-gamegridcards/">Gamegrid / Gamegridcards</a></h2>
+    
+    
+</div>
+  <div class="meta">
+    <time class="published" datetime="2017-08-10 14:24:50 &#43;0000 &#43;0000">
+      August 10, 2017
+    </time>
+    <span class="author">a.sbl</span>
+    
+        <p>2 minute read</p>
+    
+  </div>
+</header>
+
+  <section id="socnet-share">
+    
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=Gamegrid%20%2f%20Gamegridcards&amp;url=https%3a%2f%2fit-teaching.de%2f2017%2f08%2f10%2fgamegrid-gamegridcards%2f" target="_blank" rel="noopener" class="share-btn twitter">
+        <i class="fab fa-twitter"></i><p>&nbsp;Twitter</p>
+      </a>
+  
+
+  
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fit-teaching.de%2f2017%2f08%2f10%2fgamegrid-gamegridcards%2f" target="_blank" rel="noopener" class="share-btn facebook">
+        <i class="fab fa-facebook"></i><p>&nbsp;Facebook</p>
+        </a>
+  
+
+  
+    <a href="//www.reddit.com/submit?url=https%3a%2f%2fit-teaching.de%2f2017%2f08%2f10%2fgamegrid-gamegridcards%2f&amp;title=Gamegrid%20%2f%20Gamegridcards" target="_blank" rel="noopener" class="share-btn reddit">
+          <i class="fab fa-reddit-alien"></i><p>&nbsp;Reddit</p>
+        </a>
+  
+
+  
+        <a href="mailto:?subject=Check out this post by %7b%20%20%20%20%20%20%20%20map%5b%5d%7d&amp;body=https%3a%2f%2fit-teaching.de%2f2017%2f08%2f10%2fgamegrid-gamegridcards%2f" target="_blank" class="share-btn email">
+          <i class="fas fa-envelope"></i><p>&nbsp;Email</p>
+        </a>
+  
+
+
+  </section>
+  
+
+  <div class="content">
+    <div id="post-content" class="post tag-tools tag-informatikunterricht" style="padding: 0px; margin: 0px; font-variant-numeric: inherit; font-stretch: inherit; font-family: Raleway, sans-serif; font-size: 18px; vertical-align: baseline; border: 0px; color: #666666;">
+  Prinzipiell mag ich Entwicklungsumgebungen wie Greenfoot <a style="padding: 0.1rem 0.25rem; margin: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: 25px; font-family: inherit; vertical-align: baseline; border-top: 0px; border-right: 0px; border-left: 0px; border-bottom-style: dashed; border-bottom-color: #ea6153; border-image: initial; position: relative; transition: all 0.5s;" href="https://www.greenfoot.org/door">https://www.greenfoot.org/door</a> . Ich denke, dass diese dabei helfen können
+</div>
+
+<ul>
+<li>a) Die Motivation der Schüler zu steigern</li>
+<li>b) Ein Verständnis über den Zusammenhang von Klassen und Objekten zu fördern</li>
+</ul>
+
+<p>Leider hat sich bei mir die 3er Version von Greenfoot als nicht stabil genug herausgestellt. Am Ende waren die Schüler hauptsächlich frustriert, da ihr Programm oft abstürzt. Außerdem ist die Fehlersuche -einer der Kernelemente des Programmierens- in Greenfoot wirklich schlecht gelöst.</p>
+
+<p>Vor kurzem habe ich folgende Alternative entdeckt:</p>
+
+<p style="padding: 0px; margin-bottom: 1.3rem; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: 1.75rem; font-family: inherit; vertical-align: baseline; border: 0px;">
+  <a style="padding: 0.1rem 0.25rem; margin: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: 25px; font-family: inherit; vertical-align: baseline; border-top: 0px; border-right: 0px; border-left: 0px; border-bottom-style: dashed; border-bottom-color: #ea6153; border-image: initial; position: relative; transition: all 0.5s;" href="http://www.java-online.ch/gamegrid/index.php">http://www.java-online.ch/gamegrid/index.php</a>
+</p>
+
+<p>GameGrid ist ein Framework zum Programmieren von Spielen, dass sehr stark an Greenfoot erinnert. Es gibt hier aber keine graphische Entwicklungsumgebung, sondern die Programme können in jeder Umgebung geschrieben werden, die man bevorzugt (z.B. Eclipse). Alternativ gibt es auch einen Online-Editor, mit dem man Programme direkt bearbeiten kann. Man findet online auch eine Android-Version, so dass es mit dem Online-Editor ohne weiteres möglich ist, auch Android-Spiele mit GameGrid zu entwickeln. Sowohl die Syntax als auch die Menüleiste bei einem neu erstellten Spiel erinnern extrem stark an Greenfoot</p>
+
+<p>Jeder Actor verfügt wie bei Greenfoot über eine act()-Funktion, die nach einem Klick auf Run in einer Endlosschleife ausgeführt wird, Grafiken und Sounds können ohne größere Schwierigkeiten hinzugefügt werden.  Nicht nur Spiele in einem Grid, sondern auch Pixel-basierte Spiele sind möglich (Mein erstes Spiel handelte von einer Rakete, die Asteroiden ausweicht).</p>
+
+<p>Ich habe eine allererste Version von &#8220;GameGridCards&#8221; erstellt, mit denen die Schüler mit Gamegrid+Eclipse relativ selbstständig erste Projekte erstellen können. Ich stelle diese zur Verfügung (mit dem Hinweis, dass diese sicher noch an einigen Stellen Arbeit benötigen).</p>
+
+<p><a style="padding: 0.1rem 0.25rem; margin: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: 25px; font-family: inherit; vertical-align: baseline; border-top: 0px; border-right: 0px; border-left: 0px; border-bottom-style: dashed; border-bottom-color: #ea6153; border-image: initial; position: relative; transition: all 0.5s;" href="https://it-teaching.de/uploader/public/gamegridcards.pdf">-&gt; Download Gamegridcards</a></p>
+
+<div class="post related" style="padding: 4rem 0px 2rem; margin: 0px; font-variant-numeric: inherit; font-stretch: inherit; line-height: 1; font-family: Raleway, sans-serif; font-size: 18px; vertical-align: baseline; border: 0px; display: flex; -webkit-box-pack: justify; justify-content: space-between; color: #666666;">
+  <a id="prev-btn" class="btn small square" style="padding: 8px 12px; margin: 0px; font-style: inherit; font-variant: inherit; font-weight: bold; font-stretch: inherit; line-height: inherit; font-family: inherit; font-size: 0.7em; vertical-align: baseline; border-top: 1px solid #ea6153; border-right: 1px solid #ea6153; border-left: 1px solid #ea6153; border-bottom-color: #ea6153; border-image: initial; color: #ea6153; position: relative; transition: all 0.35s; border-radius: 0px; -webkit-font-smoothing: antialiased; letter-spacing: 1px; text-shadow: none;" href="https://it-teaching.de/blog/hausaufgaben/" rel="prev">← Gespräch 5. Klasse</a>
+</div>
+
+  </div>
+</article>
+<article class="post">
+  <script src="https://utteranc.es/client.js"
+        repo="asbl/it-teaching"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+</article>
+<div class="pagination">
+  
+    <a href="/2017/08/02/greenfoot-greeps/" class="button big previous"><i class="fas fa-angle-left"></i> Greenfoot / Greeps</a>
+  
+  
+    <a href="/2017/10/09/herkunft-biberwettbewerb/" class="button big next">Herkunft Biberwettbewerb <i class="fas fa-angle-right"></i></a>
+  
+</div>
+
+
+      </main>
+      <section id="site-sidebar">
+  
+
+  
+    
+      <section id="categories">
+        <header>
+          <h1><a href="/categories">Kategorien</a></h1>
+        </header>
+        <ul>
+          
+            
+          
+          
+          <li>
+            
+              <a href="/categories/informatikunterricht/">informatikunterricht<span class="count">17</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/uncategorized/">uncategorized<span class="count">15</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/tools/">tools<span class="count">10</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/python/">python<span class="count">9</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/lerntheken/">lerntheken<span class="count">4</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/mathematikunterricht/">mathematikunterricht<span class="count">4</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/schulalltag/">schulalltag<span class="count">4</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/material/">material<span class="count">3</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/miniworldmaker/">miniworldmaker<span class="count">3</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/schulpolitik/">schulpolitik<span class="count">3</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/it-teaching.de/">it-teaching.de<span class="count">2</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/technik-im-unterricht/">technik-im-unterricht<span class="count">2</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/christian-wirth-schule/">christian-wirth-schule<span class="count">1</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/it-sicherheit/">it-sicherheit<span class="count">1</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/unterricht/">unterricht<span class="count">1</span></a>
+            
+          
+          </li>
+        </ul>
+      </section>
+    
+  
+
+  <section id="mini-bio">
+    <header>
+      <h1>About</h1>
+    </header>
+    <p>Andreas Siebel ist Lehrer für die Fächer Mathematik und Informatik an der Christian-Wirth-Schule in Usingen</p>
+    <footer>
+      <a href="/about" class="button">Learn More</a>
+    </footer>
+  </section>
+</section>
+
+      <footer id="site-footer">
+  
+      <ul class="socnet-icons">
+        
+
+        <li><a href="//github.com/pacollins/hugo-future-imperfect-slim" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/https://twitter.com/a_siebel" target="_blank" rel="noopener" title="Twitter" class="fab fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+<li><a href="//bildung.social.de/@a_siebel" target="_blank" rel="noopener" title="mastodon" class="fab fa-mastodon"></a></li>
+<li><a href="mailto:andreas.siebel@it-teaching.de" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+  
+  <p class="copyright">
+    
+      &copy; 2019
+      
+        IT-Teaching.de
+      
+    .
+    Powered by <a href="//gohugo.io" target="_blank" rel="noopener">Hugo</a>
+  </p>
+</footer>
+<a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
+
+      
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/html.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/css.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/js.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/toml.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+  <script src=/js/util.js></script>
+  <script src=/js/main.js></script>
+  <script src=/js/add-on.js></script>
+  
+
+
+
+    </div>
+  </body>
+</html>

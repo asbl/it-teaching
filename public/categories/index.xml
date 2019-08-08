@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on IT-Teaching.de</title>
+    <link>https://it-teaching.de/categories/</link>
+    <description>Recent content in Categories on IT-Teaching.de</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Wed, 07 Aug 2019 15:50:28 +0200</lastBuildDate>
+    
+	<atom:link href="https://it-teaching.de/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Python</title>
+      <link>https://it-teaching.de/categories/python/</link>
+      <pubDate>Wed, 07 Aug 2019 15:50:28 +0200</pubDate>
+      
+      <guid>https://it-teaching.de/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>it-teaching.de</title>
+      <link>https://it-teaching.de/categories/it-teaching.de/</link>
+      <pubDate>Wed, 07 Aug 2019 15:10:35 +0200</pubDate>
+      
+      <guid>https://it-teaching.de/categories/it-teaching.de/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Informatikunterricht</title>
+      <link>https://it-teaching.de/categories/informatikunterricht/</link>
+      <pubDate>Mon, 10 Jun 2019 20:11:54 +0000</pubDate>
+      
+      <guid>https://it-teaching.de/categories/informatikunterricht/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>miniworldmaker</title>
+      <link>https://it-teaching.de/categories/miniworldmaker/</link>
+      <pubDate>Sat, 04 May 2019 10:03:35 +0000</pubDate>
+      
+      <guid>https://it-teaching.de/categories/miniworldmaker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>https://it-teaching.de/categories/tools/</link>
+      <pubDate>Thu, 11 Apr 2019 05:47:04 +0000</pubDate>
+      
+      <guid>https://it-teaching.de/categories/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uncategorized</title>
+      <link>https://it-teaching.de/categories/uncategorized/</link>
+      <pubDate>Tue, 09 Apr 2019 11:24:39 +0000</pubDate>
+      
+      <guid>https://it-teaching.de/categories/uncategorized/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mathematikunterricht</title>
+      <link>https://it-teaching.de/categories/mathematikunterricht/</link>
+      <pubDate>Thu, 10 Jan 2019 16:55:14 +0000</pubDate>
+      
+      <guid>https://it-teaching.de/categories/mathematikunterricht/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unterricht</title>
+      <link>https://it-teaching.de/categories/unterricht/</link>
+      <pubDate>Sun, 06 Jan 2019 10:20:30 +0000</pubDate>
+      
+      <guid>https://it-teaching.de/categories/unterricht/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lerntheken</title>
+      <link>https://it-teaching.de/categories/lerntheken/</link>
+      <pubDate>Mon, 09 Apr 2018 15:56:48 +0000</pubDate>
+      
+      <guid>https://it-teaching.de/categories/lerntheken/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Material</title>
+      <link>https://it-teaching.de/categories/material/</link>
+      <pubDate>Mon, 09 Apr 2018 15:56:48 +0000</pubDate>
+      
+      <guid>https://it-teaching.de/categories/material/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Schulalltag</title>
+      <link>https://it-teaching.de/categories/schulalltag/</link>
+      <pubDate>Wed, 21 Mar 2018 13:27:48 +0000</pubDate>
+      
+      <guid>https://it-teaching.de/categories/schulalltag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Technik im Unterricht</title>
+      <link>https://it-teaching.de/categories/technik-im-unterricht/</link>
+      <pubDate>Wed, 21 Mar 2018 13:27:48 +0000</pubDate>
+      
+      <guid>https://it-teaching.de/categories/technik-im-unterricht/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Christian-Wirth-Schule</title>
+      <link>https://it-teaching.de/categories/christian-wirth-schule/</link>
+      <pubDate>Sun, 25 Feb 2018 11:29:55 +0000</pubDate>
+      
+      <guid>https://it-teaching.de/categories/christian-wirth-schule/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Schulpolitik</title>
+      <link>https://it-teaching.de/categories/schulpolitik/</link>
+      <pubDate>Wed, 21 Feb 2018 12:48:03 +0000</pubDate>
+      
+      <guid>https://it-teaching.de/categories/schulpolitik/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IT-Sicherheit</title>
+      <link>https://it-teaching.de/categories/it-sicherheit/</link>
+      <pubDate>Mon, 09 Oct 2017 14:30:27 +0000</pubDate>
+      
+      <guid>https://it-teaching.de/categories/it-sicherheit/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

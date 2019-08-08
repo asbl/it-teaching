@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Schulpolitik on IT-Teaching.de</title>
+    <link>https://it-teaching.de/categories/schulpolitik/</link>
+    <description>Recent content in Schulpolitik on IT-Teaching.de</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Wed, 21 Feb 2018 12:48:03 +0000</lastBuildDate>
+    
+	<atom:link href="https://it-teaching.de/categories/schulpolitik/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Python als Programmiersprache im Unterricht</title>
+      <link>https://it-teaching.de/2018/02/21/python-als-programmiersprache-im-unterricht/</link>
+      <pubDate>Wed, 21 Feb 2018 12:48:03 +0000</pubDate>
+      
+      <guid>https://it-teaching.de/2018/02/21/python-als-programmiersprache-im-unterricht/</guid>
+      <description>Im hessischen Abitur werden zum Thema &amp;#8220;Objektorientierte Programmierung&amp;#8221; die Programmierbeispiele in zwei Sprachen angeboten: JAVA und Delphi.
+Delphi bzw. Lazarus als Open Source Alternative hat inzwischen einen gewissen historischen Wert. die Sprache wird außerhalb des deutschen Informatikunterrichtes praktisch nirgends mehr benutzt. In Hessen ist sie nur deshalb noch von Bedeutung, da diese lange Zeit Grundlage der Informatikausbildung war und vor allem viele Quereinsteiger keine andere Sprache sprechen.
+JAVA ist da schon ein anderes Kaliber.</description>
+    </item>
+    
+    <item>
+      <title>Brandbrief zum Mathematikunterricht – Reaktionen</title>
+      <link>https://it-teaching.de/2017/07/27/brandbrief-zum-mathematikunterricht-reaktionen/</link>
+      <pubDate>Thu, 27 Jul 2017 15:12:54 +0000</pubDate>
+      
+      <guid>https://it-teaching.de/2017/07/27/brandbrief-zum-mathematikunterricht-reaktionen/</guid>
+      <description> Im Folgenden eine Übersicht auf die unterschiedlichen Reaktionen auf einen von 130 Professoren, Dozenten und Lehrern veröffentlichten Brandbrief, der die Studierfähigkeit der jetzigen Absolventen anzweifelt: Neutral    http://www.spiegel.de/lebenundlernen/uni/mathematik-professoren-beklagen-fehlendes-schuelerwissen-a-1139881.html   http://www.tagesspiegel.de/wissen/streit-um-den-matheunterricht-mathe-richtig-durchdringen/19593046.html   http://www.stuttgarter-zeitung.de/inhalt.studierende-scheitern-an-mittelstufenaufgaben-stuttgarter-unis-kaempfen-gegen-matheluecken.62ac0862-5cb6-4c1a-adee-4c53216e3753.html   Befürworter    http://www.danisch.de/blog/2017/03/23/gurken-mathematik-und-so/   http://www.tagesspiegel.de/berlin/brandbrief-zum-mathematikunterricht-deutschland-verrechnet-sich/19558664.html   https://bildung-wissen.eu/fachbeitraege/schule-und-unterricht/mathematik-brandbrief-gegen-bildungsstandards.html   http://afd-fraktion-sachsen.de/presse/pressemitteilungen/bildungsmisere-brandbrief-von-professoren-und-lehrern-kommt-zu-spaet.html   http://www.feuerwaechter.org/2017/03/aufstand-der-mathelehrer/   Kritiker    https://www.jmwiarda.de/2017/03/23/bitte-an-die-fakten-halten   http://www.tagesspiegel.de/downloads/19590132/1/mathematiker-distanzieren-sich-vom-mathematiker-brandbrief.pdf   http://www.sueddeutsche.de/politik/gastkommentar-mehr-gauss-weniger-goethe-1.3455512#redirectedFromLandingpage    ← Welche Informationen interpretiert man aus Statistiken  </description>
+    </item>
+    
+    <item>
+      <title>PISA Studie – Wie beurteilt man eine Studie?</title>
+      <link>https://it-teaching.de/2017/07/27/pisa-studie-wie-beurteilt-man-eine-studie/</link>
+      <pubDate>Thu, 27 Jul 2017 14:10:59 +0000</pubDate>
+      
+      <guid>https://it-teaching.de/2017/07/27/pisa-studie-wie-beurteilt-man-eine-studie/</guid>
+      <description>Während die Zeit aus der PISA Studie den Erfolg des finnischen Bildungssystems in Zweifel stellt [1], kritisiert der Schweizer Lehrerverband die Studie 2015 stark und zweifelt aufgrund der Umstellung von Papier auf Computer die Vergleichbarkeit mit früheren Studien an [2] .   Diese Kritik wurde vom Schweizer Lehrerverband geäußert obwohl die Schweizer bei der PISA Studie herausragende Mathematikleistungen zeigten (und das sogar trotz der Tatsache, dass in den Schweizer Mathematikbüchern auf jeder Doppelseite ein neues Thema präsentiert wird, wie jüngst ein Brandbrief von deutschen Professoren an unserem Schulsystem kritisierte [3])  Fazit: Man sollte generell etwas vorsichtig sein, welche Schlüsse man aus internationalen Vergleichsstudien zieht.</description>
+    </item>
+    
+  </channel>
+</rss>
