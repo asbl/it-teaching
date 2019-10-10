@@ -12,7 +12,7 @@ tags:
   - Theorie
 ---
 
-## Entwurf vom 07.10.2019
+## Entwurf vom 10.10.2019
 
 Disclaimer: Der Artikel ist noch nicht fertig. Beim schreiben des Artikels ist mir aufgefallen, dass der Sachverhalt mit jedem neuen Gedanken, den ich bedacht habe, immer komplexer wurde. Da meine Zeit durch Umstände in der realen Welt beschränkt ist, schaffe ich es in den verbleibenden Tagen der Herbstferien nicht den Artikel in dem Umfang und in der Qualität aufzuschreiben, die ich mir wünschen würde.
 
