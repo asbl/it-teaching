@@ -1,4 +1,5 @@
 <head>
+
   {{ partial "meta" . }}
   {{ hugo.Generator }}
   {{ template "_internal/schema.html" . }}
@@ -6,24 +7,32 @@
   {{ template "_internal/twitter_cards.html" . }}
   {{ template "_internal/google_news.html" . }}
 
+
+
   {{ if .Site.Params.highlightjs }}<link rel="stylesheet"
-      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/{{ .Site.Params.highlightjsTheme | default "default" }}.min.css">{{ end }}
+      href="/css/highlightjs/{{ .Site.Params.highlightjsTheme | default "default" }}.css">{{ end }}
   {{ range .Site.Params.cssFiles }}
     {{ if eq . "default" }}
       <link rel="stylesheet" href="{{ "css/normalize.css" | relURL}}">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css">
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+      <link rel="stylesheet" href="css/flag-icon.min.css">
       <link rel="stylesheet" href="{{ "css/main.min.css" | relURL }}">
       <link rel="stylesheet" href="{{ "css/add-on.css" | relURL }}">
+      <link href="/css/fontawesome.css" rel="stylesheet">
+      <link href="/css/brands.css" rel="stylesheet">
+      <link href="/css/solid.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="/css/jquery.fancybox.min.css">
+      <link href="/css/all.css" rel="stylesheet"> <!--load all styles -->
+      <link href="/css/custom.css" rel="stylesheet"> <!--load all styles -->
     {{ else }}
       <link rel="stylesheet" href="{{ . | relURL }}">
     {{ end }}
   {{ end }}
-  {{ if .Site.Params.staticman.recaptcha.recaptcha }}<script src="https://www.google.com/recaptcha/api.js?render={{ .Site.Params.staticman.recaptcha.sitekey }}"></script>{{ end }}
   {{ .Scratch.Set "Permalink" .Permalink }}
   {{ .Scratch.Set "Title" .Title }}
   {{ .Scratch.Set "Author" .Author }}
+
+
+</script>
+
+
 </head>

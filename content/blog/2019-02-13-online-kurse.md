@@ -7,7 +7,9 @@ url: /2019/02/13/online-kurse/
 custom_total_hits:
   - 000000130
 categories:
-  - Uncategorized
+  - Stepik
+  - Mooc
+  - Online-Kurse
 
 ---
 Kleiner Zwischenstand: Mit Hilfe meines Informatik-Kollegen sind jetzt die beiden Online-Kurse für die Oberstufe im vollen Gange.

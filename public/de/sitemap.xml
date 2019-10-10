@@ -3,40 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://it-teaching.de/about/</loc>
-    <lastmod>2019-08-08T11:45:42+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://it-teaching.de/en/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://it-teaching.de/about/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://it-teaching.de/</loc>
-    <lastmod>2019-08-08T11:45:42+02:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://it-teaching.de/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://it-teaching.de/"
-                />
-  </url>
-  
-  <url>
     <loc>https://it-teaching.de/blog/</loc>
-    <lastmod>2019-08-07T15:50:28+02:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2019-10-10T08:50:28+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -51,8 +19,7 @@
   
   <url>
     <loc>https://it-teaching.de/categories/</loc>
-    <lastmod>2019-08-07T15:50:28+02:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2019-10-10T08:50:28+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -66,68 +33,38 @@
   </url>
   
   <url>
-    <loc>https://it-teaching.de/blog/mmw_v1/</loc>
-    <lastmod>2019-08-07T15:50:28+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://it-teaching.de/en/blog/mmw_v1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://it-teaching.de/blog/mmw_v1/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://it-teaching.de/categories/python/</loc>
-    <lastmod>2019-08-07T15:50:28+02:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://it-teaching.de/en/categories/python/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://it-teaching.de/categories/python/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://it-teaching.de/blog/umzug-auf-hugo2/</loc>
-    <lastmod>2019-08-07T15:10:35+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://it-teaching.de/categories/it-teaching.de/</loc>
-    <lastmod>2019-08-07T15:10:35+02:00</lastmod>
-    <priority>0</priority>
+    <loc>https://it-teaching.de/tags/informatikunterricht/</loc>
+    <lastmod>2019-10-10T08:50:28+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://it-teaching.de/categories/informatikunterricht/</loc>
-    <lastmod>2019-06-10T20:11:54+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2019-10-10T08:50:28+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://it-teaching.de/2019/06/10/miniworldmaker-physik-engine/</loc>
-    <lastmod>2019-06-10T20:11:54+00:00</lastmod>
+    <loc>https://it-teaching.de/</loc>
+    <lastmod>2019-10-10T08:50:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://it-teaching.de/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://it-teaching.de/"
+                />
   </url>
   
   <url>
-    <loc>https://it-teaching.de/tags/python/</loc>
-    <lastmod>2019-06-10T20:11:54+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://it-teaching.de/blog/2019-09-22-modellieren-im-informatikunterricht/</loc>
+    <lastmod>2019-10-10T08:50:28+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://it-teaching.de/tags/</loc>
-    <lastmod>2019-06-10T20:11:54+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2019-10-10T08:50:28+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -141,9 +78,123 @@
   </url>
   
   <url>
+    <loc>https://it-teaching.de/tags/theorie/</loc>
+    <lastmod>2019-10-10T08:50:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://it-teaching.de/datenschutz/</loc>
+    <lastmod>2019-10-02T19:44:15+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://it-teaching.de/en/datenschutz/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://it-teaching.de/datenschutz/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://it-teaching.de/tags/datenmissbrauch/</loc>
+    <lastmod>2019-09-22T15:50:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://it-teaching.de/tags/datenschutz/</loc>
+    <lastmod>2019-09-22T15:50:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://it-teaching.de/blog/2019-09-22-datenschutzunddatenmissbrauch/</loc>
+    <lastmod>2019-09-22T15:50:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://it-teaching.de/tags/digitalisierung/</loc>
+    <lastmod>2019-09-22T15:50:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://it-teaching.de/categories/digitalisierung/</loc>
+    <lastmod>2019-09-22T15:50:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://it-teaching.de/categories/game-engine/</loc>
+    <lastmod>2019-08-07T15:50:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://it-teaching.de/en/categories/game-engine/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://it-teaching.de/categories/game-engine/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://it-teaching.de/categories/miniworldmaker/</loc>
+    <lastmod>2019-08-07T15:50:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://it-teaching.de/en/categories/miniworldmaker/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://it-teaching.de/categories/miniworldmaker/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://it-teaching.de/blog/2019-08.08-mmw_v1/</loc>
+    <lastmod>2019-08-07T15:50:28+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://it-teaching.de/categories/python/</loc>
+    <lastmod>2019-08-07T15:50:28+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://it-teaching.de/en/categories/python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://it-teaching.de/categories/python/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://it-teaching.de/categories/it-teaching.de/</loc>
+    <lastmod>2019-08-07T15:10:35+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://it-teaching.de/blog/2019-08-07-umzug-auf-hugo/</loc>
+    <lastmod>2019-08-07T15:10:35+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://it-teaching.de/tags/miniworldmaker/</loc>
     <lastmod>2019-06-10T20:11:54+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://it-teaching.de/2019/06/10/miniworldmaker-physik-engine/</loc>
+    <lastmod>2019-06-10T20:11:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://it-teaching.de/tags/python/</loc>
+    <lastmod>2019-06-10T20:11:54+00:00</lastmod>
   </url>
   
   <url>
@@ -152,9 +203,8 @@
   </url>
   
   <url>
-    <loc>https://it-teaching.de/categories/miniworldmaker/</loc>
+    <loc>https://it-teaching.de/categories/cws/</loc>
     <lastmod>2019-05-04T10:03:35+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -175,7 +225,6 @@
   <url>
     <loc>https://it-teaching.de/categories/tools/</loc>
     <lastmod>2019-04-11T05:47:04+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -184,14 +233,13 @@
   </url>
   
   <url>
-    <loc>https://it-teaching.de/categories/uncategorized/</loc>
-    <lastmod>2019-04-09T11:24:39+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://it-teaching.de/2019/03/24/miniworldmaker/</loc>
+    <lastmod>2019-03-24T14:59:33+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://it-teaching.de/2019/03/24/miniworldmaker/</loc>
-    <lastmod>2019-03-24T14:59:33+00:00</lastmod>
+    <loc>https://it-teaching.de/categories/schule/</loc>
+    <lastmod>2019-02-17T10:24:18+00:00</lastmod>
   </url>
   
   <url>
@@ -200,19 +248,43 @@
   </url>
   
   <url>
+    <loc>https://it-teaching.de/categories/mooc/</loc>
+    <lastmod>2019-02-13T22:55:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://it-teaching.de/categories/online-kurse/</loc>
+    <lastmod>2019-02-13T22:55:31+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://it-teaching.de/2019/02/13/online-kurse/</loc>
+    <lastmod>2019-02-13T22:55:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://it-teaching.de/categories/stepik/</loc>
     <lastmod>2019-02-13T22:55:31+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://it-teaching.de/categories/mathematikunterricht/</loc>
     <lastmod>2019-01-10T16:55:14+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://it-teaching.de/2019/01/10/zehn-mal-die-zehn/</loc>
     <lastmod>2019-01-10T16:55:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://it-teaching.de/categories/allgemeinbildung/</loc>
+    <lastmod>2019-01-08T10:40:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://it-teaching.de/categories/ki/</loc>
+    <lastmod>2019-01-08T10:40:27+00:00</lastmod>
   </url>
   
   <url>
@@ -226,6 +298,11 @@
   </url>
   
   <url>
+    <loc>https://it-teaching.de/categories/fun/</loc>
+    <lastmod>2019-01-06T10:20:30+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://it-teaching.de/2019/01/06/twittersuche-informatiklehrer/</loc>
     <lastmod>2019-01-06T10:20:30+00:00</lastmod>
   </url>
@@ -233,7 +310,6 @@
   <url>
     <loc>https://it-teaching.de/categories/unterricht/</loc>
     <lastmod>2019-01-06T10:20:30+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -243,6 +319,11 @@
   
   <url>
     <loc>https://it-teaching.de/2018/08/27/die-beliebtesten-programmiersprache-2018/</loc>
+    <lastmod>2018-08-27T12:35:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://it-teaching.de/categories/uncategorized/</loc>
     <lastmod>2018-08-27T12:35:00+00:00</lastmod>
   </url>
   
@@ -272,21 +353,6 @@
   </url>
   
   <url>
-    <loc>https://it-teaching.de/datenschutz/</loc>
-    <lastmod>2018-04-09T19:44:15+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://it-teaching.de/en/datenschutz/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://it-teaching.de/datenschutz/"
-                />
-  </url>
-  
-  <url>
     <loc>https://it-teaching.de/2018/04/09/lerntheke-abbildungsmatrizen/</loc>
     <lastmod>2018-04-09T15:56:48+00:00</lastmod>
   </url>
@@ -294,13 +360,11 @@
   <url>
     <loc>https://it-teaching.de/categories/lerntheken/</loc>
     <lastmod>2018-04-09T15:56:48+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://it-teaching.de/categories/material/</loc>
     <lastmod>2018-04-09T15:56:48+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -321,13 +385,11 @@
   <url>
     <loc>https://it-teaching.de/categories/schulalltag/</loc>
     <lastmod>2018-03-21T13:27:48+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://it-teaching.de/categories/technik-im-unterricht/</loc>
     <lastmod>2018-03-21T13:27:48+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -338,7 +400,6 @@
   <url>
     <loc>https://it-teaching.de/categories/christian-wirth-schule/</loc>
     <lastmod>2018-02-25T11:29:55+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -379,7 +440,6 @@
   <url>
     <loc>https://it-teaching.de/categories/schulpolitik/</loc>
     <lastmod>2018-02-21T12:48:03+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -389,6 +449,11 @@
   
   <url>
     <loc>https://it-teaching.de/2017/10/09/informatikunterricht-programmieren-ja-und-wenn-ja-wieviel/</loc>
+    <lastmod>2017-10-09T14:33:17+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://it-teaching.de/categories/programmieren/</loc>
     <lastmod>2017-10-09T14:33:17+00:00</lastmod>
   </url>
   
@@ -405,7 +470,6 @@
   <url>
     <loc>https://it-teaching.de/categories/it-sicherheit/</loc>
     <lastmod>2017-10-09T14:30:27+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

@@ -7,7 +7,9 @@ url: /2019/01/08/kuenstliche-intelligenz/
 custom_total_hits:
   - 000000210
 categories:
-  - Uncategorized
+  - KI
+  - Allgemeinbildung
+  - Informatikunterricht
 
 ---
 [Hier ein interessanter Artikel aus Finnland.][1]

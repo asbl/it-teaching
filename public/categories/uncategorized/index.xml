@@ -6,67 +6,10 @@
     <description>Recent content in Uncategorized on IT-Teaching.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <lastBuildDate>Tue, 09 Apr 2019 11:24:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Aug 2018 12:35:00 +0000</lastBuildDate>
     
 	<atom:link href="https://it-teaching.de/categories/uncategorized/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Mehrwert</title>
-      <link>https://it-teaching.de/2019/04/09/mehrwert/</link>
-      <pubDate>Tue, 09 Apr 2019 11:24:39 +0000</pubDate>
-      
-      <guid>https://it-teaching.de/2019/04/09/mehrwert/</guid>
-      <description>Vorbemerkung:
-Ich glaube auch noch nicht, dass dieser Beitrag das Ende meiner Überlegungen ist &amp;#8211; Dazu sind noch zu viele Gedanken &amp;#8220;im Prozess&amp;#8221;. Der Beitrag ist entstanden aus dem Wunsch heraus, den meiner Meinung nach oft zu einseitigen Überlegungen von Axel Krommer, die bei mir oft gedankliche Widerstände auslösen, eine Position entgegenzustellen.
-Axel Krommer schreibt auf seinem Blog, &amp;#8220;dass der Mehrwert-Begriff unklar, irreführend, bewahrpädagogisch und letztlich überflüssig ist. &amp;#8221; Aus verschiedenen Diskussionen in Twitter, in denen er dieses Argument postete wird klar, dass es auch nicht nur um den Begriff an sich geht, sondern auch die komplette damit verbundene Argumentation.</description>
-    </item>
-    
-    <item>
-      <title>Miniworldmaker</title>
-      <link>https://it-teaching.de/2019/03/24/miniworldmaker/</link>
-      <pubDate>Sun, 24 Mar 2019 14:59:33 +0000</pubDate>
-      
-      <guid>https://it-teaching.de/2019/03/24/miniworldmaker/</guid>
-      <description>Aus Gamegridp wird MiniWorldMaker.
-Das System nähert sich langsam einer stabilen Version an (Zeitplan: Nach den Osterferien soll die API weitgehend nicht mehr verändert werden) und ich bin zunehmend zufriedener mit der Code-Basis.
-So sieht der Code für dieses Beispiel aus:
-from miniworldmaker import * class MyBoard(PixelBoard): def __init__(self): super().__init__(columns=200, rows=200) self.add_image(path=&#34;images/stone.jpg&#34;) self.add_to_board(Robot(), position=(50, 50)) class Robot(Actor): def __init__(self): super().__init__() self.size = (30, 30) self.add_image(&#34;images/robo_green.png&#34;) def act(self): pass def get_event(self, event, data): if event == &#34;</description>
-    </item>
-    
-    <item>
-      <title>Werbung in der Schule</title>
-      <link>https://it-teaching.de/2019/02/17/werbung-in-der-schule/</link>
-      <pubDate>Sun, 17 Feb 2019 10:24:18 +0000</pubDate>
-      
-      <guid>https://it-teaching.de/2019/02/17/werbung-in-der-schule/</guid>
-      <description>Auf Spiegel-Online findet sich ein interessanter Artikel:
-spiegel.de/lebenundlernen/schule/lehrergestaendnis-immer-mehr-werbung-im-klassenzimmer-a-1252900.html&amp;nbsp;…
-Berichtet wird dort darüber, dass z.B. beim Abspielen von youtube-Videos zunehmend ausch Werbung Einzug in unsere Klassenräume einkehrt.
-Meiner Meinung nach ist das ein Thema, dass in der kompletten Debatte zur Digitalisierung vollkommen vernachlässigt wird. Denn auch durch Tabletklassen nimmt die Rolle von Schule als Ort zur Produktwerbung immer weiter zu. Interessant wäre es daher, wenn man mal Langzeitstudien durchführen würde und überprüfen würde, wie viele Tablets auf lange Sicht durch eine Tabletklasse an den Mann gebracht werden.</description>
-    </item>
-    
-    <item>
-      <title>Online-Kurse</title>
-      <link>https://it-teaching.de/2019/02/13/online-kurse/</link>
-      <pubDate>Wed, 13 Feb 2019 22:55:31 +0000</pubDate>
-      
-      <guid>https://it-teaching.de/2019/02/13/online-kurse/</guid>
-      <description>Kleiner Zwischenstand: Mit Hilfe meines Informatik-Kollegen sind jetzt die beiden Online-Kurse für die Oberstufe im vollen Gange.
- Der Python-Kurs für die E-Phase wurde erweitert und mit zahlreichen Aufgaben ergänzt. https://stepik.org/course/50976/ . Neu ist der SQL-Kurs für die Q-Phase: https://stepik.org/course/51161  Bei beiden Kursen öffnen wöchentlich neue Lektionen, bei denen man nach Ablauf der Frist nur noch die halbe Punktzahl für das Lösen der Aufgaben bekommt. Dies hat folgenden Grund:</description>
-    </item>
-    
-    <item>
-      <title>Künstliche Intelligenz</title>
-      <link>https://it-teaching.de/2019/01/08/kuenstliche-intelligenz/</link>
-      <pubDate>Tue, 08 Jan 2019 10:40:27 +0000</pubDate>
-      
-      <guid>https://it-teaching.de/2019/01/08/kuenstliche-intelligenz/</guid>
-      <description>Hier ein interessanter Artikel aus Finnland.
-Das Projekt &amp;#8220;1% AI&amp;#8221; soll landesweit die Bevölkerung trainieren, zu coden und künstliche Intelligenz zu verwenden. Zielgruppe sind dabei insbesondere Nichtinformatiker.
-Derweil hier in Hessen: Das Thema künstliche Intelligenz werden nicht einmal viele Schüler mit Grundkurs Informatik angerissen haben. Die Bedeutung von künstlicher Intelligenz, maschinellem Lernen und Data Science wurde hierzulande noch nichtmal im Ansatz erfasst.
-Aber wer die Welt von morgen verstehen will, der wird um diese Themen nicht herumkommen, #Allgemeinbildung.</description>
-    </item>
     
     <item>
       <title>Die beliebtesten Programmiersprache 2018</title>

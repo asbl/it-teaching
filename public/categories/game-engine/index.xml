@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>game-engine on IT-Teaching.de</title>
+    <link>https://it-teaching.de/categories/game-engine/</link>
+    <description>Recent content in game-engine on IT-Teaching.de</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Wed, 07 Aug 2019 15:50:28 +0200</lastBuildDate>
+    
+	<atom:link href="https://it-teaching.de/categories/game-engine/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Miniworldmakerv1</title>
+      <link>https://it-teaching.de/blog/2019-08.08-mmw_v1/</link>
+      <pubDate>Wed, 07 Aug 2019 15:50:28 +0200</pubDate>
+      
+      <guid>https://it-teaching.de/blog/2019-08.08-mmw_v1/</guid>
+      <description>Der Miniworldmaker hat nun die Version 1.0! (genau genommen inzwischen schon 1.0.3)
+Das bedeutet nicht, dass er bugfrei ist (ich habe tatsächlich noch ein paar kleine Bugs beseitigt) oder man nicht auf ungeahnte Probleme treffen wird - Im nächsten Jahr wird mir noch viel Arbeit bevorstehen. Jetzt sieht aber die API schonmal genauso aus, wie ich sie mir vorstelle.
+Physik Objekte einer Klasse werden ab jetzt dann physikalisch simuliert, wenn man die Methode setup_physics() in der Klasse implementiert.</description>
+    </item>
+    
+  </channel>
+</rss>

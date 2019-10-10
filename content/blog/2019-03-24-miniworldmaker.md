@@ -9,7 +9,6 @@ custom_total_hits:
 categories:
   - Informatikunterricht
   - Python
-  - Uncategorized
 
 ---
 Aus Gamegridp wird [MiniWorldMaker][1].

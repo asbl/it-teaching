@@ -3,7 +3,7 @@ DefaultContentLanguage  = "de"
 title                   = "IT-Teaching.de"
 theme                   = "hugo-future-imperfect-slim"
 preserveTaxonomyNames   = true
-paginate                = 5
+paginate                = 8
 disqusShortname         = ""
 googleAnalytics         = ""
 pluralizeListTitles     = false
@@ -57,7 +57,7 @@ disableLanguages        = [""]
   # required for proper functionality. HTML is supported within the params.
   [params.intro]
     header                = "IT-Teaching.de"
-    paragraph             = ""
+    paragraph             = "Rund um Informatik, Schule und Unterricht"
     rssIntro              = true
     socialIntro           = false
 
@@ -179,7 +179,7 @@ disableLanguages        = [""]
 # and socialAppearAtBottom.
 [social]
   # Coding Communities
-  github                = "pacollins/hugo-future-imperfect-slim"
+  github                = "https://github.com/asbl/"
   gitlab                = ""
   stackoverflow         = "" # User Number
   bitbucket             = ""

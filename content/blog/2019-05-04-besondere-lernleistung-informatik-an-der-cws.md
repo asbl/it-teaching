@@ -10,6 +10,7 @@ categories:
   - Informatikunterricht
   - miniworldmaker
   - Python
+  - cws
 
 ---
 An dieser Stelle kurz für meine eigenen Notizen und für interessierte Schüler die Rahmendaten zu einer besonderern Lernleistung:

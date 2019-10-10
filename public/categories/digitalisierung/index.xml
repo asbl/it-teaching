@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digitalisierung on IT-Teaching.de</title>
+    <link>https://it-teaching.de/categories/digitalisierung/</link>
+    <description>Recent content in Digitalisierung on IT-Teaching.de</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Sun, 22 Sep 2019 15:50:28 +0200</lastBuildDate>
+    
+	<atom:link href="https://it-teaching.de/categories/digitalisierung/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Datenschutz und Datenmissbrauch</title>
+      <link>https://it-teaching.de/blog/2019-09-22-datenschutzunddatenmissbrauch/</link>
+      <pubDate>Sun, 22 Sep 2019 15:50:28 +0200</pubDate>
+      
+      <guid>https://it-teaching.de/blog/2019-09-22-datenschutzunddatenmissbrauch/</guid>
+      <description>In letzter Zeit wird in Twitter viel über Datenschutz, Datensicherheit und Datenmissbrauch. Dabei werden verschiedene Extrempositionen aufgemacht, die ich problematisch halte.
+Schwierig ist insbesondere, wenn Extrempositionen gegeneinander ausgespielt werden, wie z.B. hier. Auf der einen Seite die &amp;ldquo;sichere Cloud&amp;rdquo;, auf der anderen Seite der Schulserver im Keller.
+Die erste Gefahr für Sicherheit ist natürlich immer der Faktor Mensch - so weit stimme ich der Aussage zu und die ist in IT-Kreisen auch absolut unstrittig.</description>
+    </item>
+    
+    <item>
+      <title>Mehrwert</title>
+      <link>https://it-teaching.de/2019/04/09/mehrwert/</link>
+      <pubDate>Tue, 09 Apr 2019 11:24:39 +0000</pubDate>
+      
+      <guid>https://it-teaching.de/2019/04/09/mehrwert/</guid>
+      <description>Vorbemerkung:
+Ich glaube auch noch nicht, dass dieser Beitrag das Ende meiner Überlegungen ist &amp;#8211; Dazu sind noch zu viele Gedanken &amp;#8220;im Prozess&amp;#8221;. Der Beitrag ist entstanden aus dem Wunsch heraus, den meiner Meinung nach oft zu einseitigen Überlegungen von Axel Krommer, die bei mir oft gedankliche Widerstände auslösen, eine Position entgegenzustellen.
+Axel Krommer schreibt auf seinem Blog, &amp;#8220;dass der Mehrwert-Begriff unklar, irreführend, bewahrpädagogisch und letztlich überflüssig ist. &amp;#8221; Aus verschiedenen Diskussionen in Twitter, in denen er dieses Argument postete wird klar, dass es auch nicht nur um den Begriff an sich geht, sondern auch die komplette damit verbundene Argumentation.</description>
+    </item>
+    
+    <item>
+      <title>Werbung in der Schule</title>
+      <link>https://it-teaching.de/2019/02/17/werbung-in-der-schule/</link>
+      <pubDate>Sun, 17 Feb 2019 10:24:18 +0000</pubDate>
+      
+      <guid>https://it-teaching.de/2019/02/17/werbung-in-der-schule/</guid>
+      <description>Auf Spiegel-Online findet sich ein interessanter Artikel:
+spiegel.de/lebenundlernen/schule/lehrergestaendnis-immer-mehr-werbung-im-klassenzimmer-a-1252900.html&amp;nbsp;…
+Berichtet wird dort darüber, dass z.B. beim Abspielen von youtube-Videos zunehmend ausch Werbung Einzug in unsere Klassenräume einkehrt.
+Meiner Meinung nach ist das ein Thema, dass in der kompletten Debatte zur Digitalisierung vollkommen vernachlässigt wird. Denn auch durch Tabletklassen nimmt die Rolle von Schule als Ort zur Produktwerbung immer weiter zu. Interessant wäre es daher, wenn man mal Langzeitstudien durchführen würde und überprüfen würde, wie viele Tablets auf lange Sicht durch eine Tabletklasse an den Mann gebracht werden.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -7,7 +7,8 @@ url: /2019/02/17/werbung-in-der-schule/
 custom_total_hits:
   - 000000163
 categories:
-  - Uncategorized
+  - Schule
+  - Digitalisierung
 
 ---
  

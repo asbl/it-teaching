@@ -6,10 +6,20 @@
     <description>Recent content in Informatikunterricht on IT-Teaching.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <lastBuildDate>Mon, 10 Jun 2019 20:11:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Oct 2019 08:50:28 +0200</lastBuildDate>
     
 	<atom:link href="https://it-teaching.de/categories/informatikunterricht/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Modellieren im Informatikunterricht - Über Begriffe und Fehlvorstellungen</title>
+      <link>https://it-teaching.de/blog/2019-09-22-modellieren-im-informatikunterricht/</link>
+      <pubDate>Thu, 10 Oct 2019 08:50:28 +0200</pubDate>
+      
+      <guid>https://it-teaching.de/blog/2019-09-22-modellieren-im-informatikunterricht/</guid>
+      <description>Entwurf vom 07.10.2019 Disclaimer: Der Artikel ist noch nicht fertig. Beim schreiben des Artikels ist mir aufgefallen, dass der Sachverhalt mit jedem neuen Gedanken, den ich bedacht habe, immer komplexer wurde. Da meine Zeit durch Umstände in der realen Welt beschränkt ist, schaffe ich es in den verbleibenden Tagen der Herbstferien nicht den Artikel in dem Umfang und in der Qualität aufzuschreiben, die ich mir wünschen würde.
+Ich stelle daher den Artikel in der vorliegenden Fassung als Diskussionsgrundlage zur Verfügung, um meine Ideen auf den Prüfstand zu stellen und um möglicherweise weitere Ideen zu erhalten, wie ich den weiteren Bearbeitungsprozess (Winterferien?</description>
+    </item>
     
     <item>
       <title>Miniworldmaker – Physik Engine</title>
@@ -63,6 +73,18 @@ Fazit: Die Anwendung lässt sich sehr intuitiv nutzen. Insbesondere ist es wirkl
 Das System nähert sich langsam einer stabilen Version an (Zeitplan: Nach den Osterferien soll die API weitgehend nicht mehr verändert werden) und ich bin zunehmend zufriedener mit der Code-Basis.
 So sieht der Code für dieses Beispiel aus:
 from miniworldmaker import * class MyBoard(PixelBoard): def __init__(self): super().__init__(columns=200, rows=200) self.add_image(path=&#34;images/stone.jpg&#34;) self.add_to_board(Robot(), position=(50, 50)) class Robot(Actor): def __init__(self): super().__init__() self.size = (30, 30) self.add_image(&#34;images/robo_green.png&#34;) def act(self): pass def get_event(self, event, data): if event == &#34;</description>
+    </item>
+    
+    <item>
+      <title>Künstliche Intelligenz</title>
+      <link>https://it-teaching.de/2019/01/08/kuenstliche-intelligenz/</link>
+      <pubDate>Tue, 08 Jan 2019 10:40:27 +0000</pubDate>
+      
+      <guid>https://it-teaching.de/2019/01/08/kuenstliche-intelligenz/</guid>
+      <description>Hier ein interessanter Artikel aus Finnland.
+Das Projekt &amp;#8220;1% AI&amp;#8221; soll landesweit die Bevölkerung trainieren, zu coden und künstliche Intelligenz zu verwenden. Zielgruppe sind dabei insbesondere Nichtinformatiker.
+Derweil hier in Hessen: Das Thema künstliche Intelligenz werden nicht einmal viele Schüler mit Grundkurs Informatik angerissen haben. Die Bedeutung von künstlicher Intelligenz, maschinellem Lernen und Data Science wurde hierzulande noch nichtmal im Ansatz erfasst.
+Aber wer die Welt von morgen verstehen will, der wird um diese Themen nicht herumkommen, #Allgemeinbildung.</description>
     </item>
     
     <item>
@@ -143,7 +165,7 @@ JAVA ist da schon ein anderes Kaliber.</description>
       <pubDate>Mon, 09 Oct 2017 14:33:17 +0000</pubDate>
       
       <guid>https://it-teaching.de/2017/10/09/informatikunterricht-programmieren-ja-und-wenn-ja-wieviel/</guid>
-      <description>Im Informatikunterricht der Oberstufe (Hessen) ist es so, dass sich beim Programmieren die &amp;#8220;Spreu vom Weizen trennt&amp;#8221;: Wer gerne programmiert und dies auch in seiner Freizeit tut, der ist auch im Unterricht erfolgreich. Wer nur die 2-3 Stunden gedanklich mit dem Programmieren auseinandersetzt und zu Hause nicht selbst programmiert, der wird im Laufe der Oberstufe nur Frustration sammeln. Dies ist deshalb schade, weil das Fach Informatik noch so viel mehr bietet als das.</description>
+      <description>Im Informatikunterricht der Oberstufe (Hessen) ist es so, dass sich beim Programmieren die &amp;ldquo;Spreu vom Weizen trennt&amp;rdquo;: Wer gerne programmiert und dies auch in seiner Freizeit tut, der ist auch im Unterricht erfolgreich. Wer nur die 2-3 Stunden gedanklich mit dem Programmieren auseinandersetzt und zu Hause nicht selbst programmiert, der wird im Laufe der Oberstufe nur Frustration sammeln. Dies ist deshalb schade, weil das Fach Informatik noch so viel mehr bietet als &amp;ldquo;nur&amp;rdquo; Programmieren.</description>
     </item>
     
     <item>
@@ -154,6 +176,15 @@ JAVA ist da schon ein anderes Kaliber.</description>
       <guid>https://it-teaching.de/2017/10/09/blender-projektwoche/</guid>
       <description>Für ein gemeinsames Projekt bei der kommenden Projektwoche arbeite ich mich gerade wieder in Blender ein.
 Ich habe Blender zweimal im Informatikunterricht angeboten und mich selbst mühsam eingearbeitet &amp;#8211; Im Studium habe ich zwar einen Raytracer programmiert, aber nicht mit einem Modellierungstool gearbeitet. Jetzt habe ich das Glück mit einem erfahrenen Kollegen zusammenzuarbeiten, der in seiner Freizeit mit Blender modelliert. Ich freue mich schon auf alles, was ich in den kommenden Tagen lernen kann, so dass ich die Kenntnisse das nächste mal in einen WU-Informatik einbauen kann.</description>
+    </item>
+    
+    <item>
+      <title>Herkunft Biberwettbewerb</title>
+      <link>https://it-teaching.de/2017/10/09/herkunft-biberwettbewerb/</link>
+      <pubDate>Mon, 09 Oct 2017 14:27:10 +0000</pubDate>
+      
+      <guid>https://it-teaching.de/2017/10/09/herkunft-biberwettbewerb/</guid>
+      <description>Am Montag fand die Preisverleihung unserer Schüler statt, auch meiner E-Phase die am Informatik-Biber teilgenommen hatte. Leider war dies die einzige Klasse, da der Wettbewerb zeitgleich mit der Geburt unseres Kindes fiel, konnte ich nicht koordinieren, dass wir noch mit mehr Klassen teilnehmen, obwohl dieser gerade für jüngere Schüler sehr gut geeignet ist. Nächstes Jahr möchte ich auf jeden Fall mit mehr Klassen teilnehmen und auch mit einigen Kursen am BWInf Wettbewerb teilnehmen.</description>
     </item>
     
     <item>

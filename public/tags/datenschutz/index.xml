@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Datenschutz on IT-Teaching.de</title>
+    <link>https://it-teaching.de/tags/datenschutz/</link>
+    <description>Recent content in Datenschutz on IT-Teaching.de</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Sun, 22 Sep 2019 15:50:28 +0200</lastBuildDate>
+    
+	<atom:link href="https://it-teaching.de/tags/datenschutz/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Datenschutz und Datenmissbrauch</title>
+      <link>https://it-teaching.de/blog/2019-09-22-datenschutzunddatenmissbrauch/</link>
+      <pubDate>Sun, 22 Sep 2019 15:50:28 +0200</pubDate>
+      
+      <guid>https://it-teaching.de/blog/2019-09-22-datenschutzunddatenmissbrauch/</guid>
+      <description>In letzter Zeit wird in Twitter viel über Datenschutz, Datensicherheit und Datenmissbrauch. Dabei werden verschiedene Extrempositionen aufgemacht, die ich problematisch halte.
+Schwierig ist insbesondere, wenn Extrempositionen gegeneinander ausgespielt werden, wie z.B. hier. Auf der einen Seite die &amp;ldquo;sichere Cloud&amp;rdquo;, auf der anderen Seite der Schulserver im Keller.
+Die erste Gefahr für Sicherheit ist natürlich immer der Faktor Mensch - so weit stimme ich der Aussage zu und die ist in IT-Kreisen auch absolut unstrittig.</description>
+    </item>
+    
+  </channel>
+</rss>

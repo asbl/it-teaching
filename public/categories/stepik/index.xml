@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stepik on IT-Teaching.de</title>
+    <link>https://it-teaching.de/categories/stepik/</link>
+    <description>Recent content in Stepik on IT-Teaching.de</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Wed, 13 Feb 2019 22:55:31 +0000</lastBuildDate>
+    
+	<atom:link href="https://it-teaching.de/categories/stepik/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Online-Kurse</title>
+      <link>https://it-teaching.de/2019/02/13/online-kurse/</link>
+      <pubDate>Wed, 13 Feb 2019 22:55:31 +0000</pubDate>
+      
+      <guid>https://it-teaching.de/2019/02/13/online-kurse/</guid>
+      <description>Kleiner Zwischenstand: Mit Hilfe meines Informatik-Kollegen sind jetzt die beiden Online-Kurse für die Oberstufe im vollen Gange.
+ Der Python-Kurs für die E-Phase wurde erweitert und mit zahlreichen Aufgaben ergänzt. https://stepik.org/course/50976/ . Neu ist der SQL-Kurs für die Q-Phase: https://stepik.org/course/51161  Bei beiden Kursen öffnen wöchentlich neue Lektionen, bei denen man nach Ablauf der Frist nur noch die halbe Punktzahl für das Lösen der Aufgaben bekommt. Dies hat folgenden Grund:</description>
+    </item>
+    
+  </channel>
+</rss>

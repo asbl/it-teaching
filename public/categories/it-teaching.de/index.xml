@@ -13,10 +13,10 @@
     
     <item>
       <title>Server Umzug auf Hugo</title>
-      <link>https://it-teaching.de/blog/umzug-auf-hugo2/</link>
+      <link>https://it-teaching.de/blog/2019-08-07-umzug-auf-hugo/</link>
       <pubDate>Wed, 07 Aug 2019 15:10:35 +0200</pubDate>
       
-      <guid>https://it-teaching.de/blog/umzug-auf-hugo2/</guid>
+      <guid>https://it-teaching.de/blog/2019-08-07-umzug-auf-hugo/</guid>
       <description>Nach einer schönen Diskussion mit Armin Harnisch habe ich beschlossen, dieses Blog auf Hugo umzustellen.
 Wer es nicht kennt: Hugo ist ein Tool um statische Webseiten zu generieren. Online läuft dann kein php-Skript mehr im Hintergrund. Kein php-Skript bedeutet: Keine Angriffsmöglichkeit für Hacker, keine Berechnungen im Hintergrund, die die Seite ausbremsen.
 Allerdings muss ich mich selbst ein wenig umgewöhnen, meine Seiten in Markdown-Textdateien zu schreiben und tatsächlich hat auch beim Umzug nicht alles funktioniert wie gewünscht - Es fehlen alte Bilder und Videos.</description>

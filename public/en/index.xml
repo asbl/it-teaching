@@ -23,10 +23,10 @@ Projekte:  Miniworldmaker  Kurse:  Python Kurs 2019 SQL Kurs 2019 Algorithmen un
     
     <item>
       <title>Miniworldmakerv1</title>
-      <link>https://it-teaching.de/en/blog/mmw_v1/</link>
+      <link>https://it-teaching.de/en/blog/2019-08-08-mmw_v1/</link>
       <pubDate>Wed, 07 Aug 2019 15:50:28 +0200</pubDate>
       
-      <guid>https://it-teaching.de/en/blog/mmw_v1/</guid>
+      <guid>https://it-teaching.de/en/blog/2019-08-08-mmw_v1/</guid>
       <description>The Miniworldmaker now has version 1.0! (strictly speaking already 1.0.3)
 That doesn&amp;rsquo;t mean that it&amp;rsquo;s bug-free (I&amp;rsquo;ve actually fixed a few minor bugs) or you won&amp;rsquo;t encounter unexpected problems - I&amp;rsquo;ll have a lot of work to do next year. But now the API looks exactly the way I want it to.
 Physics Objects of a class are now physically simulated if the method setup_physics() is implemented in the class.</description>
@@ -50,17 +50,8 @@ Physics Objects of a class are now physically simulated if the method setup_phys
       <description>Andreas Siebel
 Usinger Street 1
 61273 Wehrheim, Germany
-Treated by:
-Andreas Siebel
-**Contact.
-E-mail: a.siebel@posteo.de
-Responsible for the content according to § 55 Abs. 2 RStV:
-Andreas Siebel
-Usinger Street 1
-61273 Wehrheim, Germany
-**Disclaimer.
-Liability for content
-The contents of our pages were created with the greatest care. For the correctness, completeness and topicality of the contents we can take over however no guarantee. As a service provider we are responsible according to § 7 Abs.</description>
+Contact
+E-mail: andreas.siebel@it-teaching.de</description>
     </item>
     
   </channel>

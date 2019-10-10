@@ -6,17 +6,53 @@
     <description>Recent content in Tags on IT-Teaching.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <lastBuildDate>Mon, 10 Jun 2019 20:11:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Oct 2019 08:50:28 +0200</lastBuildDate>
     
 	<atom:link href="https://it-teaching.de/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Python</title>
-      <link>https://it-teaching.de/tags/python/</link>
-      <pubDate>Mon, 10 Jun 2019 20:11:54 +0000</pubDate>
+      <title>Informatikunterricht</title>
+      <link>https://it-teaching.de/tags/informatikunterricht/</link>
+      <pubDate>Thu, 10 Oct 2019 08:50:28 +0200</pubDate>
       
-      <guid>https://it-teaching.de/tags/python/</guid>
+      <guid>https://it-teaching.de/tags/informatikunterricht/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theorie</title>
+      <link>https://it-teaching.de/tags/theorie/</link>
+      <pubDate>Thu, 10 Oct 2019 08:50:28 +0200</pubDate>
+      
+      <guid>https://it-teaching.de/tags/theorie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Datenmissbrauch</title>
+      <link>https://it-teaching.de/tags/datenmissbrauch/</link>
+      <pubDate>Sun, 22 Sep 2019 15:50:28 +0200</pubDate>
+      
+      <guid>https://it-teaching.de/tags/datenmissbrauch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Datenschutz</title>
+      <link>https://it-teaching.de/tags/datenschutz/</link>
+      <pubDate>Sun, 22 Sep 2019 15:50:28 +0200</pubDate>
+      
+      <guid>https://it-teaching.de/tags/datenschutz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digitalisierung</title>
+      <link>https://it-teaching.de/tags/digitalisierung/</link>
+      <pubDate>Sun, 22 Sep 2019 15:50:28 +0200</pubDate>
+      
+      <guid>https://it-teaching.de/tags/digitalisierung/</guid>
       <description></description>
     </item>
     
@@ -26,6 +62,15 @@
       <pubDate>Mon, 10 Jun 2019 20:11:54 +0000</pubDate>
       
       <guid>https://it-teaching.de/tags/miniworldmaker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://it-teaching.de/tags/python/</link>
+      <pubDate>Mon, 10 Jun 2019 20:11:54 +0000</pubDate>
+      
+      <guid>https://it-teaching.de/tags/python/</guid>
       <description></description>
     </item>
     

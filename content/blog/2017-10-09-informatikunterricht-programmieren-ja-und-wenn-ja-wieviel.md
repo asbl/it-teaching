@@ -8,17 +8,16 @@ custom_total_hits:
   - 000000512
 categories:
   - Informatikunterricht
+  - Programmieren
 
 ---
-Im Informatikunterricht der Oberstufe (Hessen) ist es so, dass sich beim Programmieren die &#8220;Spreu vom Weizen trennt&#8221;: Wer gerne programmiert und dies auch in seiner Freizeit tut, der ist auch im Unterricht erfolgreich. Wer nur die 2-3 Stunden gedanklich mit dem Programmieren auseinandersetzt und zu Hause nicht selbst programmiert, der wird im Laufe der Oberstufe nur Frustration sammeln. Dies ist deshalb schade, weil das Fach Informatik noch so viel mehr bietet als das. Entweder man kann beim Programmieren in die Tiefe gehen und sich immer mehr Techniken aneignen, um Probleme zu lösen, oder man kann die Breite des Faches entdecken und z.B. die unterschiedlichsten Algorithmen entdecken um eine riesige Vielzahl von Problemstellungen kennenzulernen. 
+Im Informatikunterricht der Oberstufe (Hessen) ist es so, dass sich beim Programmieren die "Spreu vom Weizen trennt": Wer gerne programmiert und dies auch in seiner Freizeit tut, der ist auch im Unterricht erfolgreich. Wer nur die 2-3 Stunden gedanklich mit dem Programmieren auseinandersetzt und zu Hause nicht selbst programmiert, der wird im Laufe der Oberstufe nur Frustration sammeln. Dies ist deshalb schade, weil das Fach Informatik noch so viel mehr bietet als "nur" Programmieren. Entweder man kann beim Programmieren in die Tiefe gehen und sich immer mehr Modellierungstechniken aneignen, um komplexe Probleme zu lösen, oder man kann die Breite des Faches entdecken und z.B. die unterschiedlichsten Algorithmen entdecken um eine riesige Vielzahl von Problemstellungen kennenzulernen. 
 
-So habe ich es schon erlebt, dass ein Kurs, der vorher beim Programmieren immer gemurrt hat plötzlich aufblühte, als es um die theoretische Analyse von Algorithmen ging.
-
-Dabei kam mir zwischenzeitlich der Gedanke, dass man sogar fast komplett auf das Programmieren verzichten könnte. Aber ist dies tatsächlich eine Option?
+So habe ich es schon erlebt, dass ein Kurs, der vorher beim Programmieren immer gemurrt hat plötzlich aufblühte, als es um die theoretische Analyse von Algorithmen ging. Dabei kam mir zwischenzeitlich der Gedanke, dass man sogar fast komplett auf das Programmieren verzichten könnte. Aber ist dies tatsächlich eine Option?
 
 Die Informatik ist ein Fach, dass eine unglaubliche Bandbreite an Themen und Gebieten vorzuweisen hat. Wenn man Informatik unterrichtet muss man sich daher fragen: Was ist im Sinne der Vorbereitung auf das Studium und zur Selbstbewussten Teilnahme an einer digitalen Gesellschaft wichtiger? Den Schülern gute Programmierkenntnisse beibringen oder die ganze Bandbreite des Faches Informatik aufzeigen, um die Vielfältigkeit dieser Wissenschaft zu vermitteln?
 
-Könnte man eines der Ziele des Informatikunterrichtes, Technik zu entmystifizieren nicht auch ohne Programmierung erreichen? Dann würde man viel Zeit gewinnen um Themen zu bearbeiten, die massiv zur Allgemeinbildung beitragen und die bis jetzt nur am Rande oder sogar gar nicht im Informatikunterricht in Hessen thematisiert werden, z.B. (Public Key-) Kryptographie, Data Mining, Machine Learning, Künstliche Intelligenz, Graphen, Bildverarbeitung, &#8230;.
+Könnte man eines der Ziele des Informatikunterrichtes, Technik zu entmystifizieren nicht auch ohne Programmierung erreichen? Dann würde man viel Zeit gewinnen um Themen zu bearbeiten, die massiv zur Allgemeinbildung beitragen und die bis jetzt nur am Rande oder sogar gar nicht im Informatikunterricht in Hessen thematisiert werden, z.B. (Public Key-) Kryptographie, Data Mining, Machine Learning, Künstliche Intelligenz, Graphen, Bildverarbeitung.
 
 ## Ist Programmierung nötig?
 
@@ -32,21 +31,29 @@ Es gibt (mindestens) zwei Begründungsansätze für diese Antwort:
 
 Programmieren ist ein Hilfsmittel um Probleme in zahlreichen Anwendungsgebieten zu lösen. Durch das Programmieren auch unser abstraktes Denken geschult, man lernt komplexe Situationen zu modellieren, Probleme zu zerlegen und in eine für einen Computer verständliche Sprache zu übersetzen. 
 
-Das Programmieren ist eine wichtige Säule, um Computational Thinking, d.h algorithmisches Problemlösen zu fördern. Dies ist eine wichtige Fähigkeit, die die Schüler später in viele Awendungsbereiche auch außerhalb der Informatik mitnehmen können, da die Schnittmenge vieler Wissenschaften zur Informatik immer größer wird. 
+Das Programmieren ist eine wichtige Säule, um "Computational Thinking" (im deutschen algorithmisches Denken, Modellierung und Problemlösen) zu fördern. Dies ist eine wichtige Fähigkeit, die die Schüler später in viele Awendungsbereiche auch außerhalb der Informatik mitnehmen können, da die Schnittmenge vieler Wissenschaften zur Informatik immer größer wird. 
 
-Vor allem Datenanalyse und Verarbeitung sind Fähigkeiten, die man später in fast jedem Anwendungsgebiet gut gebrauchen kann. Man könnte daher sogar so weit gehen und fragen, ob Programmieren nicht sogar eine Fähigkeit ist, die jeder Schüler mit allgemeiner Hochschulreife zu einem gewissen Level beherrschen sollte&#8230; 
+Vor allem Datenanalyse und Verarbeitung sind Fähigkeiten, die man später in fast jedem Anwendungsgebiet gut gebrauchen kann. Man könnte daher sogar so weit gehen und fragen, ob Programmieren nicht sogar eine Fähigkeit ist, die jeder Schüler mit allgemeiner Hochschulreife zu einem gewissen Level beherrschen sollte.
 
 **Zweitens: Man wird zum Tool Creator**
 
-Gerade im Zuge der Digitalisierung werden viele Schüler zu &#8220;Tool Usern&#8221; erzogen. Zahlreiche Tools werden benutzt und man kann sich nur im Rahmen der Möglichkeiten bewegen, die einem die Besitzer dieser Tools zuschreiben.
+Gerade im Zuge der Digitalisierung werden viele Schüler zu "Tool Usern" erzogen. Zahlreiche Tools werden benutzt und man kann sich nur im Rahmen der Möglichkeiten bewegen, die einem die Besitzer dieser Tools zuschreiben. Man lebt innerhalb der Ökosysteme von Apple, Microsoft & co und erlebt die digitalisierte Welt gefiltert durch die Möglichkeiten, die diese Ökosysteme und Apps in diesen Ökosystemen mitbringen.
 
 Nur durch Programmieren kann man den Weg vom Tool User zum Tool Creator gehen, d.h. man kann eigene Tools erschaffen. Auf diese Weise werden die Möglichkeiten, die einem Tools bieten erweitert um theoretisch alles, was die eigene Vorstellung und Phantasie zulässt.
 
-## Wie viel Programmierung ist nötig?
+**Drittens: Programmieren hilft dabei die (informatische) Welt zu verstehen**
 
-Die Frage ist schon sehr viel schwieriger zu beantworten: Wie gut sollte ein Schüler am Ende seiner Schullaufbahn programmieren können? 
+Seit der Softwarekrise in den 70er Jahren hat sich verändert, was man unter dem Begriff Programmieren versteht. Programmieren bedeutet zunehmend "komplexe" Probleme im Team lösen. Natürlicher Bestandteil dieser Problemlöseprozesse sind Modellierungstechniken, aber auch Strukturen und Haltungen (Stichwort "Agilität"). 
 
-Ich finde die Frage kann man so beantworten: Ein Schüler sollte so viel programmieren können, dass er später in der Lage ist eigenständig alle Arten von Problemen mit der verwendeten Programmiersprache zu lösen. Dafür reicht ein gutes Verständnis von wenigen Konzepten aus: 
+Man könnte soweit gehen und sagen: Der Kern des informatischen Problemlösens ist das Lösen von wirklich komplexen Problemen. Komplexe Softwaresysteme haben eine so umfangreiche Code-Basis, dass kein Mensch gleichzeitig das komplette System bis in das Detail hinein überblicken und verstehen kann. Nichts was der Mensch geschaffen hat ist so komplex wie moderne Software. Programmieren ist demnach die Tätigkeit. 
+
+Schüler werden diese Komplexität natürlich nicht selbst erleben können. Aber beim Programmieren können zahlreiche Aspekte erfahren werden,die das Grundproblem -den Umgang mit Komplexität- und Lösungsstrategien erfahrbar machen: Modellieren, Agile Entwicklung, Verwendung von Bibliotheken, Arbeiten mit Schnittstellen und Dokumentationen und vieles mehr.
+
+## Wie gut sollte ein Schüler am Ende seiner Schullaufbahn programmieren können? 
+
+Die Frage ist schon sehr viel schwieriger zu beantworten: 
+
+Ich finde die Frage kann man so beantworten: Ein Schüler sollte so viel programmieren können, dass er später in der Lage ist eigenständig alle Arten kleinere Arten von Problemen lösen kann und gleichzeitig ein Verständnis dafür entwickelt, wie "Programmieren im Großen" funktioniert. 
 
   * Schleifen
   * Verzweigungen
@@ -56,16 +63,17 @@ Ich finde die Frage kann man so beantworten: Ein Schüler sollte so viel program
   * Objektorientiertes Programmieren
   * Aufwandsabschätzung bei Algorithmen
 
-Wer diese Konzepte beherrscht, der kann prinzipiell fast jedes Problem lösen, wenn er sich genug einarbeitet. 
+Wichtiger als das erstellen von komplexen Informatiksystemen ist meiner Meinung nach das Umgehen mit Daten. Schüler sollten in der Lage sein, Daten aus Dateien (z.B. csv Dateien) und Datenbanken auszulesen und in irgendeiner Form zu verarbeiten. Wenn man die oben genannten Grundtechniken beherrscht sind damit die Möglichkeiten prinzipiell unbeschränkt.
 
-Die Programmiersprache spielt keine große Rolle, auch nicht über welchen Zugang man die Fähigkeiten erlernt hat. Allerdings halte ich es für wichtig, dass man eine Programiersprache erlernt, die über eine umfangreiche Bibliothek besitzt, d.h. man sollte nicht bei Miniwelten wie Logo, Kara oder Scratch stehenbleiben.
-
-_**Exkurs: Ist Objektorientierung notwendig?**_  
+### Exkurs: Ist Objektorientierung notwendig
   
-_Ich habe übrigens lange überlegt, ob ich die Objektorientierung in die Liste mit aufnehmen soll: Prinzipiell kann man in der richtigen Sprache guten Code schreiben, ohne objektorientiert zu programmieren. Erst wenn man in größeren Teams arbeitet und gezwungen ist Schnittstellen zu definieren, nimmt die Bedeutung dieses Paradigmas zu._   
-_Objektorientierung ist aber auch ein schweres Konzept: Wer in der Schule gelernt hat ein Klassendiagramm für eine Anwendungssituation zu modellieren, der ist noch weit davon entfernt gut objektorientiert zu programmieren. Es gibt hier so viele Irrwege bei denen man sich verrennen kann und der Unterricht kann es kaum leisten, Programmierer auszubilden, die gut objektorientiert programmieren können. Insbesondere ist es hier notwendig an wirklich großen Projekten zu arbeiten und Best Practice Ansätze (Entwurfsmuster) zu studieren._  
-_Auf der anderen Seite ist ein grundlegendes Verständnis von Objektorientierung notwendig um Lösungsansätze zu verstehen und oft auch Bibliotheken in der Programmiersprache zu verwenden. &nbsp;_  
-_Meiner Meinung ist es daher ausreichend, wenn der Unterricht sich hier auf die Grundlagen der objektorientierten Programmierung lehrt und die Tiefen der objektorientierten Modellierung nur dann erkundet, wenn ausreichend Zeit dafür gegeben ist._ 
+_Ich habe übrigens lange überlegt, ob ich die Objektorientierung in die Liste mit aufnehmen soll: Prinzipiell kann man in der richtigen Sprache guten Code schreiben, ohne objektorientiert zu programmieren. Erst wenn man in größeren Teams arbeitet und gezwungen ist Schnittstellen zu definieren, nimmt die Bedeutung dieses Paradigmas zu._  
+
+  * _Objektorientierung ist ein schweres Konzept: Wer in der Schule gelernt hat ein Klassendiagramm für eine Anwendungssituation zu modellieren, der ist noch weit davon entfernt gut objektorientiert zu programmieren. Es gibt hier so viele Irrwege bei denen man sich verrennen kann und der Unterricht kann es kaum leisten, Programmierer auszubilden, die gut objektorientiert programmieren können. Insbesondere ist es hier notwendig an wirklich großen Projekten zu arbeiten und Best Practice Ansätze (Entwurfsmuster) zu studieren._  
+  
+  * _Auf der anderen Seite ist ein grundlegendes Verständnis von Objektorientierung notwendig um Lösungsansätze zu verstehen und oft auch Bibliotheken in der Programmiersprache zu verwenden. &nbsp;_  
+
+_Meiner Meinung ist es daher ausreichend, wenn der Unterricht sich hier auf die Grundlagen der objektorientierten Programmierung lehrt und die Tiefen der objektorientierten Modellierung nur dann erkundet, wenn ausreichend Zeit dafür gegeben ist. Wichtig ist vor allem Objektorientierung nicht als DIE Lösung für informatische Probleme darzustellen, sondern auch andere Wege Probleme zu strukturieren, daneben zu stellen._ 
 
 ## Wie sollte Programmierung gelehrt werden?
 

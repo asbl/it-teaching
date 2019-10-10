@@ -8,6 +8,7 @@ custom_total_hits:
   - 000000216
 categories:
   - Schulalltag
+  - Informatikunterricht
 
 ---
 Am Montag fand die Preisverleihung unserer Schüler statt, auch meiner E-Phase die am Informatik-Biber teilgenommen hatte. Leider war dies die einzige Klasse, da der Wettbewerb zeitgleich mit der Geburt unseres Kindes fiel, konnte ich nicht koordinieren, dass wir noch mit mehr Klassen teilnehmen, obwohl dieser gerade für jüngere Schüler sehr gut geeignet ist. Nächstes Jahr möchte ich auf jeden Fall mit mehr Klassen teilnehmen und auch mit einigen Kursen am BWInf Wettbewerb teilnehmen.

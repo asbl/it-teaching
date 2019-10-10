@@ -6,10 +6,21 @@
     <description>Recent content in miniworldmaker on IT-Teaching.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <lastBuildDate>Sat, 04 May 2019 10:03:35 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Aug 2019 15:50:28 +0200</lastBuildDate>
     
 	<atom:link href="https://it-teaching.de/categories/miniworldmaker/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Miniworldmakerv1</title>
+      <link>https://it-teaching.de/blog/2019-08.08-mmw_v1/</link>
+      <pubDate>Wed, 07 Aug 2019 15:50:28 +0200</pubDate>
+      
+      <guid>https://it-teaching.de/blog/2019-08.08-mmw_v1/</guid>
+      <description>Der Miniworldmaker hat nun die Version 1.0! (genau genommen inzwischen schon 1.0.3)
+Das bedeutet nicht, dass er bugfrei ist (ich habe tatsächlich noch ein paar kleine Bugs beseitigt) oder man nicht auf ungeahnte Probleme treffen wird - Im nächsten Jahr wird mir noch viel Arbeit bevorstehen. Jetzt sieht aber die API schonmal genauso aus, wie ich sie mir vorstelle.
+Physik Objekte einer Klasse werden ab jetzt dann physikalisch simuliert, wenn man die Methode setup_physics() in der Klasse implementiert.</description>
+    </item>
     
     <item>
       <title>Besondere Lernleistung Informatik an der CWS</title>

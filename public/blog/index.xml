@@ -6,17 +6,38 @@
     <description>Recent content in Blog on IT-Teaching.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <lastBuildDate>Wed, 07 Aug 2019 15:50:28 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 10 Oct 2019 08:50:28 +0200</lastBuildDate>
     
 	<atom:link href="https://it-teaching.de/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Modellieren im Informatikunterricht - Über Begriffe und Fehlvorstellungen</title>
+      <link>https://it-teaching.de/blog/2019-09-22-modellieren-im-informatikunterricht/</link>
+      <pubDate>Thu, 10 Oct 2019 08:50:28 +0200</pubDate>
+      
+      <guid>https://it-teaching.de/blog/2019-09-22-modellieren-im-informatikunterricht/</guid>
+      <description>Entwurf vom 07.10.2019 Disclaimer: Der Artikel ist noch nicht fertig. Beim schreiben des Artikels ist mir aufgefallen, dass der Sachverhalt mit jedem neuen Gedanken, den ich bedacht habe, immer komplexer wurde. Da meine Zeit durch Umstände in der realen Welt beschränkt ist, schaffe ich es in den verbleibenden Tagen der Herbstferien nicht den Artikel in dem Umfang und in der Qualität aufzuschreiben, die ich mir wünschen würde.
+Ich stelle daher den Artikel in der vorliegenden Fassung als Diskussionsgrundlage zur Verfügung, um meine Ideen auf den Prüfstand zu stellen und um möglicherweise weitere Ideen zu erhalten, wie ich den weiteren Bearbeitungsprozess (Winterferien?</description>
+    </item>
+    
+    <item>
+      <title>Datenschutz und Datenmissbrauch</title>
+      <link>https://it-teaching.de/blog/2019-09-22-datenschutzunddatenmissbrauch/</link>
+      <pubDate>Sun, 22 Sep 2019 15:50:28 +0200</pubDate>
+      
+      <guid>https://it-teaching.de/blog/2019-09-22-datenschutzunddatenmissbrauch/</guid>
+      <description>In letzter Zeit wird in Twitter viel über Datenschutz, Datensicherheit und Datenmissbrauch. Dabei werden verschiedene Extrempositionen aufgemacht, die ich problematisch halte.
+Schwierig ist insbesondere, wenn Extrempositionen gegeneinander ausgespielt werden, wie z.B. hier. Auf der einen Seite die &amp;ldquo;sichere Cloud&amp;rdquo;, auf der anderen Seite der Schulserver im Keller.
+Die erste Gefahr für Sicherheit ist natürlich immer der Faktor Mensch - so weit stimme ich der Aussage zu und die ist in IT-Kreisen auch absolut unstrittig.</description>
+    </item>
+    
+    <item>
       <title>Miniworldmakerv1</title>
-      <link>https://it-teaching.de/blog/mmw_v1/</link>
+      <link>https://it-teaching.de/blog/2019-08.08-mmw_v1/</link>
       <pubDate>Wed, 07 Aug 2019 15:50:28 +0200</pubDate>
       
-      <guid>https://it-teaching.de/blog/mmw_v1/</guid>
+      <guid>https://it-teaching.de/blog/2019-08.08-mmw_v1/</guid>
       <description>Der Miniworldmaker hat nun die Version 1.0! (genau genommen inzwischen schon 1.0.3)
 Das bedeutet nicht, dass er bugfrei ist (ich habe tatsächlich noch ein paar kleine Bugs beseitigt) oder man nicht auf ungeahnte Probleme treffen wird - Im nächsten Jahr wird mir noch viel Arbeit bevorstehen. Jetzt sieht aber die API schonmal genauso aus, wie ich sie mir vorstelle.
 Physik Objekte einer Klasse werden ab jetzt dann physikalisch simuliert, wenn man die Methode setup_physics() in der Klasse implementiert.</description>
@@ -24,10 +45,10 @@ Physik Objekte einer Klasse werden ab jetzt dann physikalisch simuliert, wenn ma
     
     <item>
       <title>Server Umzug auf Hugo</title>
-      <link>https://it-teaching.de/blog/umzug-auf-hugo2/</link>
+      <link>https://it-teaching.de/blog/2019-08-07-umzug-auf-hugo/</link>
       <pubDate>Wed, 07 Aug 2019 15:10:35 +0200</pubDate>
       
-      <guid>https://it-teaching.de/blog/umzug-auf-hugo2/</guid>
+      <guid>https://it-teaching.de/blog/2019-08-07-umzug-auf-hugo/</guid>
       <description>Nach einer schönen Diskussion mit Armin Harnisch habe ich beschlossen, dieses Blog auf Hugo umzustellen.
 Wer es nicht kennt: Hugo ist ein Tool um statische Webseiten zu generieren. Online läuft dann kein php-Skript mehr im Hintergrund. Kein php-Skript bedeutet: Keine Angriffsmöglichkeit für Hacker, keine Berechnungen im Hintergrund, die die Seite ausbremsen.
 Allerdings muss ich mich selbst ein wenig umgewöhnen, meine Seiten in Markdown-Textdateien zu schreiben und tatsächlich hat auch beim Umzug nicht alles funktioniert wie gewünscht - Es fehlen alte Bilder und Videos.</description>
@@ -355,7 +376,7 @@ JAVA ist da schon ein anderes Kaliber.</description>
       <pubDate>Mon, 09 Oct 2017 14:33:17 +0000</pubDate>
       
       <guid>https://it-teaching.de/2017/10/09/informatikunterricht-programmieren-ja-und-wenn-ja-wieviel/</guid>
-      <description>Im Informatikunterricht der Oberstufe (Hessen) ist es so, dass sich beim Programmieren die &amp;#8220;Spreu vom Weizen trennt&amp;#8221;: Wer gerne programmiert und dies auch in seiner Freizeit tut, der ist auch im Unterricht erfolgreich. Wer nur die 2-3 Stunden gedanklich mit dem Programmieren auseinandersetzt und zu Hause nicht selbst programmiert, der wird im Laufe der Oberstufe nur Frustration sammeln. Dies ist deshalb schade, weil das Fach Informatik noch so viel mehr bietet als das.</description>
+      <description>Im Informatikunterricht der Oberstufe (Hessen) ist es so, dass sich beim Programmieren die &amp;ldquo;Spreu vom Weizen trennt&amp;rdquo;: Wer gerne programmiert und dies auch in seiner Freizeit tut, der ist auch im Unterricht erfolgreich. Wer nur die 2-3 Stunden gedanklich mit dem Programmieren auseinandersetzt und zu Hause nicht selbst programmiert, der wird im Laufe der Oberstufe nur Frustration sammeln. Dies ist deshalb schade, weil das Fach Informatik noch so viel mehr bietet als &amp;ldquo;nur&amp;rdquo; Programmieren.</description>
     </item>
     
     <item>

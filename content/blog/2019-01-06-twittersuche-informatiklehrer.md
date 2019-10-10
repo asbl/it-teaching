@@ -9,6 +9,7 @@ custom_total_hits:
 categories:
   - Unterricht
   - Informatikunterricht
+  - fun
 
 ---
 Aus Neugier habe ich mal bei Twitter nach Informatiklehrer gegoogelt. Sehr unterhaltsam 🙂 <figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter">
