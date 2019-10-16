@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on IT-Teaching.de</title>
-    <link>https://it-teaching.de/categories/python/</link>
+    <link>/categories/python/</link>
     <description>Recent content in Python on IT-Teaching.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <lastBuildDate>Wed, 07 Aug 2019 15:50:28 +0200</lastBuildDate>
     
-	<atom:link href="https://it-teaching.de/categories/python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Miniworldmakerv1</title>
-      <link>https://it-teaching.de/blog/2019-08.08-mmw_v1/</link>
+      <link>/posts/2019-08.08-mmw_v1/</link>
       <pubDate>Wed, 07 Aug 2019 15:50:28 +0200</pubDate>
       
-      <guid>https://it-teaching.de/blog/2019-08.08-mmw_v1/</guid>
+      <guid>/posts/2019-08.08-mmw_v1/</guid>
       <description>Der Miniworldmaker hat nun die Version 1.0! (genau genommen inzwischen schon 1.0.3)
 Das bedeutet nicht, dass er bugfrei ist (ich habe tatsächlich noch ein paar kleine Bugs beseitigt) oder man nicht auf ungeahnte Probleme treffen wird - Im nächsten Jahr wird mir noch viel Arbeit bevorstehen. Jetzt sieht aber die API schonmal genauso aus, wie ich sie mir vorstelle.
 Physik Objekte einer Klasse werden ab jetzt dann physikalisch simuliert, wenn man die Methode setup_physics() in der Klasse implementiert.</description>
@@ -24,20 +24,20 @@ Physik Objekte einer Klasse werden ab jetzt dann physikalisch simuliert, wenn ma
     
     <item>
       <title>Besondere Lernleistung Informatik an der CWS</title>
-      <link>https://it-teaching.de/2019/05/04/besondere-lernleistung-informatik-an-der-cws/</link>
+      <link>/2019/05/04/besondere-lernleistung-informatik-an-der-cws/</link>
       <pubDate>Sat, 04 May 2019 10:03:35 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2019/05/04/besondere-lernleistung-informatik-an-der-cws/</guid>
+      <guid>/2019/05/04/besondere-lernleistung-informatik-an-der-cws/</guid>
       <description>An dieser Stelle kurz für meine eigenen Notizen und für interessierte Schüler die Rahmendaten zu einer besonderern Lernleistung:
  Die Schulleitung entscheidet, in welchem Aufgabenfeld die BLL liegt (i.d.R. im sprachlich naturwissenschaftl. Bereich). Sie kann die mündliche Prüfung im fünften Prüfungsfach ersetzen. Beantragung bis spätestens zu Beginn des zweiten Jahres der Qualifikationsphase (d.h. zu Beginn der Q3) mit betreuender Lehrkraft bei der Schulleitung. Umfang: Im Rahmen eines Kurses von 2 Halbjahren.</description>
     </item>
     
     <item>
       <title>Miniworldmaker – First Lesson</title>
-      <link>https://it-teaching.de/2019/05/04/miniworldmaker-first-lesson/</link>
+      <link>/2019/05/04/miniworldmaker-first-lesson/</link>
       <pubDate>Sat, 04 May 2019 08:00:29 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2019/05/04/miniworldmaker-first-lesson/</guid>
+      <guid>/2019/05/04/miniworldmaker-first-lesson/</guid>
       <description>Die erste Lektion mit dem Miniworldmaker war ein Erfolg.
 Während die Schüler erste Erfahrungen und Ideen sammeln konnten, erwies sich das Framework so stabil, dass alles glatt gelaufen ist und keine nennenswerte Bugs aufgefallen sind.
 Während die API ab jetzt weitgehend stabil bleiben wird (damit die Programme der Schüler laufen), hoffe ich das Framework moderat weiterzuentwickeln, so dass es in den nächsten Wochen noch stabiler wird,Fehler verständlicher rückgemeldet werden und die API um sinnvolle Funktionen erweitert wird.</description>
@@ -45,10 +45,10 @@ Während die API ab jetzt weitgehend stabil bleiben wird (damit die Programme de
     
     <item>
       <title>Winkel im Miniworldmaker</title>
-      <link>https://it-teaching.de/2019/04/27/winkel-im-miniworldmaker/</link>
+      <link>/2019/04/27/winkel-im-miniworldmaker/</link>
       <pubDate>Sat, 27 Apr 2019 07:33:41 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2019/04/27/winkel-im-miniworldmaker/</guid>
+      <guid>/2019/04/27/winkel-im-miniworldmaker/</guid>
       <description>Heute habe ich mich entschieden, die Definition für Winkel im Miniworldmaker zu ändern.
 Die Winkel sind nun folgendermaßen definiert:
 Diese Notation entspricht der Notation von Scratch:
@@ -58,10 +58,10 @@ Damit können Scratch-Programme nahtloser in den Miniworldmaker übersetzt werde
     
     <item>
       <title>Miniworldmaker</title>
-      <link>https://it-teaching.de/2019/03/24/miniworldmaker/</link>
+      <link>/2019/03/24/miniworldmaker/</link>
       <pubDate>Sun, 24 Mar 2019 14:59:33 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2019/03/24/miniworldmaker/</guid>
+      <guid>/2019/03/24/miniworldmaker/</guid>
       <description>Aus Gamegridp wird MiniWorldMaker.
 Das System nähert sich langsam einer stabilen Version an (Zeitplan: Nach den Osterferien soll die API weitgehend nicht mehr verändert werden) und ich bin zunehmend zufriedener mit der Code-Basis.
 So sieht der Code für dieses Beispiel aus:
@@ -70,30 +70,30 @@ from miniworldmaker import * class MyBoard(PixelBoard): def __init__(self): supe
     
     <item>
       <title>Webrecherche: Ressourcen für den Informatikunterricht</title>
-      <link>https://it-teaching.de/2019/01/05/webrecherche-programmierkurse/</link>
+      <link>/2019/01/05/webrecherche-programmierkurse/</link>
       <pubDate>Sat, 05 Jan 2019 13:14:11 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2019/01/05/webrecherche-programmierkurse/</guid>
+      <guid>/2019/01/05/webrecherche-programmierkurse/</guid>
       <description>Hier die Ergebnisse meiner Recherche nach interaktiven Online-Programmierkursen. Manchmal ist die Suche etwas abgedriftet, daher finden sich auch andere Tools:
  Mein Favorit bisher war Stepik.org auf dem ich den Nachfolger meines Programmierkurses entwickelt habe. Mit Stepik kann man als Lehrer kostenlose Programmierkurse unter Creative Commons Lizenz erstellen und den Prozess seiner Schüler überwachen. Neben dem mir bereits bekannten Python-Kurs von cs-circles habe ich neu entdeckt den Kurs snakify &amp;#8211; Auch hier kann man als Lehrer den Prozess seiner Schüler verfolgen.</description>
     </item>
     
     <item>
       <title>Gamegrid für Python</title>
-      <link>https://it-teaching.de/2018/04/15/gamegrid-fuer-python/</link>
+      <link>/2018/04/15/gamegrid-fuer-python/</link>
       <pubDate>Sun, 15 Apr 2018 13:47:24 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2018/04/15/gamegrid-fuer-python/</guid>
+      <guid>/2018/04/15/gamegrid-fuer-python/</guid>
       <description>UPDATE: Die neue Version von Gamegridp gibt es nun unter neuen Namen hier: miniworldmaker.it-teaching.de
 Nach dem Umstieg von JAVA auf Python habe ich recherchiert, ob es Alternativen zu BlueJ bzw. Greenfoot (bzw. Gamegrid) für Python gibt. Die schlechte Nachricht: Es gibt leider keine. BlueJ und Greenfoot sind die besten beiden Argumente für die Verwendung von JAVA als erste Programmiersprache. Der dritte Grund ist die Verbreitung. Alle anderen Argumente sprechen aber gegen JAVA.</description>
     </item>
     
     <item>
       <title>Lerntheke Python</title>
-      <link>https://it-teaching.de/2018/04/08/lerntheke-python/</link>
+      <link>/2018/04/08/lerntheke-python/</link>
       <pubDate>Sun, 08 Apr 2018 15:31:04 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2018/04/08/lerntheke-python/</guid>
+      <guid>/2018/04/08/lerntheke-python/</guid>
       <description>Die Lerntheke dient dem Trainieren für die erste Klausur. Sie ist sowohl Offline ausdruckbar. Dank Inspiration von Jan-Martin Klinge ist sie auch Mobil mit dem Tablet nutzbar. Auf den einzelnen Karten befinden sich dann interaktive Links zu den Hilfekarten. Die Lerntheke steht unter CC0-Lizenz, d.h. ihr könnt damit anfangen was ihr möchtet.
 &amp;nbsp;
 Hinweis: Da der Abschnittszoom nicht in der Online-Variante von Office funktioniert, müsst ihr die Datei herunterladen. Ich werde die Dateien noch zu einem anderen Cloud-Anbieter verschieben, damit diese ärgerliche Einschränkung nicht weiter irritiert.</description>
@@ -101,10 +101,10 @@ Hinweis: Da der Abschnittszoom nicht in der Online-Variante von Office funktioni
     
     <item>
       <title>Text-Adventures mit Python</title>
-      <link>https://it-teaching.de/2018/03/20/text-adventures-mit-python/</link>
+      <link>/2018/03/20/text-adventures-mit-python/</link>
       <pubDate>Tue, 20 Mar 2018 14:26:12 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2018/03/20/text-adventures-mit-python/</guid>
+      <guid>/2018/03/20/text-adventures-mit-python/</guid>
       <description>Stunde Python: Nachdem die Schüler mit Turtle-Grafik erste Erfahrungen gemacht haben und im Online-Kurs parallel die Grundlagen trainiert haben stand nun in der dritten Stunde das Thema Text-Adventures auf dem Programm.  Prinzipiell ist es mein Ziel, den &amp;#8220;langweiligen&amp;#8221; Teil des Programmieren-Lernens auf den Online-Kurs zu verschieben und dann im Unterricht selbst spannende Anwendungsfälle untersuchen zu können. Text-Adventures sind deshalb besonders gut geeignet, da man hier sehr gut den Umgang mit Kontrollstrukturen lernen kann (man benötigt eine Mainloop und einen Haufen verschachtelte If-Elif-Else Abfragen) und sieht, wie selbst sehr simple Programme schnell aus sehr komplexen Code bestehen (der Umgang mit Komplexität ist einer der Dinge, die die Informatik als Disziplin ausmacht).</description>
     </item>
     

@@ -2,246 +2,246 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on IT-Teaching.de</title>
-    <link>https://it-teaching.de/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on IT-Teaching.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <lastBuildDate>Thu, 10 Oct 2019 08:50:28 +0200</lastBuildDate>
     
-	<atom:link href="https://it-teaching.de/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Informatikunterricht</title>
-      <link>https://it-teaching.de/categories/informatikunterricht/</link>
+      <link>/categories/informatikunterricht/</link>
       <pubDate>Thu, 10 Oct 2019 08:50:28 +0200</pubDate>
       
-      <guid>https://it-teaching.de/categories/informatikunterricht/</guid>
+      <guid>/categories/informatikunterricht/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Digitalisierung</title>
-      <link>https://it-teaching.de/categories/digitalisierung/</link>
+      <link>/categories/digitalisierung/</link>
       <pubDate>Sun, 22 Sep 2019 15:50:28 +0200</pubDate>
       
-      <guid>https://it-teaching.de/categories/digitalisierung/</guid>
+      <guid>/categories/digitalisierung/</guid>
       <description></description>
     </item>
     
     <item>
       <title>game-engine</title>
-      <link>https://it-teaching.de/categories/game-engine/</link>
+      <link>/categories/game-engine/</link>
       <pubDate>Wed, 07 Aug 2019 15:50:28 +0200</pubDate>
       
-      <guid>https://it-teaching.de/categories/game-engine/</guid>
+      <guid>/categories/game-engine/</guid>
       <description></description>
     </item>
     
     <item>
       <title>miniworldmaker</title>
-      <link>https://it-teaching.de/categories/miniworldmaker/</link>
+      <link>/categories/miniworldmaker/</link>
       <pubDate>Wed, 07 Aug 2019 15:50:28 +0200</pubDate>
       
-      <guid>https://it-teaching.de/categories/miniworldmaker/</guid>
+      <guid>/categories/miniworldmaker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>https://it-teaching.de/categories/python/</link>
+      <link>/categories/python/</link>
       <pubDate>Wed, 07 Aug 2019 15:50:28 +0200</pubDate>
       
-      <guid>https://it-teaching.de/categories/python/</guid>
+      <guid>/categories/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>it-teaching.de</title>
-      <link>https://it-teaching.de/categories/it-teaching.de/</link>
+      <link>/categories/it-teaching.de/</link>
       <pubDate>Wed, 07 Aug 2019 15:10:35 +0200</pubDate>
       
-      <guid>https://it-teaching.de/categories/it-teaching.de/</guid>
+      <guid>/categories/it-teaching.de/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cws</title>
-      <link>https://it-teaching.de/categories/cws/</link>
+      <link>/categories/cws/</link>
       <pubDate>Sat, 04 May 2019 10:03:35 +0000</pubDate>
       
-      <guid>https://it-teaching.de/categories/cws/</guid>
+      <guid>/categories/cws/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tools</title>
-      <link>https://it-teaching.de/categories/tools/</link>
+      <link>/categories/tools/</link>
       <pubDate>Thu, 11 Apr 2019 05:47:04 +0000</pubDate>
       
-      <guid>https://it-teaching.de/categories/tools/</guid>
+      <guid>/categories/tools/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Schule</title>
-      <link>https://it-teaching.de/categories/schule/</link>
+      <link>/categories/schule/</link>
       <pubDate>Sun, 17 Feb 2019 10:24:18 +0000</pubDate>
       
-      <guid>https://it-teaching.de/categories/schule/</guid>
+      <guid>/categories/schule/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mooc</title>
-      <link>https://it-teaching.de/categories/mooc/</link>
+      <link>/categories/mooc/</link>
       <pubDate>Wed, 13 Feb 2019 22:55:31 +0000</pubDate>
       
-      <guid>https://it-teaching.de/categories/mooc/</guid>
+      <guid>/categories/mooc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Online-Kurse</title>
-      <link>https://it-teaching.de/categories/online-kurse/</link>
+      <link>/categories/online-kurse/</link>
       <pubDate>Wed, 13 Feb 2019 22:55:31 +0000</pubDate>
       
-      <guid>https://it-teaching.de/categories/online-kurse/</guid>
+      <guid>/categories/online-kurse/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Stepik</title>
-      <link>https://it-teaching.de/categories/stepik/</link>
+      <link>/categories/stepik/</link>
       <pubDate>Wed, 13 Feb 2019 22:55:31 +0000</pubDate>
       
-      <guid>https://it-teaching.de/categories/stepik/</guid>
+      <guid>/categories/stepik/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mathematikunterricht</title>
-      <link>https://it-teaching.de/categories/mathematikunterricht/</link>
+      <link>/categories/mathematikunterricht/</link>
       <pubDate>Thu, 10 Jan 2019 16:55:14 +0000</pubDate>
       
-      <guid>https://it-teaching.de/categories/mathematikunterricht/</guid>
+      <guid>/categories/mathematikunterricht/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Allgemeinbildung</title>
-      <link>https://it-teaching.de/categories/allgemeinbildung/</link>
+      <link>/categories/allgemeinbildung/</link>
       <pubDate>Tue, 08 Jan 2019 10:40:27 +0000</pubDate>
       
-      <guid>https://it-teaching.de/categories/allgemeinbildung/</guid>
+      <guid>/categories/allgemeinbildung/</guid>
       <description></description>
     </item>
     
     <item>
       <title>KI</title>
-      <link>https://it-teaching.de/categories/ki/</link>
+      <link>/categories/ki/</link>
       <pubDate>Tue, 08 Jan 2019 10:40:27 +0000</pubDate>
       
-      <guid>https://it-teaching.de/categories/ki/</guid>
+      <guid>/categories/ki/</guid>
       <description></description>
     </item>
     
     <item>
       <title>fun</title>
-      <link>https://it-teaching.de/categories/fun/</link>
+      <link>/categories/fun/</link>
       <pubDate>Sun, 06 Jan 2019 10:20:30 +0000</pubDate>
       
-      <guid>https://it-teaching.de/categories/fun/</guid>
+      <guid>/categories/fun/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unterricht</title>
-      <link>https://it-teaching.de/categories/unterricht/</link>
+      <link>/categories/unterricht/</link>
       <pubDate>Sun, 06 Jan 2019 10:20:30 +0000</pubDate>
       
-      <guid>https://it-teaching.de/categories/unterricht/</guid>
+      <guid>/categories/unterricht/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Uncategorized</title>
-      <link>https://it-teaching.de/categories/uncategorized/</link>
+      <link>/categories/uncategorized/</link>
       <pubDate>Mon, 27 Aug 2018 12:35:00 +0000</pubDate>
       
-      <guid>https://it-teaching.de/categories/uncategorized/</guid>
+      <guid>/categories/uncategorized/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lerntheken</title>
-      <link>https://it-teaching.de/categories/lerntheken/</link>
+      <link>/categories/lerntheken/</link>
       <pubDate>Mon, 09 Apr 2018 15:56:48 +0000</pubDate>
       
-      <guid>https://it-teaching.de/categories/lerntheken/</guid>
+      <guid>/categories/lerntheken/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Material</title>
-      <link>https://it-teaching.de/categories/material/</link>
+      <link>/categories/material/</link>
       <pubDate>Mon, 09 Apr 2018 15:56:48 +0000</pubDate>
       
-      <guid>https://it-teaching.de/categories/material/</guid>
+      <guid>/categories/material/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Schulalltag</title>
-      <link>https://it-teaching.de/categories/schulalltag/</link>
+      <link>/categories/schulalltag/</link>
       <pubDate>Wed, 21 Mar 2018 13:27:48 +0000</pubDate>
       
-      <guid>https://it-teaching.de/categories/schulalltag/</guid>
+      <guid>/categories/schulalltag/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Technik im Unterricht</title>
-      <link>https://it-teaching.de/categories/technik-im-unterricht/</link>
+      <link>/categories/technik-im-unterricht/</link>
       <pubDate>Wed, 21 Mar 2018 13:27:48 +0000</pubDate>
       
-      <guid>https://it-teaching.de/categories/technik-im-unterricht/</guid>
+      <guid>/categories/technik-im-unterricht/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Christian-Wirth-Schule</title>
-      <link>https://it-teaching.de/categories/christian-wirth-schule/</link>
+      <link>/categories/christian-wirth-schule/</link>
       <pubDate>Sun, 25 Feb 2018 11:29:55 +0000</pubDate>
       
-      <guid>https://it-teaching.de/categories/christian-wirth-schule/</guid>
+      <guid>/categories/christian-wirth-schule/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Schulpolitik</title>
-      <link>https://it-teaching.de/categories/schulpolitik/</link>
+      <link>/categories/schulpolitik/</link>
       <pubDate>Wed, 21 Feb 2018 12:48:03 +0000</pubDate>
       
-      <guid>https://it-teaching.de/categories/schulpolitik/</guid>
+      <guid>/categories/schulpolitik/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Programmieren</title>
-      <link>https://it-teaching.de/categories/programmieren/</link>
+      <link>/categories/programmieren/</link>
       <pubDate>Mon, 09 Oct 2017 14:33:17 +0000</pubDate>
       
-      <guid>https://it-teaching.de/categories/programmieren/</guid>
+      <guid>/categories/programmieren/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IT-Sicherheit</title>
-      <link>https://it-teaching.de/categories/it-sicherheit/</link>
+      <link>/categories/it-sicherheit/</link>
       <pubDate>Mon, 09 Oct 2017 14:30:27 +0000</pubDate>
       
-      <guid>https://it-teaching.de/categories/it-sicherheit/</guid>
+      <guid>/categories/it-sicherheit/</guid>
       <description></description>
     </item>
     

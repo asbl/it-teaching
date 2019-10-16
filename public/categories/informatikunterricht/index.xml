@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Informatikunterricht on IT-Teaching.de</title>
-    <link>https://it-teaching.de/categories/informatikunterricht/</link>
+    <link>/categories/informatikunterricht/</link>
     <description>Recent content in Informatikunterricht on IT-Teaching.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <lastBuildDate>Thu, 10 Oct 2019 08:50:28 +0200</lastBuildDate>
     
-	<atom:link href="https://it-teaching.de/categories/informatikunterricht/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/informatikunterricht/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Modellieren im Informatikunterricht - Über Begriffe und Fehlvorstellungen</title>
-      <link>https://it-teaching.de/blog/2019-09-22-modellieren-im-informatikunterricht/</link>
+      <link>/posts/2019-09-22-modellieren-im-informatikunterricht/</link>
       <pubDate>Thu, 10 Oct 2019 08:50:28 +0200</pubDate>
       
-      <guid>https://it-teaching.de/blog/2019-09-22-modellieren-im-informatikunterricht/</guid>
+      <guid>/posts/2019-09-22-modellieren-im-informatikunterricht/</guid>
       <description>Entwurf vom 10.10.2019, überarbeitet am 16.10.2019 Disclaimer: Der Artikel ist noch nicht fertig. Beim schreiben des Artikels ist mir aufgefallen, dass der Sachverhalt mit jedem neuen Gedanken, den ich bedacht habe, immer komplexer wurde. Da meine Zeit durch Umstände in der realen Welt beschränkt ist, schaffe ich es in den verbleibenden Tagen der Herbstferien nicht den Artikel in dem Umfang und in der Qualität aufzuschreiben, die ich mir wünschen würde.</description>
     </item>
     
     <item>
       <title>Miniworldmaker – Physik Engine</title>
-      <link>https://it-teaching.de/2019/06/10/miniworldmaker-physik-engine/</link>
+      <link>/2019/06/10/miniworldmaker-physik-engine/</link>
       <pubDate>Mon, 10 Jun 2019 20:11:54 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2019/06/10/miniworldmaker-physik-engine/</guid>
+      <guid>/2019/06/10/miniworldmaker-physik-engine/</guid>
       <description>Ich arbeite zur Zeit daran, die Pymunk-Physikengine in den Miniworldmaker zu übernehmen. Dies hat mich am Wochenende einige Stunden gekostet &amp;#8211; Auch deshalb weil ich einen blöden Fehler gemacht habe, der mich lange aufgehalten habe&amp;#8230; Ich habe einige Stunden damit verbracht, einen Fehler zu suchen, der letztendlich darin lag, dass der eigentliche Simulationsschritt in einer Objektmethode anstatt in einer Klassenmethode ausgeführt wurde..
 Noch verhalten sich einige Dinge merkwürdig, aber die Ziele für die nächsten Wochen sind damit auf jeden Fall gesetzt.</description>
     </item>
     
     <item>
       <title>Besondere Lernleistung Informatik an der CWS</title>
-      <link>https://it-teaching.de/2019/05/04/besondere-lernleistung-informatik-an-der-cws/</link>
+      <link>/2019/05/04/besondere-lernleistung-informatik-an-der-cws/</link>
       <pubDate>Sat, 04 May 2019 10:03:35 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2019/05/04/besondere-lernleistung-informatik-an-der-cws/</guid>
+      <guid>/2019/05/04/besondere-lernleistung-informatik-an-der-cws/</guid>
       <description>An dieser Stelle kurz für meine eigenen Notizen und für interessierte Schüler die Rahmendaten zu einer besonderern Lernleistung:
  Die Schulleitung entscheidet, in welchem Aufgabenfeld die BLL liegt (i.d.R. im sprachlich naturwissenschaftl. Bereich). Sie kann die mündliche Prüfung im fünften Prüfungsfach ersetzen. Beantragung bis spätestens zu Beginn des zweiten Jahres der Qualifikationsphase (d.h. zu Beginn der Q3) mit betreuender Lehrkraft bei der Schulleitung. Umfang: Im Rahmen eines Kurses von 2 Halbjahren.</description>
     </item>
     
     <item>
       <title>Miniworldmaker – First Lesson</title>
-      <link>https://it-teaching.de/2019/05/04/miniworldmaker-first-lesson/</link>
+      <link>/2019/05/04/miniworldmaker-first-lesson/</link>
       <pubDate>Sat, 04 May 2019 08:00:29 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2019/05/04/miniworldmaker-first-lesson/</guid>
+      <guid>/2019/05/04/miniworldmaker-first-lesson/</guid>
       <description>Die erste Lektion mit dem Miniworldmaker war ein Erfolg.
 Während die Schüler erste Erfahrungen und Ideen sammeln konnten, erwies sich das Framework so stabil, dass alles glatt gelaufen ist und keine nennenswerte Bugs aufgefallen sind.
 Während die API ab jetzt weitgehend stabil bleiben wird (damit die Programme der Schüler laufen), hoffe ich das Framework moderat weiterzuentwickeln, so dass es in den nächsten Wochen noch stabiler wird,Fehler verständlicher rückgemeldet werden und die API um sinnvolle Funktionen erweitert wird.</description>
@@ -53,10 +53,10 @@ Während die API ab jetzt weitgehend stabil bleiben wird (damit die Programme de
     
     <item>
       <title>Boolr</title>
-      <link>https://it-teaching.de/2019/04/11/boolr/</link>
+      <link>/2019/04/11/boolr/</link>
       <pubDate>Thu, 11 Apr 2019 05:47:04 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2019/04/11/boolr/</guid>
+      <guid>/2019/04/11/boolr/</guid>
       <description>Technische Informatik, Q4:
 Da Hades auf unseren Computern leider instabil läuft, haben wir gestern mit Boolr eine interessante Alternative ausprobiert.
 Fazit: Die Anwendung lässt sich sehr intuitiv nutzen. Insbesondere ist es wirklich leicht aus einfachen Gattern zunehmend komplexere Schaltnetze zu bauen und dafür jeweils eigene Schaltsymbole zu erstellen. Die Anwendung wird sicher auch in Zukunft ihren Platz im Informatikunterricht haben.</description>
@@ -64,10 +64,10 @@ Fazit: Die Anwendung lässt sich sehr intuitiv nutzen. Insbesondere ist es wirkl
     
     <item>
       <title>Miniworldmaker</title>
-      <link>https://it-teaching.de/2019/03/24/miniworldmaker/</link>
+      <link>/2019/03/24/miniworldmaker/</link>
       <pubDate>Sun, 24 Mar 2019 14:59:33 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2019/03/24/miniworldmaker/</guid>
+      <guid>/2019/03/24/miniworldmaker/</guid>
       <description>Aus Gamegridp wird MiniWorldMaker.
 Das System nähert sich langsam einer stabilen Version an (Zeitplan: Nach den Osterferien soll die API weitgehend nicht mehr verändert werden) und ich bin zunehmend zufriedener mit der Code-Basis.
 So sieht der Code für dieses Beispiel aus:
@@ -76,10 +76,10 @@ from miniworldmaker import * class MyBoard(PixelBoard): def __init__(self): supe
     
     <item>
       <title>Künstliche Intelligenz</title>
-      <link>https://it-teaching.de/2019/01/08/kuenstliche-intelligenz/</link>
+      <link>/2019/01/08/kuenstliche-intelligenz/</link>
       <pubDate>Tue, 08 Jan 2019 10:40:27 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2019/01/08/kuenstliche-intelligenz/</guid>
+      <guid>/2019/01/08/kuenstliche-intelligenz/</guid>
       <description>Hier ein interessanter Artikel aus Finnland.
 Das Projekt &amp;#8220;1% AI&amp;#8221; soll landesweit die Bevölkerung trainieren, zu coden und künstliche Intelligenz zu verwenden. Zielgruppe sind dabei insbesondere Nichtinformatiker.
 Derweil hier in Hessen: Das Thema künstliche Intelligenz werden nicht einmal viele Schüler mit Grundkurs Informatik angerissen haben. Die Bedeutung von künstlicher Intelligenz, maschinellem Lernen und Data Science wurde hierzulande noch nichtmal im Ansatz erfasst.
@@ -88,40 +88,40 @@ Aber wer die Welt von morgen verstehen will, der wird um diese Themen nicht heru
     
     <item>
       <title>Twittersuche – Informatiklehrer</title>
-      <link>https://it-teaching.de/2019/01/06/twittersuche-informatiklehrer/</link>
+      <link>/2019/01/06/twittersuche-informatiklehrer/</link>
       <pubDate>Sun, 06 Jan 2019 10:20:30 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2019/01/06/twittersuche-informatiklehrer/</guid>
+      <guid>/2019/01/06/twittersuche-informatiklehrer/</guid>
       <description>Aus Neugier habe ich mal bei Twitter nach Informatiklehrer gegoogelt. Sehr unterhaltsam 🙂 Hab meinen Informatiklehrer verbessert. Hehe 😀 &amp;mdash; Simon | Simomz (@TheSimomz)
-&amp;lt;a href=&amp;quot;https://twitter.com/TheSimomz/status/786907705881530368?ref_src=twsrc%5Etfw&amp;quot;&amp;gt;October 14, 2016&amp;lt;/a&amp;gt;    Informatiklehrer im Gymnasium meiner großen Tochter schimpfte auf Linux, meine Große hat ihm Contra gegeben und für Open Source plädiert… &amp;lt;a href=&amp;quot;https://twitter.com/gruenler/status/574269664219566081?ref_src=twsrc%5Etfw&amp;quot;&amp;gt;March 7, 2015&amp;lt;/a&amp;gt;    Mein Informatiklehrer benutzt Comic Sans in einer Arbeit. Konnte daraufhin wegen höherer Gewalt leider nicht mitschreiben.</description>
+1  &amp;lt;a href=&amp;#34;https://twitter.com/TheSimomz/status/786907705881530368?ref_src=twsrc%5Etfw&amp;#34;&amp;gt;October 14, 2016&amp;lt;/a&amp;gt;     Informatiklehrer im Gymnasium meiner großen Tochter schimpfte auf Linux, meine Große hat ihm Contra gegeben und für Open Source plädiert… 1  &amp;lt;a href=&amp;#34;https://twitter.com/gruenler/status/574269664219566081?ref_src=twsrc%5Etfw&amp;#34;&amp;gt;March 7, 2015&amp;lt;/a&amp;gt;     Mein Informatiklehrer benutzt Comic Sans in einer Arbeit.</description>
     </item>
     
     <item>
       <title>Webrecherche: Ressourcen für den Informatikunterricht</title>
-      <link>https://it-teaching.de/2019/01/05/webrecherche-programmierkurse/</link>
+      <link>/2019/01/05/webrecherche-programmierkurse/</link>
       <pubDate>Sat, 05 Jan 2019 13:14:11 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2019/01/05/webrecherche-programmierkurse/</guid>
+      <guid>/2019/01/05/webrecherche-programmierkurse/</guid>
       <description>Hier die Ergebnisse meiner Recherche nach interaktiven Online-Programmierkursen. Manchmal ist die Suche etwas abgedriftet, daher finden sich auch andere Tools:
  Mein Favorit bisher war Stepik.org auf dem ich den Nachfolger meines Programmierkurses entwickelt habe. Mit Stepik kann man als Lehrer kostenlose Programmierkurse unter Creative Commons Lizenz erstellen und den Prozess seiner Schüler überwachen. Neben dem mir bereits bekannten Python-Kurs von cs-circles habe ich neu entdeckt den Kurs snakify &amp;#8211; Auch hier kann man als Lehrer den Prozess seiner Schüler verfolgen.</description>
     </item>
     
     <item>
       <title>Gamegrid für Python</title>
-      <link>https://it-teaching.de/2018/04/15/gamegrid-fuer-python/</link>
+      <link>/2018/04/15/gamegrid-fuer-python/</link>
       <pubDate>Sun, 15 Apr 2018 13:47:24 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2018/04/15/gamegrid-fuer-python/</guid>
+      <guid>/2018/04/15/gamegrid-fuer-python/</guid>
       <description>UPDATE: Die neue Version von Gamegridp gibt es nun unter neuen Namen hier: miniworldmaker.it-teaching.de
 Nach dem Umstieg von JAVA auf Python habe ich recherchiert, ob es Alternativen zu BlueJ bzw. Greenfoot (bzw. Gamegrid) für Python gibt. Die schlechte Nachricht: Es gibt leider keine. BlueJ und Greenfoot sind die besten beiden Argumente für die Verwendung von JAVA als erste Programmiersprache. Der dritte Grund ist die Verbreitung. Alle anderen Argumente sprechen aber gegen JAVA.</description>
     </item>
     
     <item>
       <title>Lerntheke Python</title>
-      <link>https://it-teaching.de/2018/04/08/lerntheke-python/</link>
+      <link>/2018/04/08/lerntheke-python/</link>
       <pubDate>Sun, 08 Apr 2018 15:31:04 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2018/04/08/lerntheke-python/</guid>
+      <guid>/2018/04/08/lerntheke-python/</guid>
       <description>Die Lerntheke dient dem Trainieren für die erste Klausur. Sie ist sowohl Offline ausdruckbar. Dank Inspiration von Jan-Martin Klinge ist sie auch Mobil mit dem Tablet nutzbar. Auf den einzelnen Karten befinden sich dann interaktive Links zu den Hilfekarten. Die Lerntheke steht unter CC0-Lizenz, d.h. ihr könnt damit anfangen was ihr möchtet.
 &amp;nbsp;
 Hinweis: Da der Abschnittszoom nicht in der Online-Variante von Office funktioniert, müsst ihr die Datei herunterladen. Ich werde die Dateien noch zu einem anderen Cloud-Anbieter verschieben, damit diese ärgerliche Einschränkung nicht weiter irritiert.</description>
@@ -129,19 +129,19 @@ Hinweis: Da der Abschnittszoom nicht in der Online-Variante von Office funktioni
     
     <item>
       <title>Text-Adventures mit Python</title>
-      <link>https://it-teaching.de/2018/03/20/text-adventures-mit-python/</link>
+      <link>/2018/03/20/text-adventures-mit-python/</link>
       <pubDate>Tue, 20 Mar 2018 14:26:12 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2018/03/20/text-adventures-mit-python/</guid>
+      <guid>/2018/03/20/text-adventures-mit-python/</guid>
       <description>Stunde Python: Nachdem die Schüler mit Turtle-Grafik erste Erfahrungen gemacht haben und im Online-Kurs parallel die Grundlagen trainiert haben stand nun in der dritten Stunde das Thema Text-Adventures auf dem Programm.  Prinzipiell ist es mein Ziel, den &amp;#8220;langweiligen&amp;#8221; Teil des Programmieren-Lernens auf den Online-Kurs zu verschieben und dann im Unterricht selbst spannende Anwendungsfälle untersuchen zu können. Text-Adventures sind deshalb besonders gut geeignet, da man hier sehr gut den Umgang mit Kontrollstrukturen lernen kann (man benötigt eine Mainloop und einen Haufen verschachtelte If-Elif-Else Abfragen) und sieht, wie selbst sehr simple Programme schnell aus sehr komplexen Code bestehen (der Umgang mit Komplexität ist einer der Dinge, die die Informatik als Disziplin ausmacht).</description>
     </item>
     
     <item>
       <title>Interaktiver Python Online Kurs (Stepik)</title>
-      <link>https://it-teaching.de/2018/02/21/python-kurs-in-stepik/</link>
+      <link>/2018/02/21/python-kurs-in-stepik/</link>
       <pubDate>Wed, 21 Feb 2018 12:53:23 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2018/02/21/python-kurs-in-stepik/</guid>
+      <guid>/2018/02/21/python-kurs-in-stepik/</guid>
       <description>Bei Übernahme meiner E-Phase Informatik zum Halbjahr musste ich mit Erschrecken feststellen, dass ich nur 10 Doppelstunden bis zu den Sommerferien habe. Darunter sind zwei Stunden, in denen ich die Klausur schreibe. Dazu kommen erfahrungsgemäß Ausfälle durch Schulveranstaltungen, Krankheit oder ähnliches&amp;#8230;
 Wie soll ich in dieser kurzen Zeit Schülern das Programmieren beibringen?
 Ich habe lange recherchiert und dann auf der Plattform Stepik begonnen, einen Online-Kurs für Python anzulegen. Die Schüler müssen Aufgaben aus dem Kurs als verpflichtende Aufgaben lösen.</description>
@@ -149,10 +149,10 @@ Ich habe lange recherchiert und dann auf der Plattform Stepik begonnen, einen On
     
     <item>
       <title>Python als Programmiersprache im Unterricht</title>
-      <link>https://it-teaching.de/2018/02/21/python-als-programmiersprache-im-unterricht/</link>
+      <link>/2018/02/21/python-als-programmiersprache-im-unterricht/</link>
       <pubDate>Wed, 21 Feb 2018 12:48:03 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2018/02/21/python-als-programmiersprache-im-unterricht/</guid>
+      <guid>/2018/02/21/python-als-programmiersprache-im-unterricht/</guid>
       <description>Im hessischen Abitur werden zum Thema &amp;#8220;Objektorientierte Programmierung&amp;#8221; die Programmierbeispiele in zwei Sprachen angeboten: JAVA und Delphi.
 Delphi bzw. Lazarus als Open Source Alternative hat inzwischen einen gewissen historischen Wert. die Sprache wird außerhalb des deutschen Informatikunterrichtes praktisch nirgends mehr benutzt. In Hessen ist sie nur deshalb noch von Bedeutung, da diese lange Zeit Grundlage der Informatikausbildung war und vor allem viele Quereinsteiger keine andere Sprache sprechen.
 JAVA ist da schon ein anderes Kaliber.</description>
@@ -160,57 +160,57 @@ JAVA ist da schon ein anderes Kaliber.</description>
     
     <item>
       <title>Informatikunterricht – Programmieren… ja und wenn ja wieviel?</title>
-      <link>https://it-teaching.de/2017/10/09/informatikunterricht-programmieren-ja-und-wenn-ja-wieviel/</link>
+      <link>/2017/10/09/informatikunterricht-programmieren-ja-und-wenn-ja-wieviel/</link>
       <pubDate>Mon, 09 Oct 2017 14:33:17 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2017/10/09/informatikunterricht-programmieren-ja-und-wenn-ja-wieviel/</guid>
+      <guid>/2017/10/09/informatikunterricht-programmieren-ja-und-wenn-ja-wieviel/</guid>
       <description>Im Informatikunterricht der Oberstufe (Hessen) ist es so, dass sich beim Programmieren die &amp;ldquo;Spreu vom Weizen trennt&amp;rdquo;: Wer gerne programmiert und dies auch in seiner Freizeit tut, der ist auch im Unterricht erfolgreich. Wer nur die 2-3 Stunden gedanklich mit dem Programmieren auseinandersetzt und zu Hause nicht selbst programmiert, der wird im Laufe der Oberstufe nur Frustration sammeln. Dies ist deshalb schade, weil das Fach Informatik noch so viel mehr bietet als &amp;ldquo;nur&amp;rdquo; Programmieren.</description>
     </item>
     
     <item>
       <title>Blender-Projektwoche</title>
-      <link>https://it-teaching.de/2017/10/09/blender-projektwoche/</link>
+      <link>/2017/10/09/blender-projektwoche/</link>
       <pubDate>Mon, 09 Oct 2017 14:28:26 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2017/10/09/blender-projektwoche/</guid>
+      <guid>/2017/10/09/blender-projektwoche/</guid>
       <description>Für ein gemeinsames Projekt bei der kommenden Projektwoche arbeite ich mich gerade wieder in Blender ein.
 Ich habe Blender zweimal im Informatikunterricht angeboten und mich selbst mühsam eingearbeitet &amp;#8211; Im Studium habe ich zwar einen Raytracer programmiert, aber nicht mit einem Modellierungstool gearbeitet. Jetzt habe ich das Glück mit einem erfahrenen Kollegen zusammenzuarbeiten, der in seiner Freizeit mit Blender modelliert. Ich freue mich schon auf alles, was ich in den kommenden Tagen lernen kann, so dass ich die Kenntnisse das nächste mal in einen WU-Informatik einbauen kann.</description>
     </item>
     
     <item>
       <title>Herkunft Biberwettbewerb</title>
-      <link>https://it-teaching.de/2017/10/09/herkunft-biberwettbewerb/</link>
+      <link>/2017/10/09/herkunft-biberwettbewerb/</link>
       <pubDate>Mon, 09 Oct 2017 14:27:10 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2017/10/09/herkunft-biberwettbewerb/</guid>
+      <guid>/2017/10/09/herkunft-biberwettbewerb/</guid>
       <description>Am Montag fand die Preisverleihung unserer Schüler statt, auch meiner E-Phase die am Informatik-Biber teilgenommen hatte. Leider war dies die einzige Klasse, da der Wettbewerb zeitgleich mit der Geburt unseres Kindes fiel, konnte ich nicht koordinieren, dass wir noch mit mehr Klassen teilnehmen, obwohl dieser gerade für jüngere Schüler sehr gut geeignet ist. Nächstes Jahr möchte ich auf jeden Fall mit mehr Klassen teilnehmen und auch mit einigen Kursen am BWInf Wettbewerb teilnehmen.</description>
     </item>
     
     <item>
       <title>Gamegrid / Gamegridcards</title>
-      <link>https://it-teaching.de/2017/08/10/gamegrid-gamegridcards/</link>
+      <link>/2017/08/10/gamegrid-gamegridcards/</link>
       <pubDate>Thu, 10 Aug 2017 14:24:50 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2017/08/10/gamegrid-gamegridcards/</guid>
+      <guid>/2017/08/10/gamegrid-gamegridcards/</guid>
       <description>Prinzipiell mag ich Entwicklungsumgebungen wie Greenfoot https://www.greenfoot.org/door . Ich denke, dass diese dabei helfen können   a) Die Motivation der Schüler zu steigern b) Ein Verständnis über den Zusammenhang von Klassen und Objekten zu fördern  Leider hat sich bei mir die 3er Version von Greenfoot als nicht stabil genug herausgestellt. Am Ende waren die Schüler hauptsächlich frustriert, da ihr Programm oft abstürzt. Außerdem ist die Fehlersuche -einer der Kernelemente des Programmierens- in Greenfoot wirklich schlecht gelöst.</description>
     </item>
     
     <item>
       <title>Greenfoot / Greeps</title>
-      <link>https://it-teaching.de/2017/08/02/greenfoot-greeps/</link>
+      <link>/2017/08/02/greenfoot-greeps/</link>
       <pubDate>Wed, 02 Aug 2017 14:22:04 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2017/08/02/greenfoot-greeps/</guid>
+      <guid>/2017/08/02/greenfoot-greeps/</guid>
       <description>Insgesamt war ich enttäuscht von der JAVA-Lernplattform Greenfoot ( https://www.greenfoot.org/door ): Zwar ist die IDE schön, die Idee mit den Miniwelten toll, aber in den letzten Monaten sind meinen Schülern so viele Greenfoot-Bugs begegnet, das alle nur noch genervt waren. Vielleicht war es auch ein Fehler auf die 3er Version zu setzen und nicht die stabile 2er Version zu wählen, die auf den Schulrechnern vorinstalliert ist.
 Dennoch gab es ein Highlight: In der Greeps Miniwelt ( https://www.</description>
     </item>
     
     <item>
       <title>Der MIT-App Inventor</title>
-      <link>https://it-teaching.de/2017/08/01/der-mit-app-inventor/</link>
+      <link>/2017/08/01/der-mit-app-inventor/</link>
       <pubDate>Tue, 01 Aug 2017 14:21:12 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2017/08/01/der-mit-app-inventor/</guid>
+      <guid>/2017/08/01/der-mit-app-inventor/</guid>
       <description>Der MIT-App Inventor ist hier zu finden http://appinventor.mit.edu/explore/ und ist eine großartige Software. In einem 1-Tag Kurs haben die Schüler ein Malprogramm entwickelt, dessen Hintergrund per Handy-Foto aufgenommen werden konnte. Am Ende durften die Schüler ihr Programm weiterentwickeln. Die Begeisterung war sehr groß, als eine Schülerin herausfand, wie man das Programm via What&amp;#8217;s App mit seinen Freunden teilen kann.
 Das folgende GIF zeigt, wie einfach es ist, die Kamera des Handys zu verwenden:</description>
     </item>

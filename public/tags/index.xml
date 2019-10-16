@@ -2,75 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on IT-Teaching.de</title>
-    <link>https://it-teaching.de/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on IT-Teaching.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <lastBuildDate>Thu, 10 Oct 2019 08:50:28 +0200</lastBuildDate>
     
-	<atom:link href="https://it-teaching.de/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Informatikunterricht</title>
-      <link>https://it-teaching.de/tags/informatikunterricht/</link>
+      <link>/tags/informatikunterricht/</link>
       <pubDate>Thu, 10 Oct 2019 08:50:28 +0200</pubDate>
       
-      <guid>https://it-teaching.de/tags/informatikunterricht/</guid>
+      <guid>/tags/informatikunterricht/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Theorie</title>
-      <link>https://it-teaching.de/tags/theorie/</link>
+      <link>/tags/theorie/</link>
       <pubDate>Thu, 10 Oct 2019 08:50:28 +0200</pubDate>
       
-      <guid>https://it-teaching.de/tags/theorie/</guid>
+      <guid>/tags/theorie/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Datenmissbrauch</title>
-      <link>https://it-teaching.de/tags/datenmissbrauch/</link>
+      <link>/tags/datenmissbrauch/</link>
       <pubDate>Sun, 22 Sep 2019 15:50:28 +0200</pubDate>
       
-      <guid>https://it-teaching.de/tags/datenmissbrauch/</guid>
+      <guid>/tags/datenmissbrauch/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Datenschutz</title>
-      <link>https://it-teaching.de/tags/datenschutz/</link>
+      <link>/tags/datenschutz/</link>
       <pubDate>Sun, 22 Sep 2019 15:50:28 +0200</pubDate>
       
-      <guid>https://it-teaching.de/tags/datenschutz/</guid>
+      <guid>/tags/datenschutz/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Digitalisierung</title>
-      <link>https://it-teaching.de/tags/digitalisierung/</link>
+      <link>/tags/digitalisierung/</link>
       <pubDate>Sun, 22 Sep 2019 15:50:28 +0200</pubDate>
       
-      <guid>https://it-teaching.de/tags/digitalisierung/</guid>
+      <guid>/tags/digitalisierung/</guid>
       <description></description>
     </item>
     
     <item>
       <title>miniworldmaker</title>
-      <link>https://it-teaching.de/tags/miniworldmaker/</link>
+      <link>/tags/miniworldmaker/</link>
       <pubDate>Mon, 10 Jun 2019 20:11:54 +0000</pubDate>
       
-      <guid>https://it-teaching.de/tags/miniworldmaker/</guid>
+      <guid>/tags/miniworldmaker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>https://it-teaching.de/tags/python/</link>
+      <link>/tags/python/</link>
       <pubDate>Mon, 10 Jun 2019 20:11:54 +0000</pubDate>
       
-      <guid>https://it-teaching.de/tags/python/</guid>
+      <guid>/tags/python/</guid>
       <description></description>
     </item>
     

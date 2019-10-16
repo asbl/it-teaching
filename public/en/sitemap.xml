@@ -1,149 +1,80 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://it-teaching.de/en/about/</loc>
+    <loc>/en/about/</loc>
     <lastmod>2019-08-08T11:45:42+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://it-teaching.de/en/</loc>
+    <loc>/en/</loc>
     <lastmod>2019-08-08T11:45:42+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://it-teaching.de/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://it-teaching.de/en/"
-                />
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://it-teaching.de/en/blog/</loc>
+    <loc>/en/categories/</loc>
     <lastmod>2019-08-07T15:50:28+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://it-teaching.de/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://it-teaching.de/en/blog/"
-                />
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://it-teaching.de/en/categories/</loc>
+    <loc>/en/categories/game-engine/</loc>
     <lastmod>2019-08-07T15:50:28+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://it-teaching.de/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://it-teaching.de/en/categories/"
-                />
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://it-teaching.de/en/categories/game-engine/</loc>
+    <loc>/en/categories/miniworldmaker/</loc>
     <lastmod>2019-08-07T15:50:28+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://it-teaching.de/categories/game-engine/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://it-teaching.de/en/categories/game-engine/"
-                />
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://it-teaching.de/en/categories/miniworldmaker/</loc>
+    <loc>/en/posts/2019-08-08-mmw_v1/</loc>
     <lastmod>2019-08-07T15:50:28+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://it-teaching.de/categories/miniworldmaker/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://it-teaching.de/en/categories/miniworldmaker/"
-                />
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://it-teaching.de/en/blog/2019-08-08-mmw_v1/</loc>
+    <loc>/en/posts/</loc>
     <lastmod>2019-08-07T15:50:28+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://it-teaching.de/en/categories/python/</loc>
+    <loc>/en/categories/python/</loc>
     <lastmod>2019-08-07T15:50:28+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://it-teaching.de/categories/python/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://it-teaching.de/en/categories/python/"
-                />
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://it-teaching.de/en/datenschutz/</loc>
+    <loc>/en/datenschutz/</loc>
     <lastmod>2018-04-09T19:44:15+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://it-teaching.de/datenschutz/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://it-teaching.de/en/datenschutz/"
-                />
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://it-teaching.de/en/impressum/</loc>
+    <loc>/en/impressum/</loc>
     <lastmod>2018-02-21T13:21:27+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://it-teaching.de/impressum/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://it-teaching.de/en/impressum/"
-                />
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://it-teaching.de/en/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://it-teaching.de/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://it-teaching.de/en/tags/"
-                />
+    <loc>/en/tags/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
 </urlset>

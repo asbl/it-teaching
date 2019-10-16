@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>KI on IT-Teaching.de</title>
-    <link>https://it-teaching.de/categories/ki/</link>
+    <link>/categories/ki/</link>
     <description>Recent content in KI on IT-Teaching.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <lastBuildDate>Tue, 08 Jan 2019 10:40:27 +0000</lastBuildDate>
     
-	<atom:link href="https://it-teaching.de/categories/ki/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/ki/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Künstliche Intelligenz</title>
-      <link>https://it-teaching.de/2019/01/08/kuenstliche-intelligenz/</link>
+      <link>/2019/01/08/kuenstliche-intelligenz/</link>
       <pubDate>Tue, 08 Jan 2019 10:40:27 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2019/01/08/kuenstliche-intelligenz/</guid>
+      <guid>/2019/01/08/kuenstliche-intelligenz/</guid>
       <description>Hier ein interessanter Artikel aus Finnland.
 Das Projekt &amp;#8220;1% AI&amp;#8221; soll landesweit die Bevölkerung trainieren, zu coden und künstliche Intelligenz zu verwenden. Zielgruppe sind dabei insbesondere Nichtinformatiker.
 Derweil hier in Hessen: Das Thema künstliche Intelligenz werden nicht einmal viele Schüler mit Grundkurs Informatik angerissen haben. Die Bedeutung von künstlicher Intelligenz, maschinellem Lernen und Data Science wurde hierzulande noch nichtmal im Ansatz erfasst.

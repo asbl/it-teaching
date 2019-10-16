@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Schule on IT-Teaching.de</title>
-    <link>https://it-teaching.de/categories/schule/</link>
+    <link>/categories/schule/</link>
     <description>Recent content in Schule on IT-Teaching.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <lastBuildDate>Sun, 17 Feb 2019 10:24:18 +0000</lastBuildDate>
     
-	<atom:link href="https://it-teaching.de/categories/schule/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/schule/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Werbung in der Schule</title>
-      <link>https://it-teaching.de/2019/02/17/werbung-in-der-schule/</link>
+      <link>/2019/02/17/werbung-in-der-schule/</link>
       <pubDate>Sun, 17 Feb 2019 10:24:18 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2019/02/17/werbung-in-der-schule/</guid>
+      <guid>/2019/02/17/werbung-in-der-schule/</guid>
       <description>Auf Spiegel-Online findet sich ein interessanter Artikel:
 spiegel.de/lebenundlernen/schule/lehrergestaendnis-immer-mehr-werbung-im-klassenzimmer-a-1252900.html&amp;nbsp;…
 Berichtet wird dort darüber, dass z.B. beim Abspielen von youtube-Videos zunehmend ausch Werbung Einzug in unsere Klassenräume einkehrt.

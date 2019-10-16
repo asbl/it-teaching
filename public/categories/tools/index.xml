@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tools on IT-Teaching.de</title>
-    <link>https://it-teaching.de/categories/tools/</link>
+    <link>/categories/tools/</link>
     <description>Recent content in Tools on IT-Teaching.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <lastBuildDate>Thu, 11 Apr 2019 05:47:04 +0000</lastBuildDate>
     
-	<atom:link href="https://it-teaching.de/categories/tools/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/tools/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Boolr</title>
-      <link>https://it-teaching.de/2019/04/11/boolr/</link>
+      <link>/2019/04/11/boolr/</link>
       <pubDate>Thu, 11 Apr 2019 05:47:04 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2019/04/11/boolr/</guid>
+      <guid>/2019/04/11/boolr/</guid>
       <description>Technische Informatik, Q4:
 Da Hades auf unseren Computern leider instabil läuft, haben wir gestern mit Boolr eine interessante Alternative ausprobiert.
 Fazit: Die Anwendung lässt sich sehr intuitiv nutzen. Insbesondere ist es wirklich leicht aus einfachen Gattern zunehmend komplexere Schaltnetze zu bauen und dafür jeweils eigene Schaltsymbole zu erstellen. Die Anwendung wird sicher auch in Zukunft ihren Platz im Informatikunterricht haben.</description>
@@ -24,20 +24,20 @@ Fazit: Die Anwendung lässt sich sehr intuitiv nutzen. Insbesondere ist es wirkl
     
     <item>
       <title>Lerntheke mit Folienzoom zu Tippkarten</title>
-      <link>https://it-teaching.de/2018/04/07/lerntheke-mit-folienzoom-zu-tippkarten/</link>
+      <link>/2018/04/07/lerntheke-mit-folienzoom-zu-tippkarten/</link>
       <pubDate>Sat, 07 Apr 2018 10:44:23 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2018/04/07/lerntheke-mit-folienzoom-zu-tippkarten/</guid>
+      <guid>/2018/04/07/lerntheke-mit-folienzoom-zu-tippkarten/</guid>
       <description>Jan-Martin Klinge hat mich mit seinem Konzept der Lerntheken inspiriert. Die Idee, interaktive Lerntheken mit Powerpoint zu erstellen, die man aber auch ganz normal ausdrucken kann, finde ich richtig klasse.
 Das einzige, was mich bisher gestört hat ist die Art wie in seiner Vorlage die Tippkarten eingebunden werden. Die Hilfekarten liegen dann ja auf jeder Seite und die Informationen sind dann redundant (d.h. wenn man einen Fehler macht, bedeutet dies viel Arbeit).</description>
     </item>
     
     <item>
       <title>Interaktiver Python Online Kurs (Stepik)</title>
-      <link>https://it-teaching.de/2018/02/21/python-kurs-in-stepik/</link>
+      <link>/2018/02/21/python-kurs-in-stepik/</link>
       <pubDate>Wed, 21 Feb 2018 12:53:23 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2018/02/21/python-kurs-in-stepik/</guid>
+      <guid>/2018/02/21/python-kurs-in-stepik/</guid>
       <description>Bei Übernahme meiner E-Phase Informatik zum Halbjahr musste ich mit Erschrecken feststellen, dass ich nur 10 Doppelstunden bis zu den Sommerferien habe. Darunter sind zwei Stunden, in denen ich die Klausur schreibe. Dazu kommen erfahrungsgemäß Ausfälle durch Schulveranstaltungen, Krankheit oder ähnliches&amp;#8230;
 Wie soll ich in dieser kurzen Zeit Schülern das Programmieren beibringen?
 Ich habe lange recherchiert und dann auf der Plattform Stepik begonnen, einen Online-Kurs für Python anzulegen. Die Schüler müssen Aufgaben aus dem Kurs als verpflichtende Aufgaben lösen.</description>
@@ -45,68 +45,68 @@ Ich habe lange recherchiert und dann auf der Plattform Stepik begonnen, einen On
     
     <item>
       <title>Tabletklassen – Gesammelte Infos</title>
-      <link>https://it-teaching.de/2017/10/09/tabletklassen-gesammelte-infos/</link>
+      <link>/2017/10/09/tabletklassen-gesammelte-infos/</link>
       <pubDate>Mon, 09 Oct 2017 14:32:16 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2017/10/09/tabletklassen-gesammelte-infos/</guid>
+      <guid>/2017/10/09/tabletklassen-gesammelte-infos/</guid>
       <description>Dies wird eine Linksammlung zur Umsetzung von Tablet-Projekten in der Schule  Tipps zur Umsetzung    Betzold &amp;#8211; 8 Tipps zur Umsetzung: https://www.betzold.de/blog/tablets-in-der-schule/   Erfahrungsberichte (positiv)    Tablet-in-der-Schule &amp;#8211; 5 Jahre ERfahrung mit IPAD-Klassen: http://www.tablet-in-der-schule.de/2016-10-15/ipads-im-klassenzimmer-zwischenbilanz-nach-fuenf-jahren-tablet-unterricht   Erfahrungsberichte (Kritik)    Hoppla! &amp;#8211; Unkontrollierte Kritik an jungen Menschen: http://www2.hs-fulda.de/~grams/hoppla/wordpress/?p=657   Taz &amp;#8211; http://www.taz.de/!5321687/&amp;#8220;Eine alleinerziehende Mutter wehrt sich gegen den Kauf des Tablets. Nicht vornehmlich aus Geldnot, wie das Hamburger Abendblatt über Sandra Kittelmann schreibt.</description>
     </item>
     
     <item>
       <title>Blender-Projektwoche</title>
-      <link>https://it-teaching.de/2017/10/09/blender-projektwoche/</link>
+      <link>/2017/10/09/blender-projektwoche/</link>
       <pubDate>Mon, 09 Oct 2017 14:28:26 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2017/10/09/blender-projektwoche/</guid>
+      <guid>/2017/10/09/blender-projektwoche/</guid>
       <description>Für ein gemeinsames Projekt bei der kommenden Projektwoche arbeite ich mich gerade wieder in Blender ein.
 Ich habe Blender zweimal im Informatikunterricht angeboten und mich selbst mühsam eingearbeitet &amp;#8211; Im Studium habe ich zwar einen Raytracer programmiert, aber nicht mit einem Modellierungstool gearbeitet. Jetzt habe ich das Glück mit einem erfahrenen Kollegen zusammenzuarbeiten, der in seiner Freizeit mit Blender modelliert. Ich freue mich schon auf alles, was ich in den kommenden Tagen lernen kann, so dass ich die Kenntnisse das nächste mal in einen WU-Informatik einbauen kann.</description>
     </item>
     
     <item>
       <title>Gamegrid / Gamegridcards</title>
-      <link>https://it-teaching.de/2017/08/10/gamegrid-gamegridcards/</link>
+      <link>/2017/08/10/gamegrid-gamegridcards/</link>
       <pubDate>Thu, 10 Aug 2017 14:24:50 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2017/08/10/gamegrid-gamegridcards/</guid>
+      <guid>/2017/08/10/gamegrid-gamegridcards/</guid>
       <description>Prinzipiell mag ich Entwicklungsumgebungen wie Greenfoot https://www.greenfoot.org/door . Ich denke, dass diese dabei helfen können   a) Die Motivation der Schüler zu steigern b) Ein Verständnis über den Zusammenhang von Klassen und Objekten zu fördern  Leider hat sich bei mir die 3er Version von Greenfoot als nicht stabil genug herausgestellt. Am Ende waren die Schüler hauptsächlich frustriert, da ihr Programm oft abstürzt. Außerdem ist die Fehlersuche -einer der Kernelemente des Programmierens- in Greenfoot wirklich schlecht gelöst.</description>
     </item>
     
     <item>
       <title>Greenfoot / Greeps</title>
-      <link>https://it-teaching.de/2017/08/02/greenfoot-greeps/</link>
+      <link>/2017/08/02/greenfoot-greeps/</link>
       <pubDate>Wed, 02 Aug 2017 14:22:04 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2017/08/02/greenfoot-greeps/</guid>
+      <guid>/2017/08/02/greenfoot-greeps/</guid>
       <description>Insgesamt war ich enttäuscht von der JAVA-Lernplattform Greenfoot ( https://www.greenfoot.org/door ): Zwar ist die IDE schön, die Idee mit den Miniwelten toll, aber in den letzten Monaten sind meinen Schülern so viele Greenfoot-Bugs begegnet, das alle nur noch genervt waren. Vielleicht war es auch ein Fehler auf die 3er Version zu setzen und nicht die stabile 2er Version zu wählen, die auf den Schulrechnern vorinstalliert ist.
 Dennoch gab es ein Highlight: In der Greeps Miniwelt ( https://www.</description>
     </item>
     
     <item>
       <title>Der MIT-App Inventor</title>
-      <link>https://it-teaching.de/2017/08/01/der-mit-app-inventor/</link>
+      <link>/2017/08/01/der-mit-app-inventor/</link>
       <pubDate>Tue, 01 Aug 2017 14:21:12 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2017/08/01/der-mit-app-inventor/</guid>
+      <guid>/2017/08/01/der-mit-app-inventor/</guid>
       <description>Der MIT-App Inventor ist hier zu finden http://appinventor.mit.edu/explore/ und ist eine großartige Software. In einem 1-Tag Kurs haben die Schüler ein Malprogramm entwickelt, dessen Hintergrund per Handy-Foto aufgenommen werden konnte. Am Ende durften die Schüler ihr Programm weiterentwickeln. Die Begeisterung war sehr groß, als eine Schülerin herausfand, wie man das Programm via What&amp;#8217;s App mit seinen Freunden teilen kann.
 Das folgende GIF zeigt, wie einfach es ist, die Kamera des Handys zu verwenden:</description>
     </item>
     
     <item>
       <title>Shortcuts im Word-Formeleditor</title>
-      <link>https://it-teaching.de/2017/07/30/shortcuts-im-word-formeleditor/</link>
+      <link>/2017/07/30/shortcuts-im-word-formeleditor/</link>
       <pubDate>Sun, 30 Jul 2017 14:17:40 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2017/07/30/shortcuts-im-word-formeleditor/</guid>
+      <guid>/2017/07/30/shortcuts-im-word-formeleditor/</guid>
       <description>Viele Jahre habe ich Openoffice genutzt und den Formeleditor lieben (und manchmal auch hassen) gelernt. Vor einiger Zeit bin ich allerdings auf Word umgezogen. Ärgerlich war zunächst der Formeleditor, bis ich herausgefunden habe, wie man Shortcuts verwendet.
 Vorbereitung Zunächst muss man unter Datei-&amp;gt;Optionen-&amp;gt;Menüband anpassen-&amp;gt;Tastenkombinationen eine Tastenkombination einstellen mit der man eine neue Formel einfügen kann. (Achtung: Bei mir war die Kategorie Registerkarte Einfügen zweimal vorhanden und nur in dem zweiten Bereich fand ich das Einfügen von Formeln)</description>
     </item>
     
     <item>
       <title>Tinkercad</title>
-      <link>https://it-teaching.de/2017/07/27/tinkercad/</link>
+      <link>/2017/07/27/tinkercad/</link>
       <pubDate>Thu, 27 Jul 2017 14:02:25 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2017/07/27/tinkercad/</guid>
+      <guid>/2017/07/27/tinkercad/</guid>
       <description>Ich habe für den Geometrie-Unterricht ein Tool gesucht, mit dem ich einfach geometrische Körper erstellen kann, auch solche die aus mehreren Körpern zusammengebaut sind oder bei denen Körper aus anderen ausgeschnitten sind.    Tinkercad ( www.tinkercad.com ) ist nach meinem ersten Eindruck gut für die Aufgabe geeignet. Die Software, welche eigentlich dazu gedacht ist, 3d-Modelle für 3d-Drucker zu erstellen ist einfach zu bediene, kostenlos und erfüllt bisher alle meine Anforderungen.</description>
     </item>
     

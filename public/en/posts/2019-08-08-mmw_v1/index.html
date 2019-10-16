@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Miniworldmakerv1 - IT-Teaching.de</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="asbl" /><meta name="description" content="The Miniworldmaker now has version 1.0! (strictly speaking already 1.0.3)
+That doesn&amp;rsquo;t mean that it&amp;rsquo;s bug-free (I&amp;rsquo;ve actually fixed a few minor bugs) or you won&amp;rsquo;t encounter unexpected problems - I&amp;rsquo;ll have a lot of work to do next year. But now the API looks exactly the way I want it to.
+Physics Objects of a class are now physically simulated if the method setup_physics() is implemented in the class." /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.58.3 with theme even" />
+
+
+<link rel="canonical" href="/en/posts/2019-08-08-mmw_v1/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="Miniworldmakerv1" />
+<meta property="og:description" content="The Miniworldmaker now has version 1.0! (strictly speaking already 1.0.3)
+That doesn&rsquo;t mean that it&rsquo;s bug-free (I&rsquo;ve actually fixed a few minor bugs) or you won&rsquo;t encounter unexpected problems - I&rsquo;ll have a lot of work to do next year. But now the API looks exactly the way I want it to.
+Physics Objects of a class are now physically simulated if the method setup_physics() is implemented in the class." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/en/posts/2019-08-08-mmw_v1/" />
+<meta property="article:published_time" content="2019-08-07T15:50:28+02:00" />
+<meta property="article:modified_time" content="2019-08-07T15:50:28+02:00" /><meta property="og:site_name" content="IT-Teaching.de" />
+<meta itemprop="name" content="Miniworldmakerv1">
+<meta itemprop="description" content="The Miniworldmaker now has version 1.0! (strictly speaking already 1.0.3)
+That doesn&rsquo;t mean that it&rsquo;s bug-free (I&rsquo;ve actually fixed a few minor bugs) or you won&rsquo;t encounter unexpected problems - I&rsquo;ll have a lot of work to do next year. But now the API looks exactly the way I want it to.
+Physics Objects of a class are now physically simulated if the method setup_physics() is implemented in the class.">
+
+
+<meta itemprop="datePublished" content="2019-08-07T15:50:28&#43;02:00" />
+<meta itemprop="dateModified" content="2019-08-07T15:50:28&#43;02:00" />
+<meta itemprop="wordCount" content="498">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Miniworldmakerv1"/>
+<meta name="twitter:description" content="The Miniworldmaker now has version 1.0! (strictly speaking already 1.0.3)
+That doesn&rsquo;t mean that it&rsquo;s bug-free (I&rsquo;ve actually fixed a few minor bugs) or you won&rsquo;t encounter unexpected problems - I&rsquo;ll have a lot of work to do next year. But now the API looks exactly the way I want it to.
+Physics Objects of a class are now physically simulated if the method setup_physics() is implemented in the class."/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/en" class="logo">IT-Teaching</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/impressum/">
+        <li class="mobile-menu-item">Imprint</li>
+      </a><a href="/datenschutz/">
+        <li class="mobile-menu-item">Privacy policy</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/en" class="logo">IT-Teaching</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/impressum/">Imprint</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/datenschutz/">Privacy policy</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Miniworldmakerv1</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2019-08-07 </span>
+        <div class="post-category">
+            <a href="/en/categories/python/"> Python </a>
+            <a href="/en/categories/miniworldmaker/"> miniworldmaker </a>
+            <a href="/en/categories/game-engine/"> game-engine </a>
+            </div>
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#physics">Physics</a></li>
+<li><a href="#collision-handling">Collision Handling</a></li>
+<li><a href="#collision-handling-with-physics">Collision Handling with Physics</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      
+
+<p>The Miniworldmaker now has version 1.0! (strictly speaking already 1.0.3)</p>
+
+<p>That doesn&rsquo;t mean that it&rsquo;s bug-free (I&rsquo;ve actually fixed a few minor bugs) or you won&rsquo;t encounter unexpected problems - I&rsquo;ll have a lot of work to do next year.
+But now the API looks exactly the way I want it to.</p>
+
+<h3 id="physics">Physics</h3>
+
+<p>Objects of a class are now physically simulated if the method setup_physics() is implemented in the class.</p>
+
+<p>In the method you can define the different physical properties of the object. The method setuo_physics is called automatically before the method on_setup.</p>
+
+<p>Look at the following code from the game <a href="https://github.com/asbl/miniworldmaker/tree/master/examples/games/angry">Angry Birds</a></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="k">class</span> <span class="nc">Bird</span><span class="p">(</span><span class="n">Actor</span><span class="p">):</span>
+
+    <span class="k">def</span> <span class="nf">on_setup</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">add_image</span><span class="p">(</span><span class="s2">&#34;images/fly.png&#34;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">orientation</span> <span class="o">=</span> <span class="mi">180</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">flip_x</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">size</span> <span class="o">=</span> <span class="p">(</span><span class="mi">40</span><span class="p">,</span> <span class="mi">40</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">direction</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">board</span><span class="o">.</span><span class="n">arrow</span><span class="o">.</span><span class="n">direction</span> <span class="o">+</span> <span class="mi">180</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">physics</span><span class="o">.</span><span class="n">impulse_in_direction</span><span class="p">(</span><span class="mi">5000</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">setup_physics</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">physics</span><span class="o">.</span><span class="n">mass</span> <span class="o">=</span> <span class="mi">6</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">physics</span><span class="o">.</span><span class="n">riction</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">physics</span><span class="o">.</span><span class="n">size</span> <span class="o">=</span> <span class="mf">0.7</span><span class="p">,</span> <span class="mf">0.7</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">physics</span><span class="o">.</span><span class="n">gravity</span> <span class="o">=</span> <span class="bp">True</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">physics</span><span class="o">.</span><span class="n">shape_type</span> <span class="o">=</span> <span class="s2">&#34;circle&#34;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">physics</span><span class="o">.</span><span class="n">stable</span> <span class="o">=</span> <span class="bp">False</span></code></pre></td></tr></table>
+</div>
+</div>
+<p>The setup_physics method determines the properties of the bird in an Angry-Bird game:</p>
+
+<ul>
+<li>The mass is 6, the friction 1.</li>
+<li>The size of the physical object is 0.7 times the size of the original object. This makes collisions appear slightly smoother.</li>
+<li>The object follows the rules for gravity.</li>
+<li>The bird is physically simulated as a circle. It is not stable, i.e. the torque of the bird is also calculated.</li>
+</ul>
+
+<p>Since the physics engine was initialized before the setup method, the object can be manipulated in the setup method. Here an impulse is generated on the bird.</p>
+
+<h3 id="collision-handling">Collision Handling</h3>
+
+<p>The on_sensing methods can now be called directly. See the bird (this time from the game <a href="https://github.com/asbl/miniworldmaker/tree/master/examples/games/flappy">Flappy Bird</a>):</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="k">class</span> <span class="nc">Bird</span><span class="p">(</span><span class="n">Token</span><span class="p">):</span>
+
+    <span class="k">def</span> <span class="nf">on_setup</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">add_image</span><span class="p">(</span><span class="s2">&#34;images/fly.png&#34;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">size</span> <span class="o">=</span> <span class="p">(</span><span class="mi">60</span><span class="p">,</span> <span class="mi">60</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">costume</span><span class="o">.</span><span class="n">orientation</span> <span class="o">=</span> <span class="mi">180</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">flip_x</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">setup_physics</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">pass</span>
+
+    <span class="k">def</span> <span class="nf">on_sensing_borders</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">borders</span><span class="p">):</span>
+        <span class="k">if</span> <span class="s2">&#34;bottom&#34;</span> <span class="ow">in</span> <span class="n">borders</span> <span class="ow">or</span> <span class="s2">&#34;top&#34;</span> <span class="ow">in</span> <span class="n">borders</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">board</span><span class="o">.</span><span class="n">is_running</span> <span class="o">=</span> <span class="bp">False</span>
+
+    <span class="k">def</span> <span class="nf">on_sensing_pipe</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">other</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">board</span><span class="o">.</span><span class="n">is_running</span> <span class="o">=</span> <span class="bp">False</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">board</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span></code></pre></td></tr></table>
+</div>
+</div>
+<p>If the method on_sensing_borders(borders) is implemented, the main loop is checked in each pass whether the bird touches one of the borders.</p>
+
+<p>The on_sensing_pipe(other) method refers to the Pipe class. If the bird &ldquo;detects&rdquo; an object of the class Bird in its place, then the MEthode is called.</p>
+
+<h3 id="collision-handling-with-physics">Collision Handling with Physics</h3>
+
+<p>The method above for collision detection does not work with the physics engine because objects do not overlap during collisions. Here you can use the methods on_sensing_collision_with_CLASS and on_sensing_separation_with_CLASS, where CLASS should be the class name of the objects used to check a collision.</p>
+
+<p>This looks like the following for Pong:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="k">class</span> <span class="nc">Ball</span><span class="p">(</span><span class="n">Circle</span><span class="p">):</span>
+
+    <span class="k">def</span> <span class="nf">on_setup</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">direction</span> <span class="o">=</span> <span class="mi">30</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">physics</span><span class="o">.</span><span class="n">impulse_in_direction</span><span class="p">(</span><span class="mi">300</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">setup_physics</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">physics</span><span class="o">.</span><span class="n">mass</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">physics</span><span class="o">.</span><span class="n">elasticity</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">physics</span><span class="o">.</span><span class="n">friction</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">physics</span><span class="o">.</span><span class="n">shape_type</span> <span class="o">=</span> <span class="s2">&#34;circle&#34;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">physics</span><span class="o">.</span><span class="n">gravity</span> <span class="o">=</span> <span class="bp">False</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">physics</span><span class="o">.</span><span class="n">stable</span> <span class="o">=</span> <span class="bp">False</span>
+
+    <span class="k">def</span> <span class="nf">on_sensing_collision_with_border</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">line</span><span class="p">,</span> <span class="n">collision</span><span class="p">):</span>
+        <span class="k">if</span> <span class="n">line</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">board</span><span class="o">.</span><span class="n">left</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">board</span><span class="o">.</span><span class="n">points_right</span><span class="o">.</span><span class="n">inc</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">line</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">board</span><span class="o">.</span><span class="n">right</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">board</span><span class="o">.</span><span class="n">points_left</span><span class="o">.</span><span class="n">inc</span><span class="p">()</span></code></pre></td></tr></table>
+</div>
+</div>
+<p>Translated with www.DeepL.com/Translator</p>
+
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">asbl</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        2019-08-07
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      
+      <nav class="post-nav">
+        
+        
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:your@email.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://localhost:1313" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
+      <a href="http://localhost:1313" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="http://localhost:1313" class="iconfont icon-facebook" title="facebook"></a>
+      <a href="http://localhost:1313" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="http://localhost:1313" class="iconfont icon-google" title="google"></a>
+      <a href="http://localhost:1313" class="iconfont icon-github" title="github"></a>
+      <a href="http://localhost:1313" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="http://localhost:1313" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="http://localhost:1313" class="iconfont icon-douban" title="douban"></a>
+      <a href="http://localhost:1313" class="iconfont icon-pocket" title="pocket"></a>
+      <a href="http://localhost:1313" class="iconfont icon-tumblr" title="tumblr"></a>
+      <a href="http://localhost:1313" class="iconfont icon-instagram" title="instagram"></a>
+      <a href="http://localhost:1313" class="iconfont icon-gitlab" title="gitlab"></a>
+      <a href="http://localhost:1313" class="iconfont icon-bilibili" title="bilibili"></a>
+  <a href="/en/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2018 - 
+    2019
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">olOwOlo</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

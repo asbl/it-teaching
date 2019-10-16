@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Uncategorized on IT-Teaching.de</title>
-    <link>https://it-teaching.de/categories/uncategorized/</link>
+    <link>/categories/uncategorized/</link>
     <description>Recent content in Uncategorized on IT-Teaching.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <lastBuildDate>Mon, 27 Aug 2018 12:35:00 +0000</lastBuildDate>
     
-	<atom:link href="https://it-teaching.de/categories/uncategorized/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/uncategorized/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Die beliebtesten Programmiersprache 2018</title>
-      <link>https://it-teaching.de/2018/08/27/die-beliebtesten-programmiersprache-2018/</link>
+      <link>/2018/08/27/die-beliebtesten-programmiersprache-2018/</link>
       <pubDate>Mon, 27 Aug 2018 12:35:00 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2018/08/27/die-beliebtesten-programmiersprache-2018/</guid>
+      <guid>/2018/08/27/die-beliebtesten-programmiersprache-2018/</guid>
       <description>Hier eine kleine Übersicht über die beliebtesten Sprachen der verschiedenen Sprach-Rankings. Während bei Tiobe Java deutlich führt, sind im Redmonk Index im Prinzip alle hier genannten Sprachen fast gleich auf. Beim Pypi-Index kehrt sich die Liste um und Python hat hier mehr und mehr Java den Rang abgelaufen.
 Tiobe Index:
  1 Java 16,9% 2 C 15% 3 C++ 7,5% Python 7%  Redmonk Inde
@@ -25,28 +25,28 @@ Tiobe Index:
     
     <item>
       <title>Digitale Medien im Unterricht – Beitrag in der FAZ</title>
-      <link>https://it-teaching.de/2018/08/24/335/</link>
+      <link>/2018/08/24/335/</link>
       <pubDate>Fri, 24 Aug 2018 06:43:38 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2018/08/24/335/</guid>
+      <guid>/2018/08/24/335/</guid>
       <description>In der FAZ findet sich ein sehr lesenswerter Artikel darüber, der sich kritisch mit dem Einsatz von Smartphones und anderen digitalen Medien in der Schule auseinandersetzt: &amp;#8211; zum Beitrag.</description>
     </item>
     
     <item>
       <title>Austritt aus Facebook</title>
-      <link>https://it-teaching.de/2018/07/18/austritt-aus-facebook/</link>
+      <link>/2018/07/18/austritt-aus-facebook/</link>
       <pubDate>Wed, 18 Jul 2018 13:53:05 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2018/07/18/austritt-aus-facebook/</guid>
+      <guid>/2018/07/18/austritt-aus-facebook/</guid>
       <description>Für die heutige Zeit gilt -mehr als für jede andere-, dass wir mit unserem Verhalten die Welt von Morgen mitgestalten. Das Kreuz auf dem Stimmzettel ist dabei nur eine Nummer in der Menge der Entscheidungen mit denen wir bewusst oder unterbewusst Einfluss auf unsere Umwelt nehmen. Mit jedem Einkauf den wir tätigen, bestimmen wir mit, wie die Produktions- und Lebensbedingungen überall in der Welt aussehen. Dies ist beim Einkaufen inzwischen immer mehr Leuten bewusst geworden.</description>
     </item>
     
     <item>
       <title>GameGridP</title>
-      <link>https://it-teaching.de/2018/05/19/gamegridp/</link>
+      <link>/2018/05/19/gamegridp/</link>
       <pubDate>Sat, 19 May 2018 13:29:14 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2018/05/19/gamegridp/</guid>
+      <guid>/2018/05/19/gamegridp/</guid>
       <description>UPDATE: Die neue Version von Gamegridp gibt es nun unter neuen Namen hier: miniworldmaker.it-teaching.de
 In den letzten Wochen hat meine 2D-Spiele-Enginge GameGridP große Fortschritte gemacht. All meine Kurse (Q4, Q2, E2) mussten mehrere Stunden mit der Umgebung programmieren, so dass für einige Wochen der Hauptteil meiner Informatik-Vorbereitung neben der Weiterentwicklung meines Python-Online-Kurses hauptsächlich daraus bestand, die Entwicklungsumgebung beständig weiter zu entwickeln.
 So findet sich hier z.B. eine umfangreiche Dokumentation. Github zeigt mir an, dass ich inzwischen 60 Commits durchgeführt habe.</description>
@@ -54,20 +54,20 @@ So findet sich hier z.B. eine umfangreiche Dokumentation. Github zeigt mir an, d
     
     <item>
       <title>DSVGO</title>
-      <link>https://it-teaching.de/2018/04/14/dsvgo/</link>
+      <link>/2018/04/14/dsvgo/</link>
       <pubDate>Sat, 14 Apr 2018 11:27:38 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2018/04/14/dsvgo/</guid>
+      <guid>/2018/04/14/dsvgo/</guid>
       <description>Ich habe in den letzten Tagen einige Bemühungen getroffen, um meine Webseiten und Blogs auf die DSVGO anzupassen, die in 40 Tagen in Kraft tritt.
 Die DSVGO regelt die Anforderungen für den Datenschutz neu. Auf der einen Seite hat die Verordnung einige positive Aspekte (z.B. werden sich auf EU-Seiten die Tracking-Buttons von Facebook &amp;amp; co nicht mehr auffinden lassen oder so wie auf dieser Seite nur in angepasster Form. Ähnliches gilt für Smileys, Gravatar und co&amp;#8230; In Zukunft wird man also nicht mehr ganz so leicht auf jeder Webseite von den großen Playern getrackt.</description>
     </item>
     
     <item>
       <title>Lerntheke Python</title>
-      <link>https://it-teaching.de/2018/04/08/lerntheke-python/</link>
+      <link>/2018/04/08/lerntheke-python/</link>
       <pubDate>Sun, 08 Apr 2018 15:31:04 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2018/04/08/lerntheke-python/</guid>
+      <guid>/2018/04/08/lerntheke-python/</guid>
       <description>Die Lerntheke dient dem Trainieren für die erste Klausur. Sie ist sowohl Offline ausdruckbar. Dank Inspiration von Jan-Martin Klinge ist sie auch Mobil mit dem Tablet nutzbar. Auf den einzelnen Karten befinden sich dann interaktive Links zu den Hilfekarten. Die Lerntheke steht unter CC0-Lizenz, d.h. ihr könnt damit anfangen was ihr möchtet.
 &amp;nbsp;
 Hinweis: Da der Abschnittszoom nicht in der Online-Variante von Office funktioniert, müsst ihr die Datei herunterladen. Ich werde die Dateien noch zu einem anderen Cloud-Anbieter verschieben, damit diese ärgerliche Einschränkung nicht weiter irritiert.</description>
@@ -75,39 +75,39 @@ Hinweis: Da der Abschnittszoom nicht in der Online-Variante von Office funktioni
     
     <item>
       <title>Für ein Pflichtfach Informatik:</title>
-      <link>https://it-teaching.de/2018/02/21/91/</link>
+      <link>/2018/02/21/91/</link>
       <pubDate>Wed, 21 Feb 2018 11:47:47 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2018/02/21/91/</guid>
+      <guid>/2018/02/21/91/</guid>
       <description>&amp;#8220;Deshalb brauchen wir ein Schulfach Informatik. Es muss mit qualifizierten Lehrkräften, einem sorgfältig geschriebenen Bildungsplan, ausreichend Zeit im Stundenplan und einer Zeile im Zeugnis ausgestattet werden. Seine wichtigste Aufgabe muss die Entmystifizierung der digitalen Welt sein, so wie Biologie, Physik und Chemie jeweils einen Teil unserer Welt entzaubern. Auch dort erleben Kinder mit ihrem eigenen Denken, dass die Natur erklärbar und verstehbar ist. Diese Erfahrung bleibt ihnen erhalten, auch wenn sie Impulserhaltung und Zellteilung wieder vergessen.</description>
     </item>
     
     <item>
       <title>Have I been pwned?</title>
-      <link>https://it-teaching.de/2017/10/09/have-i-been-pwned/</link>
+      <link>/2017/10/09/have-i-been-pwned/</link>
       <pubDate>Mon, 09 Oct 2017 14:30:27 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2017/10/09/have-i-been-pwned/</guid>
+      <guid>/2017/10/09/have-i-been-pwned/</guid>
       <description>[][1]
 Man kann auf dieser Seite https://haveibeenpwned.com überprüfen, ob Emailadressen oder Passwörter(!) schonmal irgendwo gehackt wurden und offen sichtbar in einer Datenbank stehen.   Aus Neugier habe ich mal getestet, ob ein altes Passwort von mir schonmal gehackt wurde: (Antwort: Ja)  Meine neueren Passwörter traue ich mich aber nicht im Formular einzugeben.  </description>
     </item>
     
     <item>
       <title>Onlyoffice – Eine Alternative zu Microsoft Office?</title>
-      <link>https://it-teaching.de/2017/07/29/onlyoffice-eine-alternative-zu-microsoft-office/</link>
+      <link>/2017/07/29/onlyoffice-eine-alternative-zu-microsoft-office/</link>
       <pubDate>Sat, 29 Jul 2017 14:14:55 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2017/07/29/onlyoffice-eine-alternative-zu-microsoft-office/</guid>
+      <guid>/2017/07/29/onlyoffice-eine-alternative-zu-microsoft-office/</guid>
       <description>Wie im letzten Beitrag erwähnt benutze ich (zur Zeit) Microsoft Windows, hauptsächlich weil das Officepaket von Microsoft gefühlt in einer anderen Liga spielt als Openoffice bzw. Libreoffice und ich mit den Lösungen über 28Wine/Virtualbox niemals wirklich glücklich geworden bin. Sollte es aber einmal eine Office-Version geben, die Microsoft Office ablöst, würde die Sache sofort wieder ganz anders aussehen.
 Heute habe ich Onlyoffice installiert, um mal einen Office-Konkurrenten zu testen. Onlyoffice besticht durch ein aufgeräumtes Interface, kann kostenlos heruntergeladen werden und steht inzwischen sogar unter einer Open-Source Lizenz.</description>
     </item>
     
     <item>
       <title>PISA Studie – Wie beurteilt man eine Studie?</title>
-      <link>https://it-teaching.de/2017/07/27/pisa-studie-wie-beurteilt-man-eine-studie/</link>
+      <link>/2017/07/27/pisa-studie-wie-beurteilt-man-eine-studie/</link>
       <pubDate>Thu, 27 Jul 2017 14:10:59 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2017/07/27/pisa-studie-wie-beurteilt-man-eine-studie/</guid>
+      <guid>/2017/07/27/pisa-studie-wie-beurteilt-man-eine-studie/</guid>
       <description>Während die Zeit aus der PISA Studie den Erfolg des finnischen Bildungssystems in Zweifel stellt [1], kritisiert der Schweizer Lehrerverband die Studie 2015 stark und zweifelt aufgrund der Umstellung von Papier auf Computer die Vergleichbarkeit mit früheren Studien an [2] .   Diese Kritik wurde vom Schweizer Lehrerverband geäußert obwohl die Schweizer bei der PISA Studie herausragende Mathematikleistungen zeigten (und das sogar trotz der Tatsache, dass in den Schweizer Mathematikbüchern auf jeder Doppelseite ein neues Thema präsentiert wird, wie jüngst ein Brandbrief von deutschen Professoren an unserem Schulsystem kritisierte [3])  Fazit: Man sollte generell etwas vorsichtig sein, welche Schlüsse man aus internationalen Vergleichsstudien zieht.</description>
     </item>
     

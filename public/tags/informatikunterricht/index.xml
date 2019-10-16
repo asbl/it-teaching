@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Informatikunterricht on IT-Teaching.de</title>
-    <link>https://it-teaching.de/tags/informatikunterricht/</link>
+    <link>/tags/informatikunterricht/</link>
     <description>Recent content in Informatikunterricht on IT-Teaching.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <lastBuildDate>Thu, 10 Oct 2019 08:50:28 +0200</lastBuildDate>
     
-	<atom:link href="https://it-teaching.de/tags/informatikunterricht/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/informatikunterricht/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Modellieren im Informatikunterricht - Über Begriffe und Fehlvorstellungen</title>
-      <link>https://it-teaching.de/blog/2019-09-22-modellieren-im-informatikunterricht/</link>
+      <link>/posts/2019-09-22-modellieren-im-informatikunterricht/</link>
       <pubDate>Thu, 10 Oct 2019 08:50:28 +0200</pubDate>
       
-      <guid>https://it-teaching.de/blog/2019-09-22-modellieren-im-informatikunterricht/</guid>
+      <guid>/posts/2019-09-22-modellieren-im-informatikunterricht/</guid>
       <description>Entwurf vom 10.10.2019, überarbeitet am 16.10.2019 Disclaimer: Der Artikel ist noch nicht fertig. Beim schreiben des Artikels ist mir aufgefallen, dass der Sachverhalt mit jedem neuen Gedanken, den ich bedacht habe, immer komplexer wurde. Da meine Zeit durch Umstände in der realen Welt beschränkt ist, schaffe ich es in den verbleibenden Tagen der Herbstferien nicht den Artikel in dem Umfang und in der Qualität aufzuschreiben, die ich mir wünschen würde.</description>
     </item>
     

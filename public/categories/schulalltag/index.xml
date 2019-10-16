@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Schulalltag on IT-Teaching.de</title>
-    <link>https://it-teaching.de/categories/schulalltag/</link>
+    <link>/categories/schulalltag/</link>
     <description>Recent content in Schulalltag on IT-Teaching.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <lastBuildDate>Wed, 21 Mar 2018 13:27:48 +0000</lastBuildDate>
     
-	<atom:link href="https://it-teaching.de/categories/schulalltag/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/schulalltag/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Lerntheke mit Powerpoint maßstabsgerecht ausdrucken</title>
-      <link>https://it-teaching.de/2018/03/21/lerntheke-mit-powerpoint-massstabsgerecht-ausdrucken/</link>
+      <link>/2018/03/21/lerntheke-mit-powerpoint-massstabsgerecht-ausdrucken/</link>
       <pubDate>Wed, 21 Mar 2018 13:27:48 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2018/03/21/lerntheke-mit-powerpoint-massstabsgerecht-ausdrucken/</guid>
+      <guid>/2018/03/21/lerntheke-mit-powerpoint-massstabsgerecht-ausdrucken/</guid>
       <description>Letzte Woche habe ich das erste mal eine Lerntheke im Design von Jan-Martin Klinge erstellt. Das Thema der Lerntheke: Flächeninhalte.
 In der Lerntheke sind einige Messaufgaben enthalten, die ich extra mit Geogebra maßstabsgerecht erstellt habe. Dies geht mit Geogebra indem man die Grafik als Bild exportiert. Dann kann man den Maßstab exakt einstellen und das ganze in die Zwischenablage kopieren. Wenn man nun in Word/Powerpoint darauf achtet, daß die Skalierung 100% beträgt, kann man die Grafik maßstabsgetreu ausdrucken.</description>
     </item>
     
     <item>
       <title>Das neue Prunkstück unserer Fachschaft</title>
-      <link>https://it-teaching.de/2018/02/25/das-neue-prunkstueck-unserer-fachschaft/</link>
+      <link>/2018/02/25/das-neue-prunkstueck-unserer-fachschaft/</link>
       <pubDate>Sun, 25 Feb 2018 11:29:55 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2018/02/25/das-neue-prunkstueck-unserer-fachschaft/</guid>
+      <guid>/2018/02/25/das-neue-prunkstueck-unserer-fachschaft/</guid>
       <description>Da freut man sich als Informatiklehrer:
  &amp;#8220;Insbesondere die erst seit diesem Schuljahr neu eingerichtete AG „Robotik“ war bei den Besuchern besonders beliebt. Dank der „Finanzspritze“ von 2000 Euro des übrigens sehr aktiven Fördervereins der CWS konnten die Bausätze für die selbst gebauten kleinen Roboter bereitgestellt werden. Die Schüler tüfteln und bauen unter Leitung von Dr. Stephan Zschiegner kleine Maschinen, programmieren sie und bringen den Robotern so erstaunliche Fähigkeiten bei, was sie nun vorführten.</description>
     </item>
     
     <item>
       <title>Den Laptop kabellos auf den VGA-Beamer streamen</title>
-      <link>https://it-teaching.de/2018/02/25/laptop-kabellos-auf-den-vga-beamer-streamen/</link>
+      <link>/2018/02/25/laptop-kabellos-auf-den-vga-beamer-streamen/</link>
       <pubDate>Sun, 25 Feb 2018 10:42:37 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2018/02/25/laptop-kabellos-auf-den-vga-beamer-streamen/</guid>
+      <guid>/2018/02/25/laptop-kabellos-auf-den-vga-beamer-streamen/</guid>
       <description>In unserer Schule haben wir zahlreiche Whiteboards, die sich nur per vga ansteuern möchte. Da die angeschlossenen Rechner sich beim Anmelden mit den Servern des Hochtaunuskreises verbinden, stellen diese leider für den Unterricht keine Option dar: Es dauert leider 5-10 Minuten bis die Rechner hochgefahren sind, man sich eingeloggt hat und überhaupt dazu kommt, irgendetwas zu machen. Man kann dies zwar irgendwie organisieren (z.B. den Rechner vor dem Unterricht starten, etwas erklären, dann einloggen, wieder etwas erklären und dann loslegen).</description>
     </item>
     
     <item>
       <title>Herkunft Biberwettbewerb</title>
-      <link>https://it-teaching.de/2017/10/09/herkunft-biberwettbewerb/</link>
+      <link>/2017/10/09/herkunft-biberwettbewerb/</link>
       <pubDate>Mon, 09 Oct 2017 14:27:10 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2017/10/09/herkunft-biberwettbewerb/</guid>
+      <guid>/2017/10/09/herkunft-biberwettbewerb/</guid>
       <description>Am Montag fand die Preisverleihung unserer Schüler statt, auch meiner E-Phase die am Informatik-Biber teilgenommen hatte. Leider war dies die einzige Klasse, da der Wettbewerb zeitgleich mit der Geburt unseres Kindes fiel, konnte ich nicht koordinieren, dass wir noch mit mehr Klassen teilnehmen, obwohl dieser gerade für jüngere Schüler sehr gut geeignet ist. Nächstes Jahr möchte ich auf jeden Fall mit mehr Klassen teilnehmen und auch mit einigen Kursen am BWInf Wettbewerb teilnehmen.</description>
     </item>
     

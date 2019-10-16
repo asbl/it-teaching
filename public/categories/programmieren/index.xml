@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programmieren on IT-Teaching.de</title>
-    <link>https://it-teaching.de/categories/programmieren/</link>
+    <link>/categories/programmieren/</link>
     <description>Recent content in Programmieren on IT-Teaching.de</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <lastBuildDate>Mon, 09 Oct 2017 14:33:17 +0000</lastBuildDate>
     
-	<atom:link href="https://it-teaching.de/categories/programmieren/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/programmieren/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Informatikunterricht – Programmieren… ja und wenn ja wieviel?</title>
-      <link>https://it-teaching.de/2017/10/09/informatikunterricht-programmieren-ja-und-wenn-ja-wieviel/</link>
+      <link>/2017/10/09/informatikunterricht-programmieren-ja-und-wenn-ja-wieviel/</link>
       <pubDate>Mon, 09 Oct 2017 14:33:17 +0000</pubDate>
       
-      <guid>https://it-teaching.de/2017/10/09/informatikunterricht-programmieren-ja-und-wenn-ja-wieviel/</guid>
+      <guid>/2017/10/09/informatikunterricht-programmieren-ja-und-wenn-ja-wieviel/</guid>
       <description>Im Informatikunterricht der Oberstufe (Hessen) ist es so, dass sich beim Programmieren die &amp;ldquo;Spreu vom Weizen trennt&amp;rdquo;: Wer gerne programmiert und dies auch in seiner Freizeit tut, der ist auch im Unterricht erfolgreich. Wer nur die 2-3 Stunden gedanklich mit dem Programmieren auseinandersetzt und zu Hause nicht selbst programmiert, der wird im Laufe der Oberstufe nur Frustration sammeln. Dies ist deshalb schade, weil das Fach Informatik noch so viel mehr bietet als &amp;ldquo;nur&amp;rdquo; Programmieren.</description>
     </item>
     

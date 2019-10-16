@@ -10,4 +10,7 @@
   {{ else }}
     <a href="#" class="disabled button big next"><i class="fas fa-angle-right"></i></a>
   {{ end }}
+
+
+  {{ .Scratch.Set "showPostSummary" .Site.Params.showPostSummary }}
 </div>
