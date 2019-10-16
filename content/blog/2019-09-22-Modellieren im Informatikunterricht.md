@@ -12,11 +12,11 @@ tags:
   - Theorie
 ---
 
-## Entwurf vom 10.10.2019
+## Entwurf vom 10.10.2019, überarbeitet am 16.10.2019
 
 Disclaimer: Der Artikel ist noch nicht fertig. Beim schreiben des Artikels ist mir aufgefallen, dass der Sachverhalt mit jedem neuen Gedanken, den ich bedacht habe, immer komplexer wurde. Da meine Zeit durch Umstände in der realen Welt beschränkt ist, schaffe ich es in den verbleibenden Tagen der Herbstferien nicht den Artikel in dem Umfang und in der Qualität aufzuschreiben, die ich mir wünschen würde.
 
-Ich stelle daher den Artikel in der vorliegenden Fassung als Diskussionsgrundlage zur Verfügung, um meine Ideen auf den Prüfstand zu stellen und um möglicherweise weitere Ideen zu erhalten, wie ich den weiteren Bearbeitungsprozess (Winterferien?) einbeziehen werde.
+Ich stelle daher den Artikel in der vorliegenden Fassung als Diskussionsgrundlage zur Verfügung, um meine Ideen auf den Prüfstand zu stellen und um möglicherweise weitere Ideen zu erhalten, wie ich den weiteren Bearbeitungsprozess (Winterferien?) einbeziehen werde. Der Artikel wird aktualisiert. Da dieses Blog auf [Github](https://github.com/asbl/it-teaching) versioniert wird, kannst du dort alte Versionen des Artikels lesen.
 
 Achtung: Der Artikel ist trotzdem schon sehr lang. Du solltest also etwas Zeit mitbringen.
 
@@ -24,7 +24,9 @@ Achtung: Der Artikel ist trotzdem schon sehr lang. Du solltest also etwas Zeit m
 
 > Modellieren ist die Kernkompetenz und wichtigste Tätigkeit im Informatikunterricht. 
 
-Auf diese Aussage können sich sicherlich Eltern, Lehrer, Fachwissenschaftler, Fachdidaktiker und Lehrer einigen. Dennoch haben wir auf Twitter zuletzt einige Diskussionen darüber geführt, welche Bedeutung das Modellieren z.B. im Bezug zum Programmieren hat oder wie der Begriff "Informatisches Modellieren" gegenüber dem englischen Pendant "Computational Thinking" einzuordnen ist.
+Auf diese Aussage können sich sicherlich Eltern, Lehrer, Fachwissenschaftler, Fachdidaktiker und Lehrer einigen. Code und Informatiksysteme sind vielleicht die komplexesten Artefakte, die der Mensch geschaffen hat und zur Zeiterschafft. Modellierung und das Arbeiten auf unterschiedlichen Abstraktionsebenen ist eine notwendige Tätigkeit, um mit der Komplexität dieser Artefakte umzugehen und Informatik für uns verständlich zu machen. 
+
+Dennoch haben wir auf Twitter zuletzt einige Diskussionen darüber geführt, welche Bedeutung das Modellieren z.B. im Bezug zum Programmieren hat oder wie der Begriff "Informatisches Modellieren" gegenüber dem englischen Pendant "Computational Thinking" einzuordnen ist.
 
 An dieser Stelle möchte ich darlegen, warum ich den Begriff "Modellieren" *trotzdem* auch problematisch finde und warum der Begriff zu Missverständnissen führt.
 
@@ -120,7 +122,7 @@ Wenn man im Informatikunterricht die Idee vermittelt, dass die Implementation vo
 
 Man sieht, dass ich im letzten Absatz oft den Begriff "Problemlöseprozess" verwendet habe. In der Informatik wird dieser Problemlöseprozess als **"Programmieren"** bezeichnet. Im Umgang unter Informatiklehrern und Didaktikern haftet dem Begriff oft etwas negatives an, weil Programmieren und Implementieren im deutschen Sprachbegriff oft fälschlicherweise gleichgesetzt werden. 
 
-Ich werde die dahinter stehende Fehlvorstellung im Folgenden als **Programmieren == Implementieren-Fehlvorstellung** bezeichnen. Eine eigentlich komplexe Tätigkeit, die den kompletten Modellierungsprozess und darüber hinaus weitere Problemlösefähigkeiten enthält wird durch das gleichsetzten mit einer rein mechanischen Tätigkeit abgewertet.
+Ich werde die dahinter stehende Fehlvorstellung im Folgenden als **"Programmieren == Implementieren-Fehlvorstellung"** bezeichnen. Eine eigentlich komplexe Tätigkeit, die den kompletten Modellierungsprozess und darüber hinaus weitere Problemlösefähigkeiten enthält wird durch das gleichsetzten mit einer rein mechanischen Tätigkeit abgewertet.
 
 Anmerkung: Natürlich könnte man programmieren auch als implementieren definieren. Wenn man diese Begriffe als Synonyme verwendet, entfernt man sich aber auch vom internationalen Sprachgebrauch des Wortes, was angesichts einer Fachwissenschaft in der vorrangig auf englisch kommuniziert wird, zu weiteren Missverständnissen führt.
 
@@ -157,15 +159,37 @@ Wo finden sich hier Modelle?
 
 * Die Überlegung aus dem letzten Punkt zieht sich weiter in die nächste Phase: Wenn Code selbst ein ausführbares Modell ist, dann sind Strategien zum Erstellen guten Codes allesamt auch Modellierungstechniken. Das Schreiben von Tests (und insbesondere Test Driven Development) ist demnach auch eine Technik, die dabei hilft zu modellieren.
 
-Im folgenden werde ich von der **Wasserfall-Fehlvorstellung** sprechen, wenn Ansätze Informatik zu beschreiben beim Leser das Wasserfall-Modell naheliegen. Diese Fehlvorstellung ist aus folgenden Gründen problematisch:
+Im folgenden werde ich von der **"Wasserfall-Fehlvorstellung"** sprechen, wenn Ansätze Informatik zu beschreiben beim Leser das Wasserfall-Modell naheliegen. Diese Fehlvorstellung ist aus folgenden Gründen problematisch:
 
-  * Es ist nicht gegeben, dass die Entwurfsphasen in der Reihenfolge des Wasserfall-Modells durchlaufen werden müssen (Rapid-Prototyping, Test Driven Development...)
+  1. Es ist beim Entwurf von Programmen nicht gegeben, dass die Entwurfsphasen in der Reihenfolge des Wasserfall-Modells durchlaufen werden müssen (Rapid-Prototyping, Test Driven Development, Refactoring...).
   
-  * Modellieren und Implementieren sind nicht zwei Phasen, die sich immer trennen lassen. Das Ergebnis einer Modellierung muss nicht zwingend ein (grafisches) Modell als Artefakt haben, sondern der Code selbst kann das einzige Artefakt und damit das ausführbare Modell sein.
+  2. Modellieren und Implementieren sind nicht zwei Phasen, die sich immer trennen lassen. Das Ergebnis einer Modellierung muss nicht zwingend ein (grafisches) Modell als Artefakt haben, sondern der Code selbst kann das einzige Artefakt und damit das ausführbare Modell sein.
 
-  * Modellieren dient oft als heuristisches Hilfsmittel für einen (kollaborativem komplexen) Problemlöseprozess. Ziel ist es meist nicht auf eine selbst Modellierung hinzuarbeiten, sondern meist ist die Modellierung Hilfsmittel um auf ein Ziel hinzuarbeiten
+  3. Modellieren dient oft als heuristisches Hilfsmittel für einen (kollaborativem komplexen) Problemlöseprozess. Ziel ist es meist nicht auf eine selbst Modellierung hinzuarbeiten, sondern meist ist die Modellierung Hilfsmittel um auf ein Ziel hinzuarbeiten
 
-### Der Modellierungskreislauf
+*Hinweis: Die Punkte 1 und 2 gelten für das Programmieren im Allgemeinen. Beim Entwurf von Algorithmen aus Perspektive der theoretischen Informatik wird zuerst ein Algorithmus entworfen  und die Implementierung spielt zum Entwurfszeitpunkt noch keine Rolle. In diesem speziellen Fall ist die Reihenfolge der Schritte durchaus noch von Bedeutung.
+
+Wenn man aber für informatische Modellierung die Perspektive des Algorithmus-Entwurfes einnimmt, so ist dies vergleichbar, wie wenn man SuS in der Mathematik zum Lösen von "Real-World Problems" zunächst das Beweisen beibringt - Wenn es um Modellierung geht spielt diese Perspektive nur eine untergeordnete Rolle.**
+
+## Modellierung und andere Fächer
+
+Modellierung ist natürlich keine Tätigkeit, die auf die Informatik beschränkt ist. Auch in allen anderen Fächern ist Modellieren im Sinne von "die Realität mit Modellen begreifbar machen" und in der Form von"Heurismen zum Lösen komplexer Probleme" unverzichtbar.
+
+Beispiele:
+
+* Ein Schriftsteller erstellt einen Text und verwendet Modellierung in Form einer Gliederung oder Beziehungsnetzen. Die Gliederung ist ein *Modell* des Artefaktes Textes, so wie *Modellierung* in der Programmierung ein Modell des Artefaktes Code darstellen kann. Modellierung dient in diesem Kontext als Problemlösestrategie.
+  
+* In Geschichte, Politik, Wirtschaft und Erdkunde ist es eine entscheidende Tätigkeit von konkreten Sachverhalten aus der wirklichen Welt (z.B. Quellen) zu abstrahieren um ein Modell aufzustellen, welches anschließend analysiert und reflektiert werden kann. Man kann sagen: Die komplexesten Modellierungstätigkeiten finden in diesen Fächern statt, da es nichts komplexeres gibt als unsere Welt, die Menschen in dieser Welt und ihre Geschichte. Modellierung dient in diesem Kontext als Mittel zum Beschreiben von komplexen Zusammenhängen.
+
+Informatische Modelle werden in beiden Kontexten benutzt. Sie dienen sowohl als Heurismus als auch zur Beschreibung von komplexen Zusammenhängen. Dennoch ist Modellierung **keine Tätigkeit, die spezifisch für die Informatik ist**. Modellierung ist in beiden Zusammenhängen eine grundlegende menschliche Fertigkeit.
+
+Spezifisch für die Informatik ist vor allem das Arbeiten auf unterschiedlichen Abstraktionsebenen. Das OSI-Modell oder das TCP-Modell dienen nur zu diesem Zweck und erlauben es Abstraktionsebenen auszublenden um somit spezielle Gesichtspunkte des zugrunde liegende Modells zu betrachten. Ein UML-Klassendiagramm kann unterschiedlich detailliert sein, je nachdem welcher Aspekt der Modellierung betrachtet wird, selbst die Programmier(hoch-)sprache ist bereits eine Abstraktion des Maschinencodes. 
+
+Zum Teil bietet die Informatik sogar automatisierte Methoden um Abstraktionsebenen zu wechseln, z.B. die Generierung von Code aus einem UML-Diagramm, die Generierung eines UML-Diagrammes aus Code oder das Erstellen eines Schaltwerks aus einem endlichen Automaten.
+
+Daher gefällt mir auch sehr gut die Formulierung, die in englischen Lehrplänen anstelle von Modellierung gewählt wird: ["Working with abstractions"](https://www.doe.k12.de.us/cms/lib/DE01922744/Centricity/Domain/176/CSTA%20Computer%20Science%20Standards%20Revised%202017.pdf)
+
+## Der Modellierungskreislauf
 
 Ich kann nicht über Modellierung sprechen, ohne auch den Modellierungskreislauf nach [Hubert 2004](https://www.researchgate.net/publication/251201036_Essential_Ingredients_of_Literacy_in_Informatics) aufzugreifen
 
@@ -181,11 +205,9 @@ Die Analogie in der Mathematik wäre z.B. das Waage-Modell um Äquivalenzumformu
 
 In der Informatik verhält sich dies aber anders: Modellierung zum Verstehen eines Informatiksystems ist hier eine Kompetenz, die man benötigt um z.B. komplexere Programme zu entwerfen. Um ein hinreichend komplexes Informatiksystem (z.B. gegeben in Code) zu verstehen, muss man zwangsläufig Modelle enwickeln. Im Gegensatz zum mathematischen Modellierungskreislauf ist die Verwendung von Modellen zum Verstehen "innerinformatischer"-Zusammenhänge grundlegender Bestandteil informatischer Modellierung. 
 
-Ich nenne diese Fehlvorstellung im Folgenden die **Modellierungskreislauf-Fehlvorstellung**. Durch diese Fehlvorstellung wird die informatische Modellierung eingeengt auf die Aspekte, die dem Modellierungskreislauf in der Mathematik entsprechen.
+Ich nenne diese Fehlvorstellung im Folgenden die **"Modellierungskreislauf-Fehlvorstellung"**. Durch diese Fehlvorstellung wird die informatische Modellierung eingeengt auf die Aspekte, die dem Modellierungskreislauf in der Mathematik entsprechen.
 
 Was mir in dem Modell außerdem fehlt ist zudem der Faktor *Kreativität*, ein ganz bedeutender Faktor in der Informatik. Kreativität in der Informatik bedeutet (auch), dass ich alles -egal ob dies seinen Ursprung in der realen Welt hat- mit Hilfe von Informatik in ein informatisches Modell umsetzen kann. Die Bandbreite der Ideen sind nicht durch Phänomene in der realen oder der digitalisierten Welt begrenzt, sondern alleine durch das, was man sich vorstellen kann. Im Modellierungskreislauf wird dieser Aspekt aber nicht sichtbar.
-
-
 
 ### Informatikstandards
 
@@ -193,9 +215,9 @@ Die [Bildungsstandards Informatik](https://www.informatikstandards.de/docs/Bildu
 
 Die Standards sind aufgeteilt in Inhaltsbereiche und Kompetenzen.Bei den Kompetenzen findet sich die Kompetenz "Modellieren und Implementieren". 
 
-* Bereits die Benennung dieser Kompetenz halte ich für problematisch, da sie die Fehlvorstellung aus dem veralteten Wasserfall-Modell unterstützt, dass man nur ein hinreichend gutes Modell aufstellen muss, dass man anschließend nur noch implementieren muss, d.h. das Modellierung und Implementierung sich voneinander trennen lassen. Diese Fehlvorstellung wird durch die Angabe des Modellierungs-Kreislaufes unterstützt ([siehe Glossar, S.21](https://www.informatikstandards.de/docs/v142_empfehlungen_kompetenzen-primarbereich_2019-01-31.pdf)), in dem "ein Problem analysiert, ein  informatisches  Modell  entworfen und auf einem Informatiksystem implementiert, getestet und bewertet wird". Aus dieser Beschreibung nähren sich sowohl die **Wasserfall-Fehlvorstellung** als auch die **Modellierungskreislauf-Fehlvorstellung**.
+* Bereits die Benennung dieser Kompetenz halte ich für problematisch, da sie die Fehlvorstellung aus dem veralteten Wasserfall-Modell unterstützt, dass man nur ein hinreichend gutes Modell aufstellen muss, dass man anschließend nur noch implementieren muss, d.h. das Modellierung und Implementierung sich voneinander trennen lassen. Diese Fehlvorstellung wird durch die Angabe des Modellierungs-Kreislaufes unterstützt ([siehe Glossar, S.21](https://www.informatikstandards.de/docs/v142_empfehlungen_kompetenzen-primarbereich_2019-01-31.pdf)), in dem "ein Problem analysiert, ein  informatisches  Modell  entworfen und auf einem Informatiksystem implementiert, getestet und bewertet wird". Aus dieser Beschreibung nähren sich sowohl die **"Wasserfall-Fehlvorstellung"** als auch die **"Modellierungskreislauf-Fehlvorstellung"**.
 
-* In den Bildungsstandards für die Sekundarstufe wird im Glossar sogar geschrieben: "Der Übergang von einem algorithmischen Modell zu einem Programm wird als programmieren bezeichnet." Hier versteckt sich die **Implementieren == Programmieren-Fehlvorstellung**. 
+* In den Bildungsstandards für die Sekundarstufe wird im Glossar sogar geschrieben: "Der Übergang von einem algorithmischen Modell zu einem Programm wird als programmieren bezeichnet." Hier versteckt sich die **"Implementieren == Programmieren-Fehlvorstellung"**. 
 
 
 ### Vorschläge
@@ -207,6 +229,12 @@ Begriffe sollten möglichst eindeutig und unmissverständlich verwendet werden. 
 
 Der Artikel steht unter [CC BY 4.0 Lizenz](https://creativecommons.org/licenses/by/4.0/deed.de)
 
+### Update
+
+16.10: 
+
+  - Erweiterung der Argumentation rund um den Modellierungskreislauf
+  - Vergleich mit Modellierung in anderen Fächern.
 
 
 
